@@ -23,7 +23,8 @@ class ResolutionError(Exception):
         super().__init__(f"{code}: {msg}"); self.code = code
 
 def subject_dir(subject, root=ROOT): return os.path.join(root, "subjects", subject)
-def _year(y): return int(str(y).split("-")[0])
+OPEN_STATUS = "REQUIRES_CURRENT_STATUS_VERIFICATION"
+def _year(y): return 9999 if y == OPEN_STATUS else int(str(y).split("-")[0])
 
 def load_registry(subject, root=ROOT):
     d = subject_dir(subject, root)
@@ -46,7 +47,16 @@ def find_edition(reg, subject, grade, track, school_year):
         raise ResolutionError("AMBIGUOUS_EDITION", f"{[h[0]['id'] for h in hits]} overlap for {grade} {school_year}")
     return hits[0]
 
-def _verification(a):
+def status_warnings(a, school_year):
+    """Open-ended applicability (no end date, no replacement): years after verified_through_year resolve to the
+    same edition WITH a visible warning; such a manifest is never VERIFIED, so validated tests are refused."""
+    if a["through_year"] == OPEN_STATUS and school_year and _year(school_year) > _year(a["verified_through_year"]):
+        return [f"{OPEN_STATUS}: edition applicability after {a['verified_through_year']} has not been verified for {school_year}; "
+                "no replacement is inferred. " + a.get("open_note", "")]
+    return []
+
+def _verification(a, school_year=None):
+    if status_warnings(a, school_year): return OPEN_STATUS
     return "VERIFIED" if a["from_evidence"]["status"] == a["through_evidence"]["status"] == "VERIFIED" else "UNVERIFIED"
 
 def resolve(policy, subject, grade, track, school_year=None, assessment=None, exam_session=None, edition=None, root=ROOT):
@@ -83,7 +93,8 @@ def resolve(policy, subject, grade, track, school_year=None, assessment=None, ex
         "mode": policy, "label": label,
         "cohort": {"subject": subject, "grade": grade, "track": track, "school_year": school_year},
         "curriculum_edition": {"id": p["id"], "title": p["title"], "applies": {"from_year": a["from_year"], "through_year": a["through_year"]},
-                               "verification": _verification(a)},
+                               "verification": _verification(a, school_year)},
+        "warnings": status_warnings(a, school_year),
         "exam_session": None if not exam else {"id": exam["id"], "session": exam["session"], "rules_id": exam["rules"]["id"],
                                                "rules_status": exam["rules"].get("source_status", exam["rules"].get("status")),
                                                "rules_source": exam["rules"].get("url"), "format": exam["rules"].get("format"),
