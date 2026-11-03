@@ -1,0 +1,2 @@
+# Physics-chemistry: placeholder, UNVERIFIED. No reference exists yet.
+{"extends": "shared/prompts/diagnostic_base.yaml", "subject": "physics_chemistry", "prompt_version": "UNVERIFIED_PLACEHOLDER", "reference_version": "PHYS_REF_NONE"}

@@ -1,0 +1,533 @@
+# Programme applicability registry (JSON-compatible YAML; schema aligned with the Codex kit examples/programme_registry.yaml).
+# Bounded ranges only: a year outside every range is UNVERIFIED_EDITION, never inferred.
+# Status values: VERIFIED (quoted from a fetched official source) / UNVERIFIED. Sources consulted 2026-11-03.
+# Append-only: never delete or rewrite an edition; register a new one with programme_diff.register_edition().
+{
+ "registry_version": "1.0-proposal",
+ "subject": "mathematics",
+ "programmes": [
+  {
+   "id": "MATH_C4_2020",
+   "subject": "mathematics",
+   "track": "general",
+   "title": "Programme de mathématiques du cycle 4 (BO n°31 du 30 juillet 2020; arrêté du 9-11-2015 modifié)",
+   "sources": [
+    "EDUSCOL_C4_2020",
+    "BO10_2026"
+   ],
+   "applies": [
+    {
+     "grade": "5e",
+     "from_year": "2020-2021",
+     "through_year": "2025-2026",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+      "quote": "Programme du cycle 4 En vigueur à la rentrée 2020",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+      "quote": "Article 3 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027 en tant qu’elles s’appliquent à la classe de cinquième, à la rentrée de l'année scolaire 2027-2028 en tant qu’elles s’appliquent à la classe de quatrième et à la rentrée de l’année scolaire 2028-2029 en tant qu’elles s’appliquent à la classe de troisième.",
+      "note": "Ends the year before MATH_C4_2026 reaches the grade (art. 2 removes the maths part of annexe 3 of the 2015 arrêté)."
+     }
+    },
+    {
+     "grade": "4e",
+     "from_year": "2020-2021",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+      "quote": "Programme du cycle 4 En vigueur à la rentrée 2020",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+      "quote": "Article 3 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027 en tant qu’elles s’appliquent à la classe de cinquième, à la rentrée de l'année scolaire 2027-2028 en tant qu’elles s’appliquent à la classe de quatrième et à la rentrée de l’année scolaire 2028-2029 en tant qu’elles s’appliquent à la classe de troisième.",
+      "note": "Ends the year before MATH_C4_2026 reaches the grade (art. 2 removes the maths part of annexe 3 of the 2015 arrêté)."
+     }
+    },
+    {
+     "grade": "3e",
+     "from_year": "2020-2021",
+     "through_year": "2027-2028",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+      "quote": "Programme du cycle 4 En vigueur à la rentrée 2020",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+      "quote": "Article 3 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027 en tant qu’elles s’appliquent à la classe de cinquième, à la rentrée de l'année scolaire 2027-2028 en tant qu’elles s’appliquent à la classe de quatrième et à la rentrée de l’année scolaire 2028-2029 en tant qu’elles s’appliquent à la classe de troisième.",
+      "note": "Ends the year before MATH_C4_2026 reaches the grade (art. 2 removes the maths part of annexe 3 of the 2015 arrêté)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_C4_2026",
+   "subject": "mathematics",
+   "track": "general",
+   "title": "Annexe 2 – Programme de mathématiques pour le cycle 4 (BO n°10 du 5 mars 2026, MENE2602912A)",
+   "sources": [
+    "BO10_2026"
+   ],
+   "applies": [
+    {
+     "grade": "5e",
+     "from_year": "2026-2027",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+      "quote": "Article 3 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027 en tant qu’elles s’appliquent à la classe de cinquième, à la rentrée de l'année scolaire 2027-2028 en tant qu’elles s’appliquent à la classe de quatrième et à la rentrée de l’année scolaire 2028-2029 en tant qu’elles s’appliquent à la classe de troisième.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    },
+    {
+     "grade": "4e",
+     "from_year": "2027-2028",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+      "quote": "Article 3 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027 en tant qu’elles s’appliquent à la classe de cinquième, à la rentrée de l'année scolaire 2027-2028 en tant qu’elles s’appliquent à la classe de quatrième et à la rentrée de l’année scolaire 2028-2029 en tant qu’elles s’appliquent à la classe de troisième.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    },
+    {
+     "grade": "3e",
+     "from_year": "2028-2029",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+      "quote": "Article 3 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027 en tant qu’elles s’appliquent à la classe de cinquième, à la rentrée de l'année scolaire 2027-2028 en tant qu’elles s’appliquent à la classe de quatrième et à la rentrée de l’année scolaire 2028-2029 en tant qu’elles s’appliquent à la classe de troisième.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_2NDE_2019",
+   "subject": "mathematics",
+   "track": "general",
+   "title": "Programme de mathématiques de seconde GT (2019)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "2nde",
+     "from_year": "2019-2020",
+     "through_year": "2025-2026",
+     "from_evidence": {
+      "status": "UNVERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Start date not checked against the 2019 BO in this build."
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027.",
+      "note": "MENE2602914A replaces it from 2026-2027."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_2NDE_2026",
+   "subject": "mathematics",
+   "track": "general",
+   "title": "Programme d’enseignement de mathématiques de la classe de seconde GT (BO n°14 du 2 avril 2026, MENE2602914A)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "2nde",
+     "from_year": "2026-2027",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2026-2027.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_1RE_SPE_2019",
+   "subject": "mathematics",
+   "track": "specialite",
+   "title": "Programme de spécialité de mathématiques de première générale (arrêté du 17-1-2019)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "1re",
+     "from_year": "2019-2020",
+     "through_year": "2025-2026",
+     "from_evidence": {
+      "status": "UNVERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Start date taken from the Codex kit; not checked against the 2019 BO in this build."
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 1 – L’annexe de l’arrêté du 17 janvier 2019 susvisé est remplacée par l’annexe du présent arrêté. Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée scolaire 2026-2027.",
+      "note": ""
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_1RE_SPE_2026",
+   "subject": "mathematics",
+   "track": "specialite",
+   "title": "Programme d’enseignement de spécialité de mathématiques de première générale (BO n°14 du 2 avril 2026, MENE2602917A)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "1re",
+     "from_year": "2026-2027",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée scolaire 2026-2027.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_1RE_ES_2022",
+   "subject": "mathematics",
+   "track": "tronc_commun",
+   "title": "Mathématiques intégrées à l’enseignement scientifique, première générale (arrêté du 6-7-2022)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "1re",
+     "from_year": "2022-2023",
+     "through_year": "2025-2026",
+     "from_evidence": {
+      "status": "UNVERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Start date not checked against the 2022 BO in this build."
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 1 – L’annexe de l’arrêté du 6 juillet 2022 susvisé est remplacée par l’annexe du présent arrêté. Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée scolaire 2026-2027.",
+      "note": ""
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_1RE_ES_2026",
+   "subject": "mathematics",
+   "track": "tronc_commun",
+   "title": "Programme de mathématiques intégré à l’enseignement scientifique en première générale (BO n°14 du 2 avril 2026, MENE2602916A)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "1re",
+     "from_year": "2026-2027",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée scolaire 2026-2027.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_TLE_SPE_2019",
+   "subject": "mathematics",
+   "track": "specialite",
+   "title": "Programme de spécialité de mathématiques de terminale générale (BO spécial n°8 du 25 juillet 2019, MENE1921246A)",
+   "sources": [
+    "SP8_2019",
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "Tle",
+     "from_year": "2020-2021",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/SP8_MENJ_1159506.pdf-232677.pdf",
+      "quote": "NOR : MENE1921246A [...] Article 2 - Les dispositions du présent arrêté entrent en vigueur à la rentrée scolaire 2020.",
+      "note": "CONFLICT with Codex kit (from_year 2019-2020): the BO says rentrée 2020."
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée scolaire 2027-2028.",
+      "note": "MENE2602919A replaces it from 2027-2028."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_TLE_SPE_2026",
+   "subject": "mathematics",
+   "track": "specialite",
+   "title": "Programme de l’enseignement de spécialité de mathématiques de terminale générale (BO n°14 du 2 avril 2026, MENE2602919A)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "Tle",
+     "from_year": "2027-2028",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée scolaire 2027-2028.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_TLE_COMP_2019",
+   "subject": "mathematics",
+   "track": "complementaires",
+   "title": "Mathématiques complémentaires, terminale générale (BO spécial n°8 du 25 juillet 2019, MENE1921265A)",
+   "sources": [
+    "SP8_2019",
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "Tle",
+     "from_year": "2020-2021",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/SP8_MENJ_1159506.pdf-232677.pdf",
+      "quote": "NOR : MENE1921265A [...] Article 2 - Les dispositions du présent arrêté entrent en vigueur à la rentrée scolaire 2020.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2027-2028.",
+      "note": "Replacement printed with NOR MENE2902920A in the BO n°14 table of contents."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_TLE_COMP_2026",
+   "subject": "mathematics",
+   "track": "complementaires",
+   "title": "Mathématiques complémentaires, terminale générale (BO n°14 du 2 avril 2026, NOR as printed: MENE2902920A)",
+   "sources": [
+    "BO14_2026"
+   ],
+   "applies": [
+    {
+     "grade": "Tle",
+     "from_year": "2027-2028",
+     "through_year": "2028-2029",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+      "quote": "Article 2 – Les dispositions du présent arrêté entrent en application à la rentrée de l'année scolaire 2027-2028.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Planning horizon bound (not a repeal date): no successor programme is known; extend only with a new verified source."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_TLE_EXP_2019",
+   "subject": "mathematics",
+   "track": "expertes",
+   "title": "Mathématiques expertes, terminale générale (BO spécial n°8 du 25 juillet 2019, MENE1921264A)",
+   "sources": [
+    "SP8_2019"
+   ],
+   "applies": [
+    {
+     "grade": "Tle",
+     "from_year": "2020-2021",
+     "through_year": "REQUIRES_CURRENT_STATUS_VERIFICATION",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.education.gouv.fr/sites/default/files/document/SP8_MENJ_1159506.pdf-232677.pdf",
+      "quote": "NOR : MENE1921264A [...] Article 2 - Les dispositions du présent arrêté entrent en vigueur à la rentrée scolaire 2020.",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "UNVERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Not an end date. No replacement for mathématiques expertes in BO n°14 (April 2026), which published new Terminale spécialité and complémentaires programmes only; user check 2026-11-03 confirms. Current status after 2026-2027 must be verified explicitly."
+     },
+     "verified_through_year": "2026-2027",
+     "open_note": "MATH_TLE_SPE_2026 is NOT a replacement for the optional expertes programme."
+    }
+   ]
+  },
+  {
+   "id": "MATH_MP2I_2021",
+   "subject": "mathematics",
+   "track": "cpge",
+   "title": "Programme de mathématiques MP2I/MPSI, annexe 1 (BO spécial n°1 du 11 février 2021, ESRS2035779A)",
+   "sources": [
+    "ESR_MP2I_2021"
+   ],
+   "applies": [
+    {
+     "grade": "MP2I",
+     "from_year": "2021-2022",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.enseignementsup-recherche.gouv.fr/fr/bo/21/Special1/ESRS2035779A.htm",
+      "quote": "Les dispositions du présent arrêté prennent effet à compter de la rentrée de l'année scolaire 2021-2022 pour les classes de première année",
+      "note": "Read from the ESR copy of the BO page (search extract); education.gouv.fr blocked."
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Bounded at the current confirmed year; continuation not inferred."
+     }
+    }
+   ]
+  },
+  {
+   "id": "MATH_MPI_2021",
+   "subject": "mathematics",
+   "track": "cpge",
+   "title": "Programme de mathématiques MPI/MPI*, annexe 1 (BO n°31 du 2021, ESRS2111756A)",
+   "sources": [
+    "ESR_MPI_2021"
+   ],
+   "applies": [
+    {
+     "grade": "MPI",
+     "from_year": "2022-2023",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://www.enseignementsup-recherche.gouv.fr/fr/bo/21/Hebdo31/ESRS2111756A.htm",
+      "quote": "Article 2 - Les dispositions du présent arrêté prennent effet à compter de la rentrée de l'année scolaire 2022-2023.",
+      "note": "Read from the ESR copy of the BO page (search extract)."
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "",
+      "quote": "",
+      "note": "Bounded at the current confirmed year; continuation not inferred."
+     }
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "EDUSCOL_C4_2020": {
+   "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+   "review_status": "SOURCE_FETCHED"
+  },
+  "BO10_2026": {
+   "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  },
+  "BO14_2026": {
+   "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+   "review_status": "SOURCE_FETCHED"
+  },
+  "SP8_2019": {
+   "url": "https://www.education.gouv.fr/sites/default/files/document/SP8_MENJ_1159506.pdf-232677.pdf",
+   "review_status": "SOURCE_FETCHED"
+  },
+  "ESR_MP2I_2021": {
+   "url": "https://www.enseignementsup-recherche.gouv.fr/fr/bo/21/Special1/ESRS2035779A.htm",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  },
+  "ESR_MPI_2021": {
+   "url": "https://www.enseignementsup-recherche.gouv.fr/fr/bo/21/Hebdo31/ESRS2111756A.htm",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  },
+  "EDUSCOL_ENSEIGNER_C4": {
+   "url": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  }
+ }
+}

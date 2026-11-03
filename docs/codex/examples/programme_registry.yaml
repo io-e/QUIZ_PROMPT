@@ -1,0 +1,66 @@
+# Illustrative **bounded** applicability registry. Source-verified transition dates only.
+# An empty year range is NOT permission to infer future applicability.
+registry_version: '0.1-proposal'
+programmes:
+  - id: MATH_C4_2020
+    subject: mathematics
+    track: general
+    sources: [BO_C4_2020]
+    applies:
+      - {grade: '5e', from_year: '2020-2021', through_year: '2025-2026'}
+      - {grade: '4e', from_year: '2020-2021', through_year: '2026-2027'}
+      - {grade: '3e', from_year: '2020-2021', through_year: '2027-2028'}
+  - id: MATH_C4_2026
+    subject: mathematics
+    track: general
+    sources: [BO_C4_2026]
+    applies:
+      - {grade: '5e', from_year: '2026-2027', through_year: '2028-2029'}
+      - {grade: '4e', from_year: '2027-2028', through_year: '2028-2029'}
+      - {grade: '3e', from_year: '2028-2029', through_year: '2028-2029'}
+  - id: MATH_1RE_SPE_2019
+    subject: mathematics
+    track: specialite
+    sources: [BO_MATH_1RE_2019]
+    applies:
+      - {grade: '1re', from_year: '2019-2020', through_year: '2025-2026'}
+  - id: MATH_1RE_SPE_2026
+    subject: mathematics
+    track: specialite
+    sources: [BO_MATH_1RE_2026]
+    applies:
+      - {grade: '1re', from_year: '2026-2027', through_year: '2028-2029'}
+  - id: MATH_TLE_SPE_2019
+    subject: mathematics
+    track: specialite
+    sources: [BO_MATH_TLE_2019]
+    applies:
+      - {grade: 'Tle', from_year: '2019-2020', through_year: '2026-2027'}
+  - id: MATH_TLE_SPE_2026
+    subject: mathematics
+    track: specialite
+    sources: [BO_MATH_TLE_2026]
+    applies:
+      - {grade: 'Tle', from_year: '2027-2028', through_year: '2028-2029'}
+  - id: PHYS_C4_2020
+    subject: physics_chemistry
+    track: general
+    sources: [BO_PHYS_C4_2020]
+    applies:
+      - {grade: '5e', from_year: '2020-2021', through_year: '2026-2027'}
+      - {grade: '4e', from_year: '2020-2021', through_year: '2026-2027'}
+      - {grade: '3e', from_year: '2020-2021', through_year: '2026-2027'}
+    note: 'End of recorded applicability is limited to the current confirmed year, not a repeal date.'
+exam_profiles:
+  - {id: DNB_MATH_2025, assessment: DNB_MATH, subject: mathematics, grade: '3e', track: general, session: 2025, school_year: '2024-2025', format_review: PENDING}
+  - {id: DNB_MATH_2027, assessment: DNB_MATH, subject: mathematics, grade: '3e', track: general, session: 2027, school_year: '2026-2027', format_review: PENDING}
+  - {id: DNB_MATH_2028, assessment: DNB_MATH, subject: mathematics, grade: '3e', track: general, session: 2028, school_year: '2027-2028', format_review: PENDING}
+  - {id: DNB_MATH_2029, assessment: DNB_MATH, subject: mathematics, grade: '3e', track: general, session: 2029, school_year: '2028-2029', format_review: PENDING}
+sources:
+  BO_C4_2020: {url: 'https://www.education.gouv.fr/bo/20/Hebdo31/MENE2018714A.htm', review_status: PENDING}
+  BO_C4_2026: {url: 'https://www.education.gouv.fr/bo/2026/Hebdo10/MENE2602912A', review_status: SOURCE_LINKED}
+  BO_MATH_1RE_2019: {url: null, review_status: PENDING}
+  BO_MATH_1RE_2026: {url: 'https://www.education.gouv.fr/bo/2026/Hebdo14/MENE2602917A', review_status: SOURCE_LINKED}
+  BO_MATH_TLE_2019: {url: null, review_status: PENDING}
+  BO_MATH_TLE_2026: {url: 'https://www.education.gouv.fr/bo/2026/Hebdo14/MENE2602919A', review_status: SOURCE_LINKED}
+  BO_PHYS_C4_2020: {url: 'https://eduscol.education.gouv.fr/5739/ressources-d-accompagnement-du-programme-de-physique-chimie-au-cycle-4', review_status: SOURCE_LINKED}

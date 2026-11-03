@@ -1,0 +1,9 @@
+# Mathematics diagnostic prompt binding (JSON-compatible YAML).
+{
+ "extends": "shared/prompts/diagnostic_base.yaml",
+ "subject": "mathematics",
+ "prompt_version": "math_diagnostic/v9-binding-1",
+ "prompt_source": "Math_Diagnostic_Reference_CLAUDE_v11/PROMPT_Diagnostic_Maths_Brevet_Bac_MPI_v9.md",
+ "reference_version": "MATH_REF_v11",
+ "note": "The v9 prompt text is used unchanged; only the skill list and version manifest come from quiz_eval."
+}

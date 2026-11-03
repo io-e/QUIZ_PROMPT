@@ -1,0 +1,13 @@
+# Shared diagnostic prompt contract (JSON-compatible YAML). Subject files extend it.
+{
+ "schema": "quiz_eval.prompt/1",
+ "prompt_version": "diagnostic_base/1.0",
+ "requires_manifest": true,
+ "manifest_fields": ["software_version", "reference_version", "curriculum_edition", "exam_session", "mode", "label", "cohort", "inputs_sha256"],
+ "rules": [
+  "Use only skills returned by quiz_eval.programme_resolver.select_skills for the attached manifest.",
+  "Print the manifest label on the student and teacher pages; HISTORICAL_SIMULATION must be visible.",
+  "Exam format and marking come from the exam_session rules, never from the curriculum edition.",
+  "Every generated test stays UNVALIDATED / HOLD until the release gates say otherwise; never write PASS."
+ ]
+}
