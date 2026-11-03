@@ -96,7 +96,7 @@ Grade headings in the 2026 text (Cinquième / Quatrième / Troisième) were attr
 
 ## BR-DF-21@MATH_C4_2026 – solve f(x) = g(x) by calculation and on a graph (BR.DF.9;BR.DF.12)
 
-- **Grok proposal:** PARTIALLY_SUPPORTED (confidence medium); if unsupported: -; second review: YES
+- **Grok proposal:** PARTIALLY_SUPPORTED (confidence medium); if unsupported: ENRICHMENT; second review: YES
 - **Source:** https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf – PDF p.10; PDF p.20
 - **Passages found:** [p.10] Mettre en équation un problème et le résoudre à l’aide d’une équation du premier degré du type a𝑥 + b = c𝑥 + d. || [p.20] Résoudre graphiquement des équations et des inéquations linéaires.
 - **Not found:** f(x) = g(x) for non-affine f, g
