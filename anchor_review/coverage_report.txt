@@ -1,3 +1,4 @@
 targets 600 unique 600 | audit rows 600 unique 600
 missing [] extra [] duplicates []
 COVERAGE_OK: exactly 600 unique IDs, identical to Math_Diagnostic_Targets_v11.csv
+EDITION_COLUMNS_OK: 95 BREVET rows flagged {'BOTH': 59, '2026_ONLY': 16, 'NEITHER': 9, '2020_ONLY': 11} | 505 non-Brevet rows N/A | no PASS

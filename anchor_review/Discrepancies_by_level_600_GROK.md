@@ -39,7 +39,7 @@ Check these rows first: NOT_SUPPORTED, then PARTIALLY_SUPPORTED, then UNVERIFIED
 - **TS-AN-31** (TS.AN.13) – PARTIALLY_SUPPORTED – find the limit of u(n+1) = f(uₙ) as a fixed point. TS.AN.13: terms not found anywhere in the applicable text: ['limite point fixe'] [PDF p.10]
 - **TS-AN-13** (1S.AN.1) – PARTIALLY_SUPPORTED – compute a difference quotient and its limit as h → 0. Target is BAC_TLE_SPE but anchored on a Première notion; supported as a prerequisite only. The Terminale spécialité text (education.gouv.fr/media/11546) returned HTTP 403 and was not checked. [PDF p.361]
 
-## BREVET (23 rows)
+## BREVET (25 rows)
 - **BR-NC-04** (BR.NC.8) – PARTIALLY_SUPPORTED – expand and factor elementary expressions. BR.NC.8: all terms found only in the 2026 programme (p.11), not fully in the 2020 programme that still applies to 3e and the DNB until 2028 (index edition=BOTH). BR.NC.8: terms not found anywhere in the applicable text: ['identités remarquables'] BR.NC.8: no term of the index paraphrase «a² − b² (sortant) ; identités remarquables (nouveau)» found by automated matching; manual check needed. [2026: PDF p.11]
 - **BR-NC-05** (BR.NC.9;BR.NC.10) – PARTIALLY_SUPPORTED – solve first-degree equations, inequalities and zero products. BR.NC.10: all terms found only in the 2026 programme (p.11), not fully in the 2020 programme that still applies to 3e and the DNB until 2028 (index edition=BOTH). BR.NC.10: terms not found anywhere in the applicable text: ['inéquations du premier degré'] BR.NC.10: no term of the index paraphrase «inéquations du premier degré (graphiquement : nouveau)» found by automated matching; manual check needed. [2020: PDF p.131,132 | 2026: PDF p.10 | 2026: PDF p.11]
 - **BR-NC-24** (BR.NC.8) – PARTIALLY_SUPPORTED – expand with the identities (a ± b)². BR.NC.8: all terms found only in the 2026 programme (p.11), not fully in the 2020 programme that still applies to 3e and the DNB until 2028 (index edition=BOTH). BR.NC.8: terms not found anywhere in the applicable text: ['identités remarquables'] BR.NC.8: no term of the index paraphrase «a² − b² (sortant) ; identités remarquables (nouveau)» found by automated matching; manual check needed. [2026: PDF p.11]
@@ -50,6 +50,8 @@ Check these rows first: NOT_SUPPORTED, then PARTIALLY_SUPPORTED, then UNVERIFIED
 - **BR-DF-12** (BR.DF.4) – PARTIALLY_SUPPORTED – compute a probability for a two-stage experiment with a tree. BR.DF.4: terms not found anywhere in the applicable text: ['probabilités par dénombrement', 'deux épreuves'] BR.DF.4: no term of the index paraphrase «probabilités par dénombrement, deux épreuves» found by automated matching; manual check needed. [2026: PDF p.17]
 - **BR-DF-13** (BR.DF.4) – PARTIALLY_SUPPORTED – use the complementary event. BR.DF.4: terms not found anywhere in the applicable text: ['probabilités par dénombrement', 'deux épreuves'] BR.DF.4: no term of the index paraphrase «probabilités par dénombrement, deux épreuves» found by automated matching; manual check needed. [2026: PDF p.17]
 - **BR-DF-14** (BR.DF.5) – PARTIALLY_SUPPORTED – relate the stabilisation of frequencies to a probability. BR.DF.5: terms not found anywhere in the applicable text: ['stabilisation des fréquences'] [2020: PDF p.129 | 2026: PDF p.16]
+- **BR-DF-21** (BR.DF.9;BR.DF.12) – PARTIALLY_SUPPORTED – solve f(x) = g(x) by calculation and on a graph. BR.DF.9: found in the 2020 programme but not fully in the 2026 programme (index edition=BOTH); outgoing notion. BR.DF.12 (manual check): index flag NEW is CONFIRMED; the earlier "index says NEW but found in 2020" note was a matcher false positive. Square function only in the 2026 programme (p.20, p.11): not exigible for DNB 2027-2028. [2020: PDF p.134,128 | 2026: PDF p.14,19 | 2020: PDF p.128,134 | 2026: PDF p.20,18]
+- **BR-DF-22** (BR.DF.12) – PARTIALLY_SUPPORTED – use the square function.  BR.DF.12 (manual check): index flag NEW is CONFIRMED; the earlier "index says NEW but found in 2020" note was a matcher false positive. Square function only in the 2026 programme (p.20, p.11): not exigible for DNB 2027-2028. [2020: PDF p.128,134 | 2026: PDF p.20,18]
 - **BR-GM-04** (BR.GM.2) – PARTIALLY_SUPPORTED – model speed, density and energy units. BR.GM.2: terms not found anywhere in the applicable text: ['débit', 'masse volumique'] [2020: PDF p.131,135 | 2026: PDF p.18,6]
 - **BR-GM-08** (BR.GM.2) – PARTIALLY_SUPPORTED – convert between decimal hours and hours–minutes. BR.GM.2: terms not found anywhere in the applicable text: ['débit', 'masse volumique'] [2020: PDF p.131,135 | 2026: PDF p.18,6]
 - **BR-GM-09** (BR.GM.2) – PARTIALLY_SUPPORTED – use a compound quantity (flow rate or density). BR.GM.2: terms not found anywhere in the applicable text: ['débit', 'masse volumique'] [2020: PDF p.131,135 | 2026: PDF p.18,6]
@@ -76,3 +78,44 @@ Check these rows first: NOT_SUPPORTED, then PARTIALLY_SUPPORTED, then UNVERIFIED
 - **M2-PR-03** (MPI.09.10) – PARTIALLY_SUPPORTED – use generating functions for sums of independent variables. MPI.09.10: terms not found anywhere in the applicable text: ['sommes indépendantes'] [PDF p.23,25]
 - **M2-PR-06** (MPI.09.6;MPI.09.10) – PARTIALLY_SUPPORTED – use the sum of independent Poisson variables. MPI.09.10: terms not found anywhere in the applicable text: ['sommes indépendantes'] [PDF p.26 | PDF p.23,25]
 - **M2-PR-07** (MPI.09.10) – PARTIALLY_SUPPORTED – read an expectation from a generating function. MPI.09.10: terms not found anywhere in the applicable text: ['sommes indépendantes'] [PDF p.23,25]
+
+## BREVET – rows that differ between editions
+
+| target | ref | 2020 | 2026 | edition_flag |
+|---|---|---|---|---|
+| BR-NC-04 | BR.NC.8 | UNVERIFIED | SUPPORTED | 2026_ONLY |
+| BR-NC-05 | BR.NC.9;BR.NC.10 | UNVERIFIED | SUPPORTED | 2026_ONLY |
+| BR-NC-24 | BR.NC.8 | UNVERIFIED | SUPPORTED | 2026_ONLY |
+| BR-NC-28 | BR.NC.10 | UNVERIFIED | SUPPORTED | 2026_ONLY |
+| BR-DF-02 | BR.DF.4 | UNVERIFIED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-DF-04 | BR.DF.9 | SUPPORTED | PARTIALLY_SUPPORTED | 2020_ONLY |
+| BR-DF-10 | BR.DF.3 | UNVERIFIED | SUPPORTED | 2026_ONLY |
+| BR-DF-11 | BR.DF.3 | UNVERIFIED | SUPPORTED | 2026_ONLY |
+| BR-DF-12 | BR.DF.4 | UNVERIFIED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-DF-13 | BR.DF.4 | UNVERIFIED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-DF-14 | BR.DF.5 | PARTIALLY_SUPPORTED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-DF-21 | BR.DF.9;BR.DF.12 | PARTIALLY_SUPPORTED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-DF-22 | BR.DF.12 | NOT_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-GM-01 | BR.GM.1 | SUPPORTED | PARTIALLY_SUPPORTED | 2020_ONLY |
+| BR-GM-02 | BR.GM.1 | SUPPORTED | PARTIALLY_SUPPORTED | 2020_ONLY |
+| BR-GM-03 | BR.GM.3 | SUPPORTED | UNVERIFIED | 2020_ONLY |
+| BR-GM-04 | BR.GM.2 | PARTIALLY_SUPPORTED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-GM-05 | BR.GM.1 | SUPPORTED | PARTIALLY_SUPPORTED | 2020_ONLY |
+| BR-GM-06 | BR.GM.1 | SUPPORTED | PARTIALLY_SUPPORTED | 2020_ONLY |
+| BR-GM-08 | BR.GM.2 | PARTIALLY_SUPPORTED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-GM-09 | BR.GM.2 | PARTIALLY_SUPPORTED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-GM-10 | BR.GM.3 | SUPPORTED | UNVERIFIED | 2020_ONLY |
+| BR-GM-11 | BR.GM.2 | PARTIALLY_SUPPORTED | PARTIALLY_SUPPORTED | NEITHER |
+| BR-EG-04 | BR.EG.5 | SUPPORTED | UNVERIFIED | 2020_ONLY |
+| BR-EG-05 | BR.EG.1 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-EG-20 | BR.EG.6 | SUPPORTED | PARTIALLY_SUPPORTED | 2020_ONLY |
+| BR-EG-21 | BR.EG.7 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-EG-22 | BR.EG.1 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-EG-23 | BR.EG.1 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-EG-25 | BR.EG.2;BR.EG.1 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-EG-11 | BR.EG.5 | SUPPORTED | UNVERIFIED | 2020_ONLY |
+| BR-EG-13 | BR.EG.5 | SUPPORTED | UNVERIFIED | 2020_ONLY |
+| BR-EG-14 | BR.EG.9 | UNVERIFIED | SUPPORTED | 2026_ONLY |
+| BR-EG-16 | BR.EG.7 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-AP-06 | BR.AP.2 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |
+| BR-AP-07 | BR.AP.2 | PARTIALLY_SUPPORTED | SUPPORTED | 2026_ONLY |

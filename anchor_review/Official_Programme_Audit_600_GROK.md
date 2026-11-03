@@ -31,7 +31,7 @@
 - The BO spécial n°11 of 26 Nov 2015 was not fetched separately. The 2020 Éduscol text is the consolidated version of that programme as amended.
 
 ## Summary
-Total: {'SUPPORTED': 541, 'PARTIALLY_SUPPORTED': 52, 'NOT_SUPPORTED': 7}
+Total: {'SUPPORTED': 539, 'PARTIALLY_SUPPORTED': 54, 'NOT_SUPPORTED': 7}
 
 | Level | n | SUPPORTED | PARTIALLY_SUPPORTED | NOT_SUPPORTED | UNVERIFIED |
 |---|---|---|---|---|---|
@@ -40,11 +40,42 @@ Total: {'SUPPORTED': 541, 'PARTIALLY_SUPPORTED': 52, 'NOT_SUPPORTED': 7}
 | BAC_TLE_COMPLEMENTAIRES | 42 | 41 | 1 | 0 | 0 |
 | BAC_TLE_EXPERTES | 36 | 32 | 4 | 0 | 0 |
 | BAC_TLE_SPE | 85 | 83 | 2 | 0 | 0 |
-| BREVET | 95 | 72 | 23 | 0 | 0 |
+| BREVET | 95 | 70 | 25 | 0 | 0 |
 | MP2I | 130 | 129 | 1 | 0 | 0 |
 | MPI | 93 | 85 | 8 | 0 | 0 |
 
 UNVERIFIED rows: 0
+
+## Brevet: both curriculum editions (decision of the teacher, 2026-11-03)
+Every BREVET row carries per-edition columns: `conformity_2020` / `source_url_2020` / `page_2020` / `passage_2020` (cycle 4 2020 programme, DNB 2027 and 2028) and `conformity_2026` / `source_url_2026` / `page_2026` / `passage_2026` (2026 programme, reaches 3e in 2028-29, DNB from 2029), plus `edition_flag`:
+- BOTH: SUPPORTED in both editions.
+- 2020_ONLY: SUPPORTED in 2020 only (outgoing notion).
+- 2026_ONLY: SUPPORTED in 2026 only (new notion).
+- NEITHER: fully SUPPORTED in neither edition.
+
+Non-Brevet rows have `N/A` in these columns.
+
+**How these relate to the overall `conformity` column.** The overall column measures conformity with the edition that applies to the next exams (DNB 2027-2028), which is the 2020 programme:
+- overall = `conformity_2020` when that value is SUPPORTED or PARTIALLY_SUPPORTED;
+- if 2020 gives nothing but 2026 does, overall = PARTIALLY_SUPPORTED;
+- if a notion is absent from 2020 and present in 2026 (2026_ONLY), overall is never higher than PARTIALLY_SUPPORTED.
+
+To read the status for DNB 2029 and later, use `conformity_2026`.
+
+| edition_flag | rows |
+|---|---|
+| BOTH | 59 |
+| 2020_ONLY | 11 |
+| 2026_ONLY | 16 |
+| NEITHER | 9 |
+
+- 2026_ONLY: BR-NC-04 (BR.NC.8), BR-NC-05 (BR.NC.9;BR.NC.10), BR-NC-24 (BR.NC.8), BR-NC-28 (BR.NC.10), BR-DF-10 (BR.DF.3), BR-DF-11 (BR.DF.3), BR-DF-22 (BR.DF.12), BR-EG-05 (BR.EG.1), BR-EG-21 (BR.EG.7), BR-EG-22 (BR.EG.1), BR-EG-23 (BR.EG.1), BR-EG-25 (BR.EG.2;BR.EG.1), BR-EG-14 (BR.EG.9), BR-EG-16 (BR.EG.7), BR-AP-06 (BR.AP.2), BR-AP-07 (BR.AP.2)
+- 2020_ONLY: BR-DF-04 (BR.DF.9), BR-GM-01 (BR.GM.1), BR-GM-02 (BR.GM.1), BR-GM-03 (BR.GM.3), BR-GM-05 (BR.GM.1), BR-GM-06 (BR.GM.1), BR-GM-10 (BR.GM.3), BR-EG-04 (BR.EG.5), BR-EG-20 (BR.EG.6), BR-EG-11 (BR.EG.5), BR-EG-13 (BR.EG.5)
+- NEITHER: BR-DF-02 (BR.DF.4), BR-DF-12 (BR.DF.4), BR-DF-13 (BR.DF.4), BR-DF-14 (BR.DF.5), BR-DF-21 (BR.DF.9;BR.DF.12), BR-GM-04 (BR.GM.2), BR-GM-08 (BR.GM.2), BR-GM-09 (BR.GM.2), BR-GM-11 (BR.GM.2)
+
+**BR.DF.12 (square function, graphical solving), checked by hand.** The index flag NEW is **confirmed**. The 2020 hit that batch 2 reported was a matcher false positive: the word prefix "carre" matched "carreaux" on p.128. The 2020 maths pages 127-139 contain no passage on the square function. The 2026 text has "Représenter la fonction carré." (p.20) and "Résoudre analytiquement et graphiquement des équations de la forme 𝑥2 = a." (p.11).
+
+**Known limitation.** Matching on word prefixes can produce false positives like this one, so every automated SUPPORTED stays at confidence *medium* until the teacher confirms it.
 
 ## How the teacher confirms a row
 1. Open `source_url` at `page` and read `verbatim_passage`.

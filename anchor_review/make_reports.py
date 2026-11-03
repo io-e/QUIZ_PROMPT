@@ -5,6 +5,9 @@ c=collections.Counter(x['conformity'] for x in r); L=collections.Counter((x['lev
 levels=sorted({x['level'] for x in r})
 tab="| Level | n | "+" | ".join(S)+" |\n|---|---|"+"---|"*4+"\n"+"".join(f"| {l} | {sum(1 for x in r if x['level']==l)} | "+" | ".join(str(L[(l,s)]) for s in S)+" |\n" for l in levels)
 unv=[x for x in r if x['conformity']=='UNVERIFIED']
+B=[x for x in r if x['level']=='BREVET']; F=collections.Counter(x['edition_flag'] for x in B)
+ftab='| edition_flag | rows |\n|---|---|\n'+''.join(f'| {k} | {F[k]} |\n' for k in ['BOTH','2020_ONLY','2026_ONLY','NEITHER'])
+lst=lambda k:', '.join(x['target_id']+' ('+x['current_official_ref']+')' for x in B if x['edition_flag']==k)
 open('Official_Programme_Audit_600_GROK.md','w').write(f"""# Official programme audit – 600 targets (Grok Bot) – DRAFT
 
 **Status: PROPOSALS ONLY.** Nothing here is validated. Every conformity value is a proposal for the teacher. No packaged file was modified; `Item_Review_Register_v11.csv` is untouched; no target is PASS; paper and digital release stay **HOLD**. Scope: curriculum alignment only.
@@ -43,6 +46,31 @@ Total: {dict(c)}
 {tab}
 UNVERIFIED rows: {len(unv)}{(' – '+', '.join(x['target_id'] for x in unv)) if unv else ''}
 
+## Brevet: both curriculum editions (decision of the teacher, 2026-11-03)
+Every BREVET row carries per-edition columns: `conformity_2020` / `source_url_2020` / `page_2020` / `passage_2020` (cycle 4 2020 programme, DNB 2027 and 2028) and `conformity_2026` / `source_url_2026` / `page_2026` / `passage_2026` (2026 programme, reaches 3e in 2028-29, DNB from 2029), plus `edition_flag`:
+- BOTH: SUPPORTED in both editions.
+- 2020_ONLY: SUPPORTED in 2020 only (outgoing notion).
+- 2026_ONLY: SUPPORTED in 2026 only (new notion).
+- NEITHER: fully SUPPORTED in neither edition.
+
+Non-Brevet rows have `N/A` in these columns.
+
+**How these relate to the overall `conformity` column.** The overall column measures conformity with the edition that applies to the next exams (DNB 2027-2028), which is the 2020 programme:
+- overall = `conformity_2020` when that value is SUPPORTED or PARTIALLY_SUPPORTED;
+- if 2020 gives nothing but 2026 does, overall = PARTIALLY_SUPPORTED;
+- if a notion is absent from 2020 and present in 2026 (2026_ONLY), overall is never higher than PARTIALLY_SUPPORTED.
+
+To read the status for DNB 2029 and later, use `conformity_2026`.
+
+{ftab}
+- 2026_ONLY: {lst('2026_ONLY')}
+- 2020_ONLY: {lst('2020_ONLY')}
+- NEITHER: {lst('NEITHER')}
+
+**BR.DF.12 (square function, graphical solving), checked by hand.** The index flag NEW is **confirmed**. The 2020 hit that batch 2 reported was a matcher false positive: the word prefix "carre" matched "carreaux" on p.128. The 2020 maths pages 127-139 contain no passage on the square function. The 2026 text has "Représenter la fonction carré." (p.20) and "Résoudre analytiquement et graphiquement des équations de la forme 𝑥2 = a." (p.11).
+
+**Known limitation.** Matching on word prefixes can produce false positives like this one, so every automated SUPPORTED stays at confidence *medium* until the teacher confirms it.
+
 ## How the teacher confirms a row
 1. Open `source_url` at `page` and read `verbatim_passage`.
 2. If you agree, fill bo_match, bo_reviewer and bo_reviewed_on yourself in `Item_Review_Register_v11.csv`. The bot never fills those fields.
@@ -56,5 +84,8 @@ for l in levels:
   o+=f"\n## {l} ({len(rows)} rows)\n"
   for x in sorted(rows,key=lambda x:S.index(x['conformity'])*-1):
     o+=f"- **{x['target_id']}** ({x['current_official_ref']}) – {x['conformity']} – {x['capability']}. {x['discrepancy_and_proposed_correction']} [{x['page']}]\n"
+o+="\n## BREVET – rows that differ between editions\n\n| target | ref | 2020 | 2026 | edition_flag |\n|---|---|---|---|---|\n"
+for x in B:
+  if x['edition_flag']!='BOTH': o+=f"| {x['target_id']} | {x['current_official_ref']} | {x['conformity_2020']} | {x['conformity_2026']} | {x['edition_flag']} |\n"
 open('Discrepancies_by_level_600_GROK.md','w').write(o)
 print(tab, 'UNVERIFIED', len(unv))

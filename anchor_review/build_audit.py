@@ -15,7 +15,7 @@ def verify(p,key):
   return True
 tg=list(csv.DictReader(open(f'{PKG}/Math_Diagnostic_Targets_v11.csv')))
 wl={r['target_id']:r for r in csv.DictReader(open(f'{PKG}/Anchor_Verification_Worklist_v11.csv'))}
-cols=['target_id','level','track_edition_school_year','anchor_status_v11','capability','current_official_ref','conformity','source_title','source_url','page','page_or_section','verbatim_passage','official_evidence','pedagogical_interpretation','justification','discrepancy_and_proposed_correction','confidence','consulted_on','batch','reviewer','reviewed_on']
+cols=['target_id','level','track_edition_school_year','anchor_status_v11','capability','current_official_ref','conformity','source_title','source_url','page','page_or_section','verbatim_passage','official_evidence','pedagogical_interpretation','justification','discrepancy_and_proposed_correction','confidence','consulted_on','batch','conformity_2020','source_url_2020','page_2020','passage_2020','conformity_2026','source_url_2026','page_2026','passage_2026','edition_flag','reviewer','reviewed_on']
 out=[];bad=[]
 import re as _re, match_batch2 as M
 IDX={x['ref']:x for x in csv.DictReader(open(f'{PKG}/Math_Official_Referential_Index_v11.csv'))}
@@ -27,6 +27,7 @@ for k in OVR: OVR[k]['official_evidence']=OVR[k]['verbatim_passage']
 RANK={'SUPPORTED':0,'PARTIALLY_SUPPORTED':1,'UNVERIFIED':2}
 def b2(t):
   refs=[x for x in _re.split(r'[;\s]+',t['official_ref']) if x]
+  ED={'2020':[], '2026':[]}
   parts=[];st=[];pages=[];urls=[];titles=[];eds=[];notes=[];interp=[]
   for ref in refs:
     ix=IDX.get(ref)
@@ -45,6 +46,7 @@ def b2(t):
         if ed=='NEW': interp.append(f'{ref}: consistent with index edition NEW; such items cannot be required for DNB 2027-2028.')
       if s0=='SUPPORTED' and s1!='SUPPORTED': notes.append(f"{ref}: found in the 2020 programme but not fully in the 2026 programme (index edition={ed}); outgoing notion.")
       if ed=='NEW' and s0=='SUPPORTED': notes.append(f'{ref}: index says NEW but terms also found in 2020 text; check edition flag.')
+      ED['2020'].append((ref,stat(r),r));ED['2026'].append((ref,s1,res['BR2026']))
       for k,rr in (('2020',r),('2026',res['BR2026'])):
         if rr and rr['found']:
           parts.append(f"[{k} p.{rr['page']}] "+' / '.join(rr['lines']));pages.append(f"{k}: PDF p.{rr['page']}")
@@ -59,7 +61,16 @@ def b2(t):
     if miss: notes.append(f"{ref}: terms not found anywhere in the applicable text: {miss}")
     if not r or not r['found']: notes.append(f'{ref}: no term of the index paraphrase «{par}» found by automated matching; manual check needed.')
   u=lambda L:' | '.join(dict.fromkeys(L))
-  return dict(conformity=max(st,key=lambda x:RANK[x]),source_title=u(titles),source_url=u(urls),track_edition_school_year=u(eds),page=u(pages),
+  ex={}
+  if t['level']=='BREVET':
+    for k,src in (('2020','BR2020'),('2026','BR2026')):
+      L=ED[k]; ex['conformity_'+k]=max((x[1] for x in L),key=lambda x:RANK[x]) if L else 'UNVERIFIED'
+      ex['source_url_'+k]=M.SRC[src]['url']
+      ex['page_'+k]='; '.join(f"{ref}: PDF p.{rr['page']}" for ref,_,rr in L if rr and rr['found']) or '-'
+      ex['passage_'+k]=' || '.join(f"[{ref}] "+' / '.join(rr['lines']) for ref,_,rr in L if rr and rr['found']) or '-'
+    a=ex['conformity_2020']=='SUPPORTED'; b=ex['conformity_2026']=='SUPPORTED'
+    ex['edition_flag']='BOTH' if a and b else '2020_ONLY' if a else '2026_ONLY' if b else 'NEITHER'
+  return dict(**ex,conformity=max(st,key=lambda x:RANK[x]),source_title=u(titles),source_url=u(urls),track_edition_school_year=u(eds),page=u(pages),
     page_or_section='; '.join(f"{x}: {IDX[x]['chapter']} > {IDX[x]['section']}" for x in refs if x in IDX),verbatim_passage=' || '.join(parts),
     official_evidence=' || '.join(parts),pedagogical_interpretation=' '.join(interp) or 'Automated match of the index paraphrase terms; whether the passage really covers the item as worded needs the teacher.',
     justification='Batch 2: each index-paraphrase term searched (accent/case-insensitive, word prefixes) in the fetched official text; passages are exact source lines.',
@@ -83,6 +94,21 @@ for t in tg:
     if i in OVR: r.update(OVR[i])
   else:
     r.update(conformity='UNVERIFIED',justification='Not yet audited in batch 1: official text for this level not fetched/checked yet. Existing link alone does not prove conformity.',batch='2 (pending)')
+  if 'BR.DF.12' in t['official_ref'] and r.get('batch')=='2':
+    # Manual check (2026-11-03): the automated 2020 hit was a false positive (prefix 'carre' matched 'carreaux', p.128).
+    # The 2020 maths pages 127-139 contain no 'fonction carré' and no graphical solving of x² = a; the index flag NEW is CORRECT.
+    p26="Représenter la fonction carré. [p.20] / Résoudre analytiquement et graphiquement des équations de la forme 𝑥2 = a. [p.11]"
+    r['passage_2026']=(r['passage_2026'].split(' || [BR.DF.12]')[0]+' || ' if 'BR.DF.9' in t['official_ref'] else '')+'[BR.DF.12] '+p26
+    r['page_2026']=('BR.DF.9: '+r['page_2026'].split('BR.DF.9: ')[1].split(';')[0]+'; ' if 'BR.DF.9' in t['official_ref'] else '')+'BR.DF.12: PDF p.20, p.11'
+    r['passage_2020']=(r['passage_2020'].split(' || [BR.DF.12]')[0]+' || ' if 'BR.DF.9' in t['official_ref'] else '')+'[BR.DF.12] NOT FOUND: no passage on the square function or graphical solving of x² = a in the 2020 maths pages 127-139 (manual search for «carré», «graphiquement»).'
+    r['page_2020']=(r['page_2020'].split(';')[0]+'; ' if 'BR.DF.9' in t['official_ref'] else '')+'BR.DF.12: -'
+    r['conformity_2020']='PARTIALLY_SUPPORTED' if 'BR.DF.9' in t['official_ref'] else 'NOT_SUPPORTED'
+    r['conformity_2026']='PARTIALLY_SUPPORTED' if 'BR.DF.9' in t['official_ref'] else 'SUPPORTED'
+    r['edition_flag']='NEITHER' if 'BR.DF.9' in t['official_ref'] else '2026_ONLY'
+    r['conformity']='PARTIALLY_SUPPORTED'; r['confidence']='high'
+    r['discrepancy_and_proposed_correction']=_re.sub(r'BR\.DF\.12: (found in the 2020|index says NEW)[^.]*\.( outgoing notion\.)?','',r['discrepancy_and_proposed_correction']).strip()+' BR.DF.12 (manual check): index flag NEW is CONFIRMED; the earlier "index says NEW but found in 2020" note was a matcher false positive. Square function only in the 2026 programme (p.20, p.11): not exigible for DNB 2027-2028.'
+  for k in ('conformity_2020','source_url_2020','page_2020','passage_2020','conformity_2026','source_url_2026','page_2026','passage_2026','edition_flag'):
+    if t['level']!='BREVET': r[k]='N/A'
   out.append(r)
 w=csv.DictWriter(open(os.path.join(os.path.dirname(__file__),'Official_Programme_Audit_600_GROK.csv'),'w',newline=''),fieldnames=cols);w.writeheader();w.writerows(out)
 print('rows',len(out),'unique',len({r['target_id'] for r in out}),'string-check failures',bad)
