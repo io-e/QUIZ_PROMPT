@@ -1,0 +1,104 @@
+# Programme applicability registry (JSON-compatible YAML; schema aligned with the Codex kit examples/programme_registry.yaml).
+# Bounded ranges only: a year outside every range is UNVERIFIED_EDITION, never inferred.
+# Status values: VERIFIED (quoted from a fetched official source) / UNVERIFIED. Sources consulted 2026-11-03.
+# Append-only: never delete or rewrite an edition; register a new one with programme_diff.register_edition().
+{
+ "registry_version": "1.0-proposal",
+ "subject": "physics_chemistry",
+ "programmes": [
+  {
+   "id": "PHYS_C4_2020",
+   "subject": "physics_chemistry",
+   "track": "general",
+   "title": "Programme de physique-chimie du cycle 4 (BO n°31 du 30 juillet 2020)",
+   "sources": [
+    "EDUSCOL_C4_2020",
+    "EDUSCOL_ENSEIGNER_C4"
+   ],
+   "note": "Own timeline: the 2026 MATHEMATICS reform (MENE2602912A, art. 2) removes only the French and mathematics parts of annexe 3; physics-chemistry is NOT switched. End bounded at the current confirmed year, not a repeal date.",
+   "applies": [
+    {
+     "grade": "5e",
+     "from_year": "2020-2021",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+      "quote": "Programme du cycle 4 En vigueur à la rentrée 2020",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4",
+      "quote": "Physique-chimie (BO n° 31 du 30 juillet 2020) [listed for 5e, 4e and 3e in « Les programmes du cycle 4 à la rentrée de l'année scolaire 2026-2027 »]",
+      "note": "Applicability from 2027-2028 is UNVERIFIED."
+     }
+    },
+    {
+     "grade": "4e",
+     "from_year": "2020-2021",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+      "quote": "Programme du cycle 4 En vigueur à la rentrée 2020",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4",
+      "quote": "Physique-chimie (BO n° 31 du 30 juillet 2020) [listed for 5e, 4e and 3e in « Les programmes du cycle 4 à la rentrée de l'année scolaire 2026-2027 »]",
+      "note": "Applicability from 2027-2028 is UNVERIFIED."
+     }
+    },
+    {
+     "grade": "3e",
+     "from_year": "2020-2021",
+     "through_year": "2026-2027",
+     "from_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+      "quote": "Programme du cycle 4 En vigueur à la rentrée 2020",
+      "note": ""
+     },
+     "through_evidence": {
+      "status": "VERIFIED",
+      "url": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4",
+      "quote": "Physique-chimie (BO n° 31 du 30 juillet 2020) [listed for 5e, 4e and 3e in « Les programmes du cycle 4 à la rentrée de l'année scolaire 2026-2027 »]",
+      "note": "Applicability from 2027-2028 is UNVERIFIED."
+     }
+    }
+   ]
+  }
+ ],
+ "sources": {
+  "EDUSCOL_C4_2020": {
+   "url": "https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf",
+   "review_status": "SOURCE_FETCHED"
+  },
+  "BO10_2026": {
+   "url": "https://www.education.gouv.fr/sites/default/files/document/boenjs_10_ok_2.pdf-481076.pdf",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  },
+  "BO14_2026": {
+   "url": "https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf",
+   "review_status": "SOURCE_FETCHED"
+  },
+  "SP8_2019": {
+   "url": "https://www.education.gouv.fr/sites/default/files/document/SP8_MENJ_1159506.pdf-232677.pdf",
+   "review_status": "SOURCE_FETCHED"
+  },
+  "ESR_MP2I_2021": {
+   "url": "https://www.enseignementsup-recherche.gouv.fr/fr/bo/21/Special1/ESRS2035779A.htm",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  },
+  "ESR_MPI_2021": {
+   "url": "https://www.enseignementsup-recherche.gouv.fr/fr/bo/21/Hebdo31/ESRS2111756A.htm",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  },
+  "EDUSCOL_ENSEIGNER_C4": {
+   "url": "https://eduscol.education.gouv.fr/4362/enseigner-au-cycle-4",
+   "review_status": "SOURCE_FETCHED_SEARCH_EXTRACT"
+  }
+ }
+}

@@ -1,0 +1,28 @@
+# Golden-test cases for the proposed shared resolver; to be implemented by Grok.
+cases:
+  - input: {subject: mathematics, grade: '3e', track: general, school_year: '2026-2027', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_C4_2020
+  - input: {subject: mathematics, grade: '3e', track: general, school_year: '2028-2029', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_C4_2026
+  - input: {subject: mathematics, grade: '4e', track: general, school_year: '2026-2027', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_C4_2020
+  - input: {subject: mathematics, grade: '4e', track: general, school_year: '2027-2028', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_C4_2026
+  - input: {subject: mathematics, grade: '5e', track: general, school_year: '2026-2027', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_C4_2026
+  - input: {subject: mathematics, grade: '1re', track: specialite, school_year: '2026-2027', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_1RE_SPE_2026
+  - input: {subject: mathematics, grade: Tle, track: specialite, school_year: '2026-2027', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_TLE_SPE_2019
+  - input: {subject: mathematics, grade: Tle, track: specialite, school_year: '2027-2028', policy: CURRENT_FOR_COHORT}
+    expect_programme: MATH_TLE_SPE_2026
+  - input: {subject: physics_chemistry, grade: '3e', track: general, school_year: '2026-2027', policy: CURRENT_FOR_COHORT}
+    expect_programme: PHYS_C4_2020
+  - input: {subject: mathematics, grade: '3e', track: general, assessment: DNB_MATH, exam_session: 2025, policy: HISTORICAL_EXAM}
+    expect_programme: MATH_C4_2020
+    expect_exam_profile: DNB_MATH_2025
+  - input: {subject: mathematics, grade: '3e', track: general, assessment: DNB_MATH, exam_session: 2029, policy: HISTORICAL_EXAM}
+    expect_programme: MATH_C4_2026
+    expect_exam_profile: DNB_MATH_2029
+  - input: {subject: mathematics, grade: '3e', track: general, school_year: '2035-2036', policy: CURRENT_FOR_COHORT}
+    expect_error: UNVERIFIED_EDITION

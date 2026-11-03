@@ -1,0 +1,1 @@
+The files in this folder are by **Codex**: its programme-versioning kit, sent by the user on 2026-11-03 and copied verbatim. They are `PROGRAMME_VERSIONING_AND_CHANGE_MANAGEMENT.md`, `GROK_IMPLEMENTATION_PROMPT.md`, `README.md` and `examples/`. The deviations from the kit are listed in `docs/VALIDATION_RESULTS.md`.

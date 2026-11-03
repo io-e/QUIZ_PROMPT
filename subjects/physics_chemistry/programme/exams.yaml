@@ -1,0 +1,25 @@
+# Programme applicability registry (JSON-compatible YAML; schema aligned with the Codex kit examples/programme_registry.yaml).
+# Bounded ranges only: a year outside every range is UNVERIFIED_EDITION, never inferred.
+# Status values: VERIFIED (quoted from a fetched official source) / UNVERIFIED. Sources consulted 2026-11-03.
+# Append-only: never delete or rewrite an edition; register a new one with programme_diff.register_edition().
+{
+ "registry_version": "1.0-proposal",
+ "exam_profiles": [
+  {
+   "id": "DNB_SCI_2027",
+   "assessment": "DNB_SCIENCES",
+   "subject": "physics_chemistry",
+   "grade": "3e",
+   "track": "general",
+   "session": 2027,
+   "school_year": "2026-2027",
+   "rules": {
+    "id": "DNB_SCI_RULES_2027",
+    "status": "UNVERIFIED",
+    "url": null,
+    "note": "Placeholder: not verified."
+   },
+   "format_review": "PENDING"
+  }
+ ]
+}
