@@ -29,7 +29,7 @@ Verified on Debian 13, Python 3.13.5, SymPy 1.14.0 (2026-11-03).
 `quiz_eval/` is a shared, stdlib-only engine that selects the official programme by **subject + grade + track + school year**. Exam rules are selected **separately by session**. The engine writes a version manifest that records four versions: curriculum edition, reference version, exam session and software version.
 
 ```bash
-python3 -I tests/test_versioning.py          # 29 tests, including the 12 Codex golden cases
+for t in tests/test_*.py; do python3 -I -W error::ResourceWarning $t; done   # 55 tests, including the 12 Codex golden cases
 python3 -I -c "import sys; sys.path.insert(0,'.'); from quiz_eval import programme_resolver as P; \
   print(P.manifest_bytes(P.resolve('HISTORICAL_EXAM','mathematics','3e','general',assessment='DNB_MATH',exam_session=2025)).decode())"
 ```
@@ -46,3 +46,9 @@ See:
 - `docs/MIGRATION_PLAN.md`
 - `docs/REVIEW_WORKLIST.csv`
 - `docs/codex/` (Codex's specification and prompt)
+
+### Baseline, exams and review (update)
+- **Frozen baseline:** `MATH_REF_v11` is frozen as a comparison baseline. The freeze is not a release: frozen=true, approved=false, paper and digital HOLD. The manifest is `subjects/mathematics/reference/baselines/MATH_REF_v11.manifest.json`, and its approval-manifest schema is only a stub.
+- **DNB exam profiles:** sessions 2025–2029 are stored per session, with verified sources (`exams.yaml`). A historical simulation reproduces that session's format.
+- **Teacher review:** start with `docs/QUARANTINE_REVIEW.md` (18 links), then `docs/LINK_APPROVAL_WORKLIST.csv` (668 links). Grok proposes, Python verifies structure, a teacher approves.
+- **Maths expertes:** see `docs/EXPERTES_STATUS.md`.
