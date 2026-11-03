@@ -1,0 +1,28 @@
+legacy_code,meaning_in_codex_v5,legacy_targets_using_it,legacy_target_ids,mapped_to,policy
+EC-ALG-ID,"`(a+b)² = a²+b²`, or square-difference identity confusion",2,BR-NC-F20 BR-NC-F21,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-DEC-PLACE,"Decimal place, powers of ten or scientific exponent error",2,BR-NC-F17 BR-NC-F23,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-DOMAIN,Square-root/logarithm/denominator domain ignored,1,BR-NC-F22,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-EPS-DELTA,Choice of δ invalid or missing neighbourhood constraint,1,TS-LO-S08,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-EPS-QUANT,`∀ε∃N∀n` order reversed / N depends on n,3,TS-LO-S05 TS-LO-S06 TS-LO-S07,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-EPS-STRICT,`<` versus `≤` / threshold rounding,0,,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-EQU-BAL,Operation applied to only one equation side,1,BR-NC-F18,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-EQU-DIV0,Division by expression potentially zero,1,BR-NC-F19,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-FRA-ADD,Numerators and denominators added separately,1,BR-NC-F12,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-FRA-CANCEL,Illegal cancellation across addition,1,BR-NC-F15,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-FRA-DIV,Incorrect fraction quotient / wrong reciprocal,1,BR-NC-F13,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-FRA-SIGN,Sign inside/outside fraction mishandled,1,BR-NC-F14,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-GEO-CONCL,Correct calculation but conclusion unjustified or unstated,1,BR-EG-S15,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-GEO-CONV,Theorem/converse/contrapositive mixed,4,BR-EG-S08 BR-EG-S09 BR-EG-S11 BR-EG-S16,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-GEO-HYP,Assumed fact comes only from drawing,3,BR-EG-S06 BR-EG-S13 BR-EG-S17,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-GEO-THM,Inappropriate theorem or missing hypotheses,4,BR-EG-S07 BR-EG-S10 BR-EG-S12 BR-EG-S14,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-INF-REST,Higher-order remainder omitted as exact identity,0,,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-INF-ZERO,Nonzero small real increment treated as exactly zero,0,,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-PAR-DIS,Distribution / double distribution loses a term or sign,2,BR-NC-F07 BR-NC-F08,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-PAR-NEG,Minus before a bracket not distributed to all terms,1,BR-NC-F06,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-PAR-NEST,Nested grouping order or closing bracket misread,1,BR-NC-F09,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-POW-LAWS,Power/product/quotient exponent rules mixed,1,BR-NC-F16,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-PRE-ORDER,Addition before multiplication / improper precedence,1,BR-NC-F10,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-PRE-POW,Negative-base powers or precedence misinterpreted,2,BR-NC-F11 BR-NC-F24,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-SGN-ADD,Integer addition/subtraction sign inversion,2,BR-NC-F01 BR-NC-F02,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-SGN-MUL,Product or quotient sign rule incorrect,2,BR-NC-F03 BR-NC-F04,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism
+EC-SGN-UNARY,Unary minus treated as a term separator or ignored,1,BR-NC-F05,NONE,LEGACY_ONLY: keep in raw logs; no mapping to a CB/RP code without a reviewed equivalence of the mechanism

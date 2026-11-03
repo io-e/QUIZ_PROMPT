@@ -1,0 +1,1672 @@
+id,field,seed,value,gap
+BR-NC-02,K,mcq,4.2×10^-4,KEY_NOT_CHECKED
+BR-NC-02-E1,E1,mcq,4.2×10⁴,NUMERIC_NOT_CHECKED
+BR-NC-02-E2,E2,mcq,42×10⁻⁵,NUMERIC_NOT_CHECKED
+BR-NC-02-E3,E3,mcq,4.2×10⁻³,NUMERIC_NOT_CHECKED
+BR-NC-02-E3,E3,open,"""4.2×10⁻⁴ > 3.8×10⁻³ since 4.2 > 3.8""",TEXT_REVIEW
+BR-NC-03-E1,E1,open,252 (LCM) instead of 12,TEXT_REVIEW
+BR-NC-03-E2,E2,mcq,2×3×7,NUMERIC_NOT_CHECKED
+BR-NC-03-E2,E2,open,6,NUMERIC_NOT_CHECKED
+BR-NC-03-E3,E3,mcq,1×2²×3×7,NUMERIC_NOT_CHECKED
+BR-NC-03-E4,E4,mcq,4×3×7 or 2²×21,TEXT_REVIEW
+BR-NC-04-E1,E1,mcq,(x−5)(x+5),NUMERIC_NOT_CHECKED
+BR-NC-04-E2,E2,mcq,(3x+5)²,NUMERIC_NOT_CHECKED
+BR-NC-04-E3,E3,open,x = 5/3 only,TEXT_REVIEW
+BR-NC-04-E4,E4,mcq,(3x−5)²,NUMERIC_NOT_CHECKED
+BR-NC-05-E1,E1,open,x ≥ 4,TEXT_REVIEW
+BR-NC-05-E2,E2,mcq,"6x − 1 = 9, x = 5/3",TEXT_REVIEW
+BR-NC-05-E3,E3,open,"""x = 4"" (a single value)",TEXT_REVIEW
+BR-NC-05-E4,E4,mcq,"6x = 6, x = 1",TEXT_REVIEW
+BR-NC-09,K,mcq,−1/2 < −0.4 < −0.35,KEY_NOT_CHECKED
+BR-NC-09-E1,E1,mcq,−0.35 < −0.4 < −1/2,TEXT_REVIEW
+BR-NC-09-E2,E2,mcq,−0.35 < −1/2 < −0.4,TEXT_REVIEW
+BR-NC-09-E3,E3,mcq,−0.4 < −0.35 < −1/2,TEXT_REVIEW
+BR-NC-28,K,mcq,x < −5,KEY_NOT_CHECKED
+BR-NC-28-E1,E1,mcq,x > −5,TEXT_REVIEW
+BR-NC-28-E2,E2,mcq,x = −5,NUMERIC_NOT_CHECKED
+BR-NC-28-E3,E3,mcq,x < −23/3,TEXT_REVIEW
+BR-DF-01,K,mcq,5,KEY_NOT_CHECKED
+BR-DF-01-E2,E2,open,20/4 = 5 instead of 20/5 = 4,TEXT_REVIEW
+BR-DF-01-E3,E3,mcq,2,NUMERIC_NOT_CHECKED
+BR-DF-01-E4,E4,mcq,5.2,NUMERIC_NOT_CHECKED
+BR-DF-02,K,mcq,3/8,KEY_NOT_CHECKED
+BR-DF-02-E1,E1,mcq,3/5,NUMERIC_NOT_CHECKED
+BR-DF-02-E2,E2,mcq,37.5,NUMERIC_NOT_CHECKED
+BR-DF-02-E3,E3,mcq,1/2,NUMERIC_NOT_CHECKED
+BR-DF-03-E1,E1,open,"no intermediate price, final 100",TEXT_REVIEW
+BR-DF-03-E3,E3,open,"110, then −10, final 100",TEXT_REVIEW
+BR-DF-04-E2,E2,mcq,27,NUMERIC_NOT_CHECKED
+BR-DF-04-E3,E3,mcq,7/3,NUMERIC_NOT_CHECKED
+BR-DF-05-E1,E1,mcq,1,NUMERIC_NOT_CHECKED
+BR-DF-05-E2,E2,open,slope read by counting squares on axes with different scales,TEXT_REVIEW
+BR-DF-05-E4,E4,mcq,7/3,NUMERIC_NOT_CHECKED
+BR-DF-14,K,mcq,"""the frequency is 0.7; over many more tosses it should get close to 0.5""",KEY_NOT_CHECKED
+BR-DF-14-E1,E1,mcq,"""the coin is unfair: P(heads) = 0.7""",TEXT_REVIEW
+BR-DF-14-E2,E2,mcq,"""tails is now more likely at the next toss""",TEXT_REVIEW
+BR-DF-14-E3,E3,mcq,"""the frequency must be exactly 0.5 after 10 tosses""",TEXT_REVIEW
+BR-DF-19,K,mcq,f(x) = 1.8x,KEY_NOT_CHECKED
+BR-DF-19-E1,E1,mcq,f(x) = x + 1.8,TEXT_REVIEW
+BR-DF-19-E2,E2,mcq,f(x) = x/1.8,TEXT_REVIEW
+BR-DF-19-E3,E3,mcq,f(x) = 1.8,TEXT_REVIEW
+BR-DF-20,K,mcq,f(x) = 3x − 1,KEY_NOT_CHECKED
+BR-DF-20-E1,E1,mcq,f(x) = x/3 − 1,TEXT_REVIEW
+BR-DF-20-E2,E2,mcq,f(x) = −x + 3,TEXT_REVIEW
+BR-DF-20-E3,E3,mcq,f(x) = 2.5x − 1,TEXT_REVIEW
+BR-GM-01-E1,E1,mcq,150 cm²,NUMERIC_NOT_CHECKED
+BR-GM-01-E2,E2,open,0.25 L,NUMERIC_NOT_CHECKED
+BR-GM-01-E3,E3,mcq,1 500 cm²,NUMERIC_NOT_CHECKED
+BR-GM-01-E4,E4,mcq,0.015 cm²,NUMERIC_NOT_CHECKED
+BR-GM-02,K,mcq,36π cm³,KEY_NOT_CHECKED
+BR-GM-02-E1,E1,open,36π,NUMERIC_NOT_CHECKED
+BR-GM-02-E2,E2,mcq,144π,NUMERIC_NOT_CHECKED
+BR-GM-02-E3,E3,mcq,24π (lateral area 2πrh) or 9π,TEXT_REVIEW
+BR-GM-02-E4,E4,mcq,12π,NUMERIC_NOT_CHECKED
+BR-GM-03,K,mcq,8,KEY_NOT_CHECKED
+BR-GM-03-E1,E1,mcq,2,NUMERIC_NOT_CHECKED
+BR-GM-03-E2,E2,mcq,4,NUMERIC_NOT_CHECKED
+BR-GM-03-E3,E3,mcq,6,NUMERIC_NOT_CHECKED
+BR-GM-04-E1,E1,mcq,5 400,NUMERIC_NOT_CHECKED
+BR-GM-04-E2,E2,open,"""6 kW""",TEXT_REVIEW
+BR-GM-04-E3,E3,open,6,NUMERIC_NOT_CHECKED
+BR-GM-04-E5,E5,mcq,40 km,NUMERIC_NOT_CHECKED
+BR-EG-01-E1,E1,mcq,14,NUMERIC_NOT_CHECKED
+BR-EG-01-E2,E2,open,"12 taken as the hypotenuse, 144 ≠ 194, ""not right""",TEXT_REVIEW
+BR-EG-01-E3,E3,open,"direct theorem cited to conclude ""right""",TEXT_REVIEW
+BR-EG-01-E4,E4,mcq,100,NUMERIC_NOT_CHECKED
+BR-EG-01-E5,E5,mcq,√28 ≈ 5.3,NUMERIC_NOT_CHECKED
+BR-EG-02-E2,E2,open,(MN) ∥ (BC) assumed from the figure,TEXT_REVIEW
+BR-EG-03,K,mcq,3/5,KEY_NOT_CHECKED
+BR-EG-03-E1,E1,mcq,5/3,NUMERIC_NOT_CHECKED
+BR-EG-03-E2,E2,open,SOHCAHTOA used in a triangle that is not right,TEXT_REVIEW
+BR-EG-03-E3,E3,mcq,4/5,NUMERIC_NOT_CHECKED
+BR-EG-03-E4,E4,mcq,3/4,NUMERIC_NOT_CHECKED
+BR-EG-03-E5,E5,open,θ ≈ 0.64,NUMERIC_NOT_CHECKED
+BR-EG-04,K,mcq,"on line (OA), on the other side of O, with OA′ = 2 OA",KEY_NOT_CHECKED
+BR-EG-04-E1,E1,mcq,"""A′ = A moved by a vector of length 2"" (translation)",TEXT_REVIEW
+BR-EG-04-E2,E2,mcq,"""on [OA), with OA′ = 2 OA"" (same side)",TEXT_REVIEW
+BR-EG-04-E3,E3,mcq,"""on the other side, with AA′ = 2 OA"" (distance measured from A)",TEXT_REVIEW
+BR-EG-05,K,mcq,circle,KEY_NOT_CHECKED
+BR-EG-05-E1,E1,mcq,"""a rectangle"" (lateral face or net)",TEXT_REVIEW
+BR-EG-05-E2,E2,mcq,"""an ellipse"" (the perspective drawing taken as true)",TEXT_REVIEW
+BR-EG-05-E3,E3,open,latitude and longitude swapped,TEXT_REVIEW
+BR-EG-05-E4,E4,mcq,"""a smaller circle""",TEXT_REVIEW
+BR-EG-21,K,mcq,AD⃗,KEY_NOT_CHECKED
+BR-EG-21-E1,E1,mcq,DA⃗,TEXT_REVIEW
+BR-EG-21-E2,E2,mcq,AC⃗,TEXT_REVIEW
+BR-EG-21-E3,E3,mcq,0⃗,TEXT_REVIEW
+BR-EG-23,K,mcq,"30° N, 60° E",KEY_NOT_CHECKED
+BR-EG-23-E1,E1,mcq,"60° N, 30° E",TEXT_REVIEW
+BR-EG-23-E2,E2,mcq,"30° S, 60° E",TEXT_REVIEW
+BR-EG-23-E3,E3,mcq,"30° N, 60° W",TEXT_REVIEW
+BR-EG-24,K,mcq,"""(d) ∥ (d′), because equal alternate-interior angles imply parallel lines""",KEY_NOT_CHECKED
+BR-EG-24-E1,E1,mcq,"""(d) ∥ (d′), because the lines look parallel""",TEXT_REVIEW
+BR-EG-24-E2,E2,mcq,"""no conclusion: equal angles only follow from parallel lines""",TEXT_REVIEW
+BR-EG-24-E3,E3,mcq,"""(d) ⊥ (d′), because 72° + 72° ≠ 180°""",TEXT_REVIEW
+BR-EG-06,K,mcq,two lines perpendicular to the same line are parallel,KEY_NOT_CHECKED
+BR-EG-06-E1,E1,mcq,"""On sait que (d₁) ∥ (d₂) …"" (conclusion in the data)",TEXT_REVIEW
+BR-EG-06-E2,E2,mcq,"""if two lines are parallel, a line perpendicular to one is perpendicular to the other""",TEXT_REVIEW
+BR-EG-06-E3,E3,mcq,"""they look parallel on the figure""",TEXT_REVIEW
+BR-EG-07,K,mcq,"no — 9² = 81 and 6² + 7² = 85, 81 ≠ 85, contrapositive",KEY_NOT_CHECKED
+BR-EG-07-E1,E1,mcq,"""Yes, by Pythagoras' theorem""",TEXT_REVIEW
+BR-EG-07-E2,E2,mcq,"""No, because 7² ≠ 6² + 9²"" (right conclusion, wrong hypotenuse: wrong reason)",TEXT_REVIEW
+BR-EG-07-E3,E3,mcq,"""Yes, because √85 ≈ 9.2 ≈ 9""",TEXT_REVIEW
+BR-EG-08,K,mcq,"no — 21/35 ≠ 20/35, contrapositive",KEY_NOT_CHECKED
+BR-EG-08-E1,E1,open,"ratios compared, alignment and order not stated",TEXT_REVIEW
+BR-EG-08-E2,E2,mcq,"""No, because AM/MB = 3/2 ≠ AN/AC = 4/7"" (right conclusion, wrong ratios)",TEXT_REVIEW
+BR-EG-08-E3,E3,mcq,"""Yes, by Thalès' theorem, since the points are aligned""",TEXT_REVIEW
+BR-EG-08-E4,E4,mcq,"""Yes, because 0.6 ≈ 0.57""",TEXT_REVIEW
+BR-EG-08-E5,E5,mcq,"""It cannot be decided without measuring""",TEXT_REVIEW
+BR-EG-09-E2,E2,mcq,50°,NUMERIC_NOT_CHECKED
+BR-EG-09-E2,E2,open,"""AB = BC""",TEXT_REVIEW
+BR-EG-09-E3,E3,open,"""isosceles, it can be seen on the figure""",TEXT_REVIEW
+BR-EG-09-E4,E4,mcq,130°,NUMERIC_NOT_CHECKED
+BR-EG-10,K,mcq,rhombus (losange),KEY_NOT_CHECKED
+BR-EG-10-E1,E1,open,"""a rectangle has equal diagonals, so ABCD is a rectangle""",TEXT_REVIEW
+BR-EG-10-E2,E2,open,"""equal diagonals, so rectangle"" (parallelogram step skipped)",TEXT_REVIEW
+BR-EG-10-E3,E3,mcq,"""a rectangle""",TEXT_REVIEW
+BR-EG-10-E4,E4,mcq,"""a parallelogram""",TEXT_REVIEW
+BR-EG-10-E5,E5,mcq,"""a square""",TEXT_REVIEW
+BR-EG-11,K,mcq,similar,KEY_NOT_CHECKED
+BR-EG-11-E1,E1,mcq,"""not similar: the angles are not listed in the same order""",TEXT_REVIEW
+BR-EG-11-E1,E1,open,EF = 5 × 4/6 = 10/3,TEXT_REVIEW
+BR-EG-11-E2,E2,open,similarity claimed from Â = D̂ only,TEXT_REVIEW
+BR-EG-11-E3,E3,open,EF = 7,TEXT_REVIEW
+BR-EG-11-E4,E4,mcq,"""equal (superposable) triangles""",TEXT_REVIEW
+BR-EG-11-E5,E5,mcq,"""cannot be decided without the side lengths""",TEXT_REVIEW
+BR-EG-12,K,mcq,false — a non-square rhombus is a counterexample,KEY_NOT_CHECKED
+BR-EG-12-E1,E1,mcq,"""True: my square has four equal sides""",TEXT_REVIEW
+BR-EG-12-E2,E2,mcq,"""True: I measured four right angles on my drawing""",TEXT_REVIEW
+BR-EG-12-E3,E3,mcq,"""False: a rectangle is a counterexample"" (a rectangle does not have four equal sides)",TEXT_REVIEW
+BR-EG-13,K,mcq,12 cm,KEY_NOT_CHECKED
+BR-EG-13-E1,E1,mcq,−12 cm,NUMERIC_NOT_CHECKED
+BR-EG-13-E2,E2,mcq,36 cm,NUMERIC_NOT_CHECKED
+BR-EG-13-E2,E2,open,area × 3 instead of × 9,TEXT_REVIEW
+BR-EG-13-E3,E3,open,"""a symmetry changes the angles""",TEXT_REVIEW
+BR-EG-13-E4,E4,mcq,7 cm,NUMERIC_NOT_CHECKED
+BR-EG-14,K,mcq,5,KEY_NOT_CHECKED
+BR-EG-14-E1,E1,open,converse cited,TEXT_REVIEW
+BR-EG-14-E2,E2,mcq,10,NUMERIC_NOT_CHECKED
+BR-EG-14-E3,E3,open,midpoints read on the figure,TEXT_REVIEW
+BR-EG-14-E4,E4,mcq,20,NUMERIC_NOT_CHECKED
+BR-EG-14-E5,E5,mcq,"""not computable""",TEXT_REVIEW
+BR-EG-15,K,mcq,"B̂, opposite the longest side AC",KEY_NOT_CHECKED
+BR-EG-15-E1,E1,open,tan Â computed without proving the right angle,TEXT_REVIEW
+BR-EG-15-E2,E2,open,tan Â = 5/12,TEXT_REVIEW
+BR-EG-15-E3,E3,open,"trigonometry first, converse of Pythagoras after",TEXT_REVIEW
+BR-EG-15-E4,E4,mcq,Ĉ,NUMERIC_NOT_CHECKED
+BR-EG-15-E5,E5,mcq,"""no right angle: 5 + 12 ≠ 13""",TEXT_REVIEW
+BR-EG-15-E6,E6,mcq,Â,NUMERIC_NOT_CHECKED
+BR-EG-16,K,mcq,a parallelogram (possibly flat),KEY_NOT_CHECKED
+BR-EG-16-E1,E1,mcq,"""ABDC is a parallelogram"" (vertex order)",TEXT_REVIEW
+BR-EG-16-E2,E2,mcq,"""AB⃗ = DC⃗ only says that AB = DC""",TEXT_REVIEW
+BR-EG-16-E3,E3,open,AB⃗ + BC⃗ = CA⃗ written,TEXT_REVIEW
+BR-EG-16-E4,E4,mcq,"""a trapezoid, since only (AB) ∥ (DC) is known""",TEXT_REVIEW
+BR-AP-02,K,mcq,else,KEY_NOT_CHECKED
+BR-AP-02-E1,E1,mcq,"""the 'if' branch"" (0 > 0 read as true)",TEXT_REVIEW
+BR-AP-02-E2,E2,mcq,"""both branches""",TEXT_REVIEW
+BR-AP-02-E3,E3,mcq,"""no branch: the case x = 0 is not handled""",TEXT_REVIEW
+BR-AP-03-E1,E1,mcq,9 (one extra turn) or 5,TEXT_REVIEW
+BR-AP-03-E2,E2,open,stops at 10,TEXT_REVIEW
+BR-AP-03-E3,E3,mcq,3,NUMERIC_NOT_CHECKED
+BR-AP-03-E4,E4,mcq,6,NUMERIC_NOT_CHECKED
+BR-AP-04,K,mcq,4,KEY_NOT_CHECKED
+BR-AP-04-E1,E1,mcq,0,NUMERIC_NOT_CHECKED
+BR-AP-04-E2,E2,mcq,1,NUMERIC_NOT_CHECKED
+BR-AP-04-E3,E3,open,a variable modified in the loop is believed to be reset at each turn,TEXT_REVIEW
+BR-AP-04-E4,E4,mcq,5,NUMERIC_NOT_CHECKED
+BR-AP-06,K,mcq,"""false, because 4 < 4 is false""",KEY_NOT_CHECKED
+BR-AP-06-E1,E1,mcq,"""true, because 4 > 2""",TEXT_REVIEW
+BR-AP-06-E2,E2,mcq,"""true, because 4 ≤ 4""",TEXT_REVIEW
+BR-AP-06-E3,E3,mcq,"""false, because 4 > 2 is false""",TEXT_REVIEW
+1S-AU-01-E1,E1,open,2⁻¹⁵,NUMERIC_NOT_CHECKED
+1S-AU-01-E2,E2,open,−256,NUMERIC_NOT_CHECKED
+1S-AU-02,K,mcq,-4%,KEY_NOT_CHECKED
+1S-AU-02-E1,E1,mcq,0 %,NUMERIC_NOT_CHECKED
+1S-AU-02-E4,E4,mcq,+4 %,NUMERIC_NOT_CHECKED
+1S-AU-02-E5,E5,mcq,−0.04 %,NUMERIC_NOT_CHECKED
+1S-AU-03,K,mcq,3(2x+3),KEY_NOT_CHECKED
+1S-AU-03-E1,E1,mcq,3(2x + 9),NUMERIC_NOT_CHECKED
+1S-AU-03-E2,E2,mcq,3(18x + 27),NUMERIC_NOT_CHECKED
+1S-AU-03-E3,E3,open,14 €,NUMERIC_NOT_CHECKED
+1S-AU-03-E4,E4,mcq,15x,NUMERIC_NOT_CHECKED
+1S-AU-04,K,mcq,−2,KEY_NOT_CHECKED
+1S-AU-04-E1,E1,mcq,3,NUMERIC_NOT_CHECKED
+1S-AU-04-E3,E3,mcq,2,NUMERIC_NOT_CHECKED
+1S-AU-04-E4,E4,mcq,3/2,NUMERIC_NOT_CHECKED
+1S-AL-01,K,mcq,"2,3",KEY_NOT_CHECKED
+1S-AL-01-E1,E1,mcq,{4 ; 6},NUMERIC_NOT_CHECKED
+1S-AL-01-E2,E2,mcq,{−2 ; −3},NUMERIC_NOT_CHECKED
+1S-AL-01-E3,E3,mcq,"on x² + 2x + 5 = 0 (Δ = −16): ""x = −1 ± 2""",TEXT_REVIEW
+1S-AL-01-E4,E4,mcq,{−1 ; 6},NUMERIC_NOT_CHECKED
+1S-AL-02,K,mcq,"(2,3)",KEY_NOT_CHECKED
+1S-AL-02-E1,E1,mcq,(−2 ; 3),NUMERIC_NOT_CHECKED
+1S-AL-02-E2,E2,open,(x − 2)² + 1,NUMERIC_NOT_CHECKED
+1S-AL-02-E3,E3,mcq,"""roots 2 and −3"" (canonical form read as a factorised form)",TEXT_REVIEW
+1S-AL-02-E4,E4,mcq,(2 ; −3),NUMERIC_NOT_CHECKED
+1S-AL-03,K,mcq,negative,KEY_NOT_CHECKED
+1S-AL-03-E1,E1,mcq,"""positive""",TEXT_REVIEW
+1S-AL-03-E2,E2,open,x ≤ −2 or x ≥ 2,TEXT_REVIEW
+1S-AL-03-E3,E3,open,S = ∅,TEXT_REVIEW
+1S-AL-03-E4,E4,mcq,"""zero""",TEXT_REVIEW
+1S-AL-03-E5,E5,mcq,"""negative, then positive""",TEXT_REVIEW
+1S-AL-04-E1,E1,mcq,11,NUMERIC_NOT_CHECKED
+1S-AL-05-E2,E2,mcq,−63,NUMERIC_NOT_CHECKED
+1S-AL-05-E3,E3,open,formula used for q = 1,TEXT_REVIEW
+1S-AL-05-E4,E4,mcq,64,NUMERIC_NOT_CHECKED
+1S-AL-11,K,mcq,"""increasing, because u(n+1) − u(n) = 3/((n + 1)(n + 2)) > 0""",KEY_NOT_CHECKED
+1S-AL-11-E1,E1,mcq,"""decreasing, because 3/(n + 1) decreases""",TEXT_REVIEW
+1S-AL-11-E2,E2,mcq,"""increasing, because u₀ < u₁""",TEXT_REVIEW
+1S-AL-11-E3,E3,mcq,"""decreasing, because u(n+1) − u(n) = −3/((n + 1)(n + 2))""",TEXT_REVIEW
+1S-AL-15,K,mcq,"""0, because Δ = −56 < 0""",KEY_NOT_CHECKED
+1S-AL-15-E1,E1,mcq,"""2, because Δ = 64 > 0""",TEXT_REVIEW
+1S-AL-15-E2,E2,mcq,"""2, because a > 0""",TEXT_REVIEW
+1S-AL-15-E3,E3,mcq,"""1, because Δ is negative""",TEXT_REVIEW
+1S-AN-01-E1,E1,mcq,eˣ,NUMERIC_NOT_CHECKED
+1S-AN-01-E2,E2,mcq,(1 − x)eˣ,NUMERIC_NOT_CHECKED
+1S-AN-01-E3,E3,mcq,on x e²ˣ: (x + 1)e²ˣ instead of (1 + 2x)e²ˣ,TEXT_REVIEW
+1S-AN-01-E4,E4,mcq,x eˣ,NUMERIC_NOT_CHECKED
+1S-AN-02-E1,E1,mcq,9,NUMERIC_NOT_CHECKED
+1S-AN-02-E1,E1,open,y = x + 2,TEXT_REVIEW
+1S-AN-02-E2,E2,open,y = −2x,NUMERIC_NOT_CHECKED
+1S-AN-02-E3,E3,open,y = −2x + 1,NUMERIC_NOT_CHECKED
+1S-AN-02-E4,E4,mcq,2x,NUMERIC_NOT_CHECKED
+1S-AN-02-E5,E5,mcq,7,NUMERIC_NOT_CHECKED
+1S-AN-03-E1,E1,mcq,"""minimum at x = 2""",TEXT_REVIEW
+1S-AN-03-E2,E2,open,"""maximum −3 at x = 2""",TEXT_REVIEW
+1S-AN-03-E3,E3,open,variation table without behaviour at ±∞,TEXT_REVIEW
+1S-AN-03-E4,E4,mcq,"""maximum at x = 4""",TEXT_REVIEW
+1S-AN-03-E5,E5,mcq,"""maximum at x = −2""",TEXT_REVIEW
+1S-AN-04-E1,E1,mcq,e²ˣ⁺¹,NUMERIC_NOT_CHECKED
+1S-AN-04-E2,E2,mcq,e^((x + 1)/x),NUMERIC_NOT_CHECKED
+1S-AN-04-E3,E3,open,x = 4,NUMERIC_NOT_CHECKED
+1S-AN-04-E4,E4,mcq,1 + e^(1 − x),NUMERIC_NOT_CHECKED
+1S-AN-05,K,mcq,1/2,KEY_NOT_CHECKED
+1S-AN-05-E1,E1,mcq,0.9998,NUMERIC_NOT_CHECKED
+1S-AN-05-E2,E2,open,π/2 only,TEXT_REVIEW
+1S-AN-05-E3,E3,mcq,√3/2,NUMERIC_NOT_CHECKED
+1S-AN-05-E4,E4,mcq,√2/2,NUMERIC_NOT_CHECKED
+1S-AN-11,K,mcq,"""no: the rate of change is 1 on the right and −1 on the left""",KEY_NOT_CHECKED
+1S-AN-11-E1,E1,mcq,"""yes: f is continuous at 0""",TEXT_REVIEW
+1S-AN-11-E2,E2,mcq,"""yes: f′(0) = 0 because f has a minimum at 0""",TEXT_REVIEW
+1S-AN-11-E3,E3,mcq,"""no: because f(0) = 0""",TEXT_REVIEW
+1S-AN-14,K,mcq,"""odd, because f(−x) = −x³ + 2x = −f(x)""",KEY_NOT_CHECKED
+1S-AN-14-E1,E1,mcq,"""even, because f(−x) = −f(x)""",TEXT_REVIEW
+1S-AN-14-E2,E2,mcq,"""neither, because f(−x) = x³ + 2x""",TEXT_REVIEW
+1S-AN-14-E3,E3,mcq,"""odd, because f(−1) = −f(1)""",TEXT_REVIEW
+1S-GE-01-E3,E3,open,"""both have length √5, so they are orthogonal"" (right conclusion, wrong reason)",TEXT_REVIEW
+1S-GE-01-E4,E4,mcq,(2 ; −2),NUMERIC_NOT_CHECKED
+1S-GE-02-E1,E1,mcq,1/2,NUMERIC_NOT_CHECKED
+1S-GE-02-E3,E3,mcq,6,NUMERIC_NOT_CHECKED
+1S-GE-03-E1,E1,mcq,3x − 2y − 3 = 0,TEXT_REVIEW
+1S-GE-03-E2,E2,mcq,2x + 3y + 2 = 0,TEXT_REVIEW
+1S-GE-03-E3,E3,mcq,y = 2x + 3,NUMERIC_NOT_CHECKED
+1S-GE-04,K,mcq,"centre (1 ; −2), radius 3",KEY_NOT_CHECKED
+1S-GE-04-E1,E1,mcq,"centre (1 ; −2), radius 9",TEXT_REVIEW
+1S-GE-04-E2,E2,mcq,"centre (−1 ; 2), radius 3",TEXT_REVIEW
+1S-GE-04-E3,E3,open,"""(x − 2)² + (y + 1)² ≤ 9""",TEXT_REVIEW
+1S-GE-04-E4,E4,mcq,"centre (1 ; 2), radius 3",TEXT_REVIEW
+1S-GE-08,K,mcq,"""circle of diameter [AB]: centre (1 ; 3), radius √5""",KEY_NOT_CHECKED
+1S-GE-08-E1,E1,mcq,"""perpendicular bisector of [AB]""",TEXT_REVIEW
+1S-GE-08-E2,E2,mcq,"""circle of centre (1 ; 3), radius 2√5""",TEXT_REVIEW
+1S-GE-08-E3,E3,mcq,"""line (AB)""",TEXT_REVIEW
+1S-GE-10,K,mcq,"""centre (3 ; −2), radius 4""",KEY_NOT_CHECKED
+1S-GE-10-E1,E1,mcq,"""centre (−3 ; 2), radius 4""",TEXT_REVIEW
+1S-GE-10-E2,E2,mcq,"""centre (3 ; −2), radius √3""",TEXT_REVIEW
+1S-GE-10-E3,E3,mcq,"""centre (3 ; −2), radius 16""",TEXT_REVIEW
+1S-PS-01,K,mcq,.2,KEY_NOT_CHECKED
+1S-PS-01-E1,E1,mcq,0.5,NUMERIC_NOT_CHECKED
+1S-PS-01-E2,E2,mcq,0.9,NUMERIC_NOT_CHECKED
+1S-PS-01-E3,E3,open,0.2,NUMERIC_NOT_CHECKED
+1S-PS-01-E4,E4,mcq,0.4,NUMERIC_NOT_CHECKED
+1S-PS-02,K,mcq,"Yes, because P(A ∩ B) = P(A) × P(B)",KEY_NOT_CHECKED
+1S-PS-02-E1,E1,open,0.8,NUMERIC_NOT_CHECKED
+1S-PS-02-E3,E3,open,0.08,NUMERIC_NOT_CHECKED
+1S-PS-02-E4,E4,mcq,"""No, because P(A ∩ B) ≠ 0""",TEXT_REVIEW
+1S-PS-02-E5,E5,mcq,"""No, because P(A ∩ B) ≠ P(A) + P(B)""",TEXT_REVIEW
+1S-PS-02-E6,E6,mcq,"""No, because P(B | A) = 0.4 differs from P(A) = 0.5""",TEXT_REVIEW
+1S-PS-03-E1,E1,mcq,0,NUMERIC_NOT_CHECKED
+1S-PS-03-E1,E1,open,−1,NUMERIC_NOT_CHECKED
+1S-PS-03-E2,E2,mcq,2.5,NUMERIC_NOT_CHECKED
+1S-PS-03-E2,E2,open,2,NUMERIC_NOT_CHECKED
+1S-PS-03-E3,E3,open,0.75,NUMERIC_NOT_CHECKED
+1S-PS-04-E2,E2,mcq,2,NUMERIC_NOT_CHECKED
+1S-PS-04-E4,E4,mcq,−4,NUMERIC_NOT_CHECKED
+1S-AP-01,K,mcq,5,KEY_NOT_CHECKED
+1S-AP-01-E1,E1,mcq,"""error: x cannot be equal to x + 3""",TEXT_REVIEW
+1S-AP-01-E2,E2,open,"[0, 1, 4, 9]",TEXT_REVIEW
+1S-AP-01-E3,E3,open,[4],TEXT_REVIEW
+1S-AP-01-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+1S-AP-01-E5,E5,mcq,"""x + 3""",TEXT_REVIEW
+1S-AP-02-E1,E1,mcq,9,NUMERIC_NOT_CHECKED
+1S-AP-02-E2,E2,mcq,11,NUMERIC_NOT_CHECKED
+1S-AP-02-E3,E3,mcq,"""infinite loop""",TEXT_REVIEW
+1S-AP-02-E4,E4,mcq,1024,NUMERIC_NOT_CHECKED
+1S-AP-03,K,mcq,1.5,KEY_NOT_CHECKED
+1S-AP-03-E1,E1,open,[1.5 ; 2] kept,TEXT_REVIEW
+1S-AP-03-E2,E2,open,[1.5 ; 2],TEXT_REVIEW
+1S-AP-03-E3,E3,mcq,"""√2 = 1.5""",TEXT_REVIEW
+1S-AP-03-E4,E4,mcq,1.25,NUMERIC_NOT_CHECKED
+1S-AP-03-E5,E5,mcq,0.5,NUMERIC_NOT_CHECKED
+1S-AP-04,K,mcq,"0,1,2",KEY_NOT_CHECKED
+1S-AP-04-E1,E1,mcq,"1, 2, 3",TEXT_REVIEW
+1S-AP-04-E2,E2,mcq,"0, 1, 2, 3",TEXT_REVIEW
+1S-AP-04-E3,E3,open,print placed outside the loop,TEXT_REVIEW
+1S-AP-04-E4,E4,mcq,3,NUMERIC_NOT_CHECKED
+1S-AP-05-E1,E1,mcq,"""[0, 1, 4, 9, 16]""",TEXT_REVIEW
+1S-AP-05-E2,E2,mcq,"""[1, 4, 9, 16, 25]""",TEXT_REVIEW
+1S-AP-05-E3,E3,mcq,"""[2, 4, 6, 8]""",TEXT_REVIEW
+1S-AP-06-E1,E1,mcq,"""5 7 4""",TEXT_REVIEW
+1S-AP-06-E2,E2,mcq,"""8 2 3""",TEXT_REVIEW
+1S-AP-06-E3,E3,mcq,"""5 2 4""",TEXT_REVIEW
+1S-LO-01,K,mcq,False: x = −2 gives x² = 4 but x ≠ 2,KEY_NOT_CHECKED
+1S-LO-01-E1,E1,mcq,"""True: the converse of a true statement is true""",TEXT_REVIEW
+1S-LO-01-E2,E2,mcq,"""False: x = 3 gives x² ≠ 4""",TEXT_REVIEW
+1S-LO-01-E3,E3,mcq,"""True: x = 2 is sufficient, so it is necessary""",TEXT_REVIEW
+1S-LO-02,K,mcq,"∃x∈R,x²≤0",KEY_NOT_CHECKED
+1S-LO-02-E1,E1,mcq,"∀x ∈ ℝ, x² ≤ 0",TEXT_REVIEW
+1S-LO-02-E2,E2,mcq,"∀x ∈ ℝ, −x² > 0",TEXT_REVIEW
+1S-LO-02-E3,E3,mcq,"∃x ∈ ℝ, x² < 0",TEXT_REVIEW
+1S-LO-02-E4,E4,mcq,"∃x ∈ ℝ, x² > 0",TEXT_REVIEW
+1S-LO-03,K,mcq,¬Q⇒¬P,KEY_NOT_CHECKED
+1S-LO-03-E1,E1,mcq,Q ⇒ P,TEXT_REVIEW
+1S-LO-03-E2,E2,open,"""n² is even, so n = 2k"" assumed at the start",TEXT_REVIEW
+1S-LO-03-E3,E3,open,n² = 4k² + 4k + 1 written without concluding it is odd,TEXT_REVIEW
+1S-LO-03-E4,E4,mcq,¬P ⇒ ¬Q,TEXT_REVIEW
+1S-LO-03-E5,E5,mcq,P and ¬Q,TEXT_REVIEW
+1S-LO-04,K,mcq,x=±1,KEY_NOT_CHECKED
+1S-LO-04-E1,E1,open,no condition x ≥ 0 written,TEXT_REVIEW
+1S-LO-04-E2,E2,open,S = {−1 ; 2},TEXT_REVIEW
+1S-LO-04-E3,E3,open,"x = −1 kept, no substitution check",TEXT_REVIEW
+1S-LO-04-E4,E4,mcq,x = 1,NUMERIC_NOT_CHECKED
+1S-LO-04-E5,E5,mcq,x = 1/2,NUMERIC_NOT_CHECKED
+1S-LO-04-E6,E6,mcq,"""x = 1 and x = −1""",TEXT_REVIEW
+1S-LO-05-E1,E1,mcq,"""[−2 ; 7]""",TEXT_REVIEW
+1S-LO-05-E2,E2,mcq,"""[1 ; 5]""",TEXT_REVIEW
+1S-LO-05-E3,E3,mcq,"""]1 ; 5]""",TEXT_REVIEW
+1S-LO-06,K,mcq,"""two cases: n even, n odd""",KEY_NOT_CHECKED
+1S-LO-06-E1,E1,mcq,"""check n = 1, 2, 3""",TEXT_REVIEW
+1S-LO-06-E2,E2,mcq,"""assume n(n + 1) is even and deduce it""",TEXT_REVIEW
+1S-LO-06-E3,E3,mcq,"""write n = 2k and conclude""",TEXT_REVIEW
+1S-LO-07,K,mcq,"""n² is even and n is odd""",KEY_NOT_CHECKED
+1S-LO-07-E1,E1,mcq,"""n² is even and n is even""",TEXT_REVIEW
+1S-LO-07-E2,E2,mcq,"""n² is odd""",TEXT_REVIEW
+1S-LO-07-E3,E3,mcq,"""if n² is odd, then n is odd""",TEXT_REVIEW
+1C-AU-01,K,mcq,75%,KEY_NOT_CHECKED
+1C-AU-01-E1,E1,mcq,7.5 %,NUMERIC_NOT_CHECKED
+1C-AU-01-E2,E2,mcq,34 %,NUMERIC_NOT_CHECKED
+1C-AU-01-E3,E3,mcq,133 %,NUMERIC_NOT_CHECKED
+1C-AU-02,K,mcq,near 10000,KEY_NOT_CHECKED
+1C-AU-02-E1,E1,mcq,≈ 1 000,NUMERIC_NOT_CHECKED
+1C-AU-02-E3,E3,open,9.5 × 10³ without unit,TEXT_REVIEW
+1C-AU-02-E4,E4,mcq,≈ 250,NUMERIC_NOT_CHECKED
+1C-AU-03,K,mcq,5,KEY_NOT_CHECKED
+1C-AU-03-E1,E1,open,coordinates written,TEXT_REVIEW
+1C-AU-03-E2,E2,mcq,−1,NUMERIC_NOT_CHECKED
+1C-AU-03-E3,E3,mcq,on a graph whose squares are 0.5: 10,TEXT_REVIEW
+1C-AU-03-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+1C-AU-04-E1,E1,mcq,"""95 €, because 80 + 25 − 10 = 95""",TEXT_REVIEW
+1C-AU-04-E1,E1,open,40 €,NUMERIC_NOT_CHECKED
+1C-AU-04-E2,E2,mcq,"""18 €, because 80 × 0.25 × 0.9 = 18""",TEXT_REVIEW
+1C-AU-04-E3,E3,mcq,"""92 €, because the 10 % is taken on the initial 80 €""",TEXT_REVIEW
+1C-FN-01-E1,E1,mcq,6,NUMERIC_NOT_CHECKED
+1C-FN-01-E3,E3,mcq,1,NUMERIC_NOT_CHECKED
+1C-FN-02,K,mcq,"(2,1)",KEY_NOT_CHECKED
+1C-FN-02-E1,E1,mcq,(−2 ; 1),NUMERIC_NOT_CHECKED
+1C-FN-02-E1,E1,open,(1 ; 4),NUMERIC_NOT_CHECKED
+1C-FN-02-E2,E2,open,"""minimum 4""",TEXT_REVIEW
+1C-FN-02-E3,E3,mcq,(2 ; 0) (vertex placed on the x-axis),NUMERIC_NOT_CHECKED
+1C-FN-02-E4,E4,mcq,(1 ; 2),NUMERIC_NOT_CHECKED
+1C-FN-03,K,mcq,"1,3",KEY_NOT_CHECKED
+1C-FN-03-E1,E1,open,expands then uses Δ,TEXT_REVIEW
+1C-FN-03-E2,E2,open,"""positive on ]1 ; 3[""",TEXT_REVIEW
+1C-FN-03-E3,E3,open,]−∞ ; 1] ∪ [3 ; +∞[ for the strict inequality,TEXT_REVIEW
+1C-FN-03-E4,E4,mcq,−1 and −3,TEXT_REVIEW
+1C-FN-03-E5,E5,mcq,3 only,TEXT_REVIEW
+1C-FN-03-E6,E6,mcq,1 and −3,TEXT_REVIEW
+1C-FN-04-E1,E1,mcq,6,NUMERIC_NOT_CHECKED
+1C-FN-04-E2,E2,open,2ˣ used for negative or non-integer x outside the model domain,TEXT_REVIEW
+1C-FN-04-E3,E3,mcq,9,NUMERIC_NOT_CHECKED
+1C-FN-04-E4,E4,mcq,5,NUMERIC_NOT_CHECKED
+1C-FN-07-E1,E1,mcq,"""[−2 ; −1] and [1 ; 2]""",TEXT_REVIEW
+1C-FN-07-E2,E2,mcq,"""[−2 ; 1]""",TEXT_REVIEW
+1C-FN-07-E3,E3,mcq,"""[0 ; 1]""",TEXT_REVIEW
+1C-FN-12,K,mcq,"""f is decreasing on ℝ""",KEY_NOT_CHECKED
+1C-FN-12-E1,E1,mcq,"""f is increasing on ℝ""",TEXT_REVIEW
+1C-FN-12-E2,E2,mcq,"""f(x) < 0 for x > 0""",TEXT_REVIEW
+1C-FN-12-E3,E3,mcq,"""f(2) = 1.6""",TEXT_REVIEW
+1C-SE-01,K,mcq,arithmetic step 3,KEY_NOT_CHECKED
+1C-SE-01-E1,E1,mcq,"""geometric, ratio 7/4""",TEXT_REVIEW
+1C-SE-01-E2,E2,open,uₙ = 1 200 + 150(n + 1),TEXT_REVIEW
+1C-SE-01-E3,E3,open,uₙ = 1 350 + 150n,TEXT_REVIEW
+1C-SE-01-E4,E4,mcq,"""arithmetic, step 4""",TEXT_REVIEW
+1C-SE-01-E5,E5,mcq,"""neither arithmetic nor geometric""",TEXT_REVIEW
+1C-SE-02-E1,E1,mcq,11,NUMERIC_NOT_CHECKED
+1C-SE-02-E2,E2,mcq,15,NUMERIC_NOT_CHECKED
+1C-SE-02-E3,E3,mcq,−3,NUMERIC_NOT_CHECKED
+1C-SE-03-E1,E1,mcq,−50,NUMERIC_NOT_CHECKED
+1C-SE-03-E2,E2,open,(1/2)¹⁵,NUMERIC_NOT_CHECKED
+1C-SE-03-E3,E3,mcq,50,NUMERIC_NOT_CHECKED
+1C-SE-03-E4,E4,mcq,16.67,NUMERIC_NOT_CHECKED
+1C-SE-04-E1,E1,open,n = 4,NUMERIC_NOT_CHECKED
+1C-SE-04-E2,E2,open,"""year 4"" (year 0 counted as year 1)",TEXT_REVIEW
+1C-SE-04-E3,E3,mcq,140,NUMERIC_NOT_CHECKED
+1C-SE-04-E4,E4,mcq,120,NUMERIC_NOT_CHECKED
+1C-SE-04-E5,E5,mcq,240,NUMERIC_NOT_CHECKED
+1C-SE-07,K,mcq,"""geometric, because each term is 1.1 times the previous one""",KEY_NOT_CHECKED
+1C-SE-07-E1,E1,mcq,"""arithmetic, because it increases by 20 each time""",TEXT_REVIEW
+1C-SE-07-E2,E2,mcq,"""neither, because the differences are not equal""",TEXT_REVIEW
+1C-SE-07-E3,E3,mcq,"""geometric, because it increases""",TEXT_REVIEW
+1C-SD-01,K,mcq,increasing tendency (positive association),KEY_NOT_CHECKED
+1C-SD-01-E1,E1,mcq,"""more hours cause higher scores""",TEXT_REVIEW
+1C-SD-01-E2,E2,open,hours put on the vertical axis,TEXT_REVIEW
+1C-SD-01-E3,E3,open,(4 ; 4) not mentioned,TEXT_REVIEW
+1C-SD-01-E4,E4,mcq,"""no link, since (3 ; 9) is below (2 ; 10)""",TEXT_REVIEW
+1C-SD-01-E5,E5,mcq,"""decreasing tendency""",TEXT_REVIEW
+1C-SD-02,K,mcq,negative association,KEY_NOT_CHECKED
+1C-SD-02-E1,E1,mcq,"""negative association because some values are negative""",TEXT_REVIEW
+1C-SD-02-E2,E2,mcq,"""no association, since the points are not aligned""",TEXT_REVIEW
+1C-SD-02-E3,E3,mcq,"""positive association"" (read from right to left)",TEXT_REVIEW
+1C-SD-03,K,mcq,interpolation,KEY_NOT_CHECKED
+1C-SD-03-E1,E1,open,"""the line gives the exact future value""",TEXT_REVIEW
+1C-SD-03-E2,E2,open,trend drawn through two points only,TEXT_REVIEW
+1C-SD-03-E3,E3,open,unit or context ignored,TEXT_REVIEW
+1C-SD-03-E4,E4,mcq,"""extrapolation""",TEXT_REVIEW
+1C-SD-03-E5,E5,mcq,"""an observed value""",TEXT_REVIEW
+1C-SD-03-E6,E6,mcq,"""a correlation""",TEXT_REVIEW
+1C-SD-04,K,mcq,"No: one point can be an error or an exception, and association is not causation",KEY_NOT_CHECKED
+1C-SD-04-E1,E1,mcq,"""Yes: the extreme point shows the effect""",TEXT_REVIEW
+1C-SD-04-E2,E2,mcq,"""Yes: the variables are associated, so one causes the other""",TEXT_REVIEW
+1C-SD-04-E3,E3,mcq,"""Yes: the point is far from the mean point""",TEXT_REVIEW
+1C-SD-08-E1,E1,mcq,"""=A2*1.05""",TEXT_REVIEW
+1C-SD-08-E2,E2,mcq,"""=B2*1.05""",TEXT_REVIEW
+1C-SD-08-E3,E3,mcq,"""=A3*1.06""",TEXT_REVIEW
+1C-PR-01-E2,E2,mcq,0.15,NUMERIC_NOT_CHECKED
+1C-PR-01-E3,E3,open,true negatives left out of the table,TEXT_REVIEW
+1C-PR-01-E4,E4,mcq,1/4,NUMERIC_NOT_CHECKED
+1C-PR-02,K,mcq,.2,KEY_NOT_CHECKED
+1C-PR-02-E1,E1,mcq,0.9,NUMERIC_NOT_CHECKED
+1C-PR-02-E2,E2,open,0.2,NUMERIC_NOT_CHECKED
+1C-PR-02-E3,E3,open,P(A) × P(B) used without independence,TEXT_REVIEW
+1C-PR-02-E4,E4,mcq,0.5,NUMERIC_NOT_CHECKED
+1C-PR-03,K,mcq,.3,KEY_NOT_CHECKED
+1C-PR-03-E1,E1,mcq,0.1,NUMERIC_NOT_CHECKED
+1C-PR-03-E2,E2,mcq,0.7,NUMERIC_NOT_CHECKED
+1C-PR-03-E3,E3,mcq,0.02,NUMERIC_NOT_CHECKED
+1C-PR-04-E1,E1,mcq,1/3,NUMERIC_NOT_CHECKED
+1C-PR-04-E3,E3,mcq,0.6,NUMERIC_NOT_CHECKED
+1C-PR-04-E4,E4,mcq,0.3,NUMERIC_NOT_CHECKED
+1C-PR-05,K,mcq,"""yes, because P(A ∩ B) = P(A) × P(B) = 0.1""",KEY_NOT_CHECKED
+1C-PR-05-E1,E1,mcq,"""no, because 20 people have both""",TEXT_REVIEW
+1C-PR-05-E2,E2,mcq,"""no, because P(A) ≠ P(B)""",TEXT_REVIEW
+1C-PR-05-E3,E3,mcq,"""yes, because P(A) + P(B) < 1""",TEXT_REVIEW
+TS-AG-01-E2,E2,open,60 instead of 10,TEXT_REVIEW
+TS-AG-01-E3,E3,mcq,125,NUMERIC_NOT_CHECKED
+TS-AG-01-E4,E4,mcq,15,NUMERIC_NOT_CHECKED
+TS-AG-02-E1,E1,open,"""= C(n + 1 ; k)""",TEXT_REVIEW
+TS-AG-02-E3,E3,open,identity checked on one example only,TEXT_REVIEW
+TS-AG-02-E4,E4,mcq,12,NUMERIC_NOT_CHECKED
+TS-AG-03,K,mcq,"(1+t,2t,3t)",KEY_NOT_CHECKED
+TS-AG-03-E1,E1,mcq,plane x + 2y + 3z − 1 = 0,TEXT_REVIEW
+TS-AG-03-E2,E2,mcq,(1 + t ; 2s ; 3u),NUMERIC_NOT_CHECKED
+TS-AG-03-E3,E3,open,"t = 1 found, point not computed",TEXT_REVIEW
+TS-AG-03-E4,E4,mcq,(1 + t ; 2 ; 3),NUMERIC_NOT_CHECKED
+TS-AG-04-E1,E1,mcq,2x + y + z − 3 = 0,TEXT_REVIEW
+TS-AG-04-E2,E2,mcq,x − 2y + 3z + 3 = 0,TEXT_REVIEW
+TS-AG-04-E3,E3,open,line and plane declared parallel without checking u⃗·n⃗ = 0,TEXT_REVIEW
+TS-AG-04-E4,E4,mcq,x − 2y + 3z = 0,TEXT_REVIEW
+TS-AG-11,K,mcq,"""non-coplanar, because the directions are not collinear and the system has no solution""",KEY_NOT_CHECKED
+TS-AG-11-E1,E1,mcq,"""secant, because the directions are not collinear""",TEXT_REVIEW
+TS-AG-11-E2,E2,mcq,"""secant at (1.5 ; 1 ; 3)""",TEXT_REVIEW
+TS-AG-11-E3,E3,mcq,"""non-coplanar, because they do not meet""",TEXT_REVIEW
+TS-AG-17-E2,E2,mcq,"""no intersection point""",TEXT_REVIEW
+TS-AG-18,K,mcq,"""yes, because u⃗ is collinear to the normal vector n⃗(4 ; −2 ; 2)""",KEY_NOT_CHECKED
+TS-AG-18-E1,E1,mcq,"""no, because u⃗ · n⃗ ≠ 0""",TEXT_REVIEW
+TS-AG-18-E2,E2,mcq,"""yes, because u⃗ is orthogonal to one vector of P""",TEXT_REVIEW
+TS-AG-18-E3,E3,mcq,"""no, because the coordinates of u⃗ and n⃗ differ""",TEXT_REVIEW
+TS-AN-01,K,mcq,0,KEY_NOT_CHECKED
+TS-AN-01-E1,E1,mcq,"""no base case needed""",TEXT_REVIEW
+TS-AN-01-E2,E2,open,"heredity starts from ""P(n + 1) is true""",TEXT_REVIEW
+TS-AN-01-E3,E3,open,n(n + 1)/2 + (n + 1) written (n² + 2n + 1)/2,TEXT_REVIEW
+TS-AN-01-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+TS-AN-02-E1,E1,mcq,1,NUMERIC_NOT_CHECKED
+TS-AN-02-E2,E2,mcq,−1/3,NUMERIC_NOT_CHECKED
+TS-AN-02-E3,E3,mcq,−3/2,NUMERIC_NOT_CHECKED
+TS-AN-02-E4,E4,mcq,+∞,INFINITY_NOT_CHECKED
+TS-AN-03,K,mcq,1/x for x>0,KEY_NOT_CHECKED
+TS-AN-03-E1,E1,mcq,"""1/x for every x ≠ 0""",TEXT_REVIEW
+TS-AN-03-E2,E2,open,"""decreasing on ]1 ; +∞[""",TEXT_REVIEW
+TS-AN-03-E3,E3,open,"""maximum at 1""",TEXT_REVIEW
+TS-AN-03-E4,E4,mcq,x ln x − x,NUMERIC_NOT_CHECKED
+TS-AN-05,K,mcq,3e^(2x),KEY_NOT_CHECKED
+TS-AN-05-E1,E1,open,y = 0,NUMERIC_NOT_CHECKED
+TS-AN-05-E2,E2,mcq,3e⁻²ˣ,NUMERIC_NOT_CHECKED
+TS-AN-05-E3,E3,mcq,Ce²ˣ,NUMERIC_NOT_CHECKED
+TS-AN-05-E4,E4,mcq,e²ˣ + 3,NUMERIC_NOT_CHECKED
+TS-AN-18,K,mcq,"""2, because 2 − 1/n ≤ uₙ ≤ 2 + 1/n""",KEY_NOT_CHECKED
+TS-AN-18-E1,E1,mcq,"""no limit, because cos n has no limit""",TEXT_REVIEW
+TS-AN-18-E2,E2,mcq,"""2, because cos(n)/n = cos(∞)/∞ = 0""",TEXT_REVIEW
+TS-AN-18-E3,E3,mcq,"""between 1 and 3, because −1 ≤ cos n ≤ 1""",TEXT_REVIEW
+TS-AN-20,K,mcq,"""(uₙ) converges to a limit ℓ ≤ 3""",KEY_NOT_CHECKED
+TS-AN-20-E1,E1,mcq,"""(uₙ) converges to 3""",TEXT_REVIEW
+TS-AN-20-E2,E2,mcq,"""(uₙ) tends to +∞""",TEXT_REVIEW
+TS-AN-20-E3,E3,mcq,"""nothing can be said about convergence""",TEXT_REVIEW
+TS-AN-21,K,mcq,"""0 ≤ uₙ ≤ 2 ⇒ 2 ≤ 2 + uₙ ≤ 4 ⇒ √2 ≤ u(n+1) ≤ 2""",KEY_NOT_CHECKED
+TS-AN-21-E1,E1,mcq,"""assume 0 ≤ u(n+1) ≤ 2""",TEXT_REVIEW
+TS-AN-21-E2,E2,mcq,"""u₁ = √3 ≤ 2""",TEXT_REVIEW
+TS-AN-21-E3,E3,mcq,"""u(n+1) = √2 + √uₙ ≤ 2√2""",TEXT_REVIEW
+TS-AN-23-E3,E3,mcq,"""no limit""",TEXT_REVIEW
+TS-AN-24-E3,E3,mcq,"""no limit""",TEXT_REVIEW
+TS-AN-28,K,mcq,"""ln x ≤ x − 1 for every x > 0""",KEY_NOT_CHECKED
+TS-AN-28-E1,E1,mcq,"""ln x ≥ x − 1 for every x > 0""",TEXT_REVIEW
+TS-AN-28-E2,E2,mcq,"""ln x ≤ x − 1 only for x close to 1""",TEXT_REVIEW
+TS-AN-28-E3,E3,mcq,"""ln x < x − 1 for every x > 0""",TEXT_REVIEW
+TS-AN-30,K,mcq,"""exactly one, by the IVT and strict monotonicity""",KEY_NOT_CHECKED
+TS-AN-30-E1,E1,mcq,"""at least one, by the IVT""",TEXT_REVIEW
+TS-AN-30-E2,E2,mcq,"""none, because f(0) and f(3) are not zero""",TEXT_REVIEW
+TS-AN-30-E3,E3,mcq,"""exactly one, because f(0) < 1 < f(3)""",TEXT_REVIEW
+TS-AN-33-E1,E1,mcq,"""]−∞ ; 1[""",TEXT_REVIEW
+TS-AN-33-E2,E2,mcq,"""]−∞ ; 1/2[""",TEXT_REVIEW
+TS-AN-33-E3,E3,mcq,"""]1 ; +∞[""",TEXT_REVIEW
+TS-AN-06,K,mcq,n ≥ 101,KEY_NOT_CHECKED
+TS-AN-06-E1,E1,mcq,n ≤ 100,TEXT_REVIEW
+TS-AN-06-E2,E2,mcq,n ≥ 100,TEXT_REVIEW
+TS-AN-06-E3,E3,mcq,only n = 101,TEXT_REVIEW
+TS-AN-07,K,mcq,\|uₙ − ℓ\| < r,KEY_NOT_CHECKED
+TS-AN-07-E1,E1,mcq,uₙ − ℓ < r,TEXT_REVIEW
+TS-AN-07-E2,E2,open,"""r = 0.1"" kept as the definition",TEXT_REVIEW
+TS-AN-07-E3,E3,mcq,\|uₙ\| − \|ℓ\| < r,TEXT_REVIEW
+TS-AN-07-E4,E4,mcq,"""|uₙ − ℓ| ≤ r""",TEXT_REVIEW
+TS-AN-08,K,mcq,A,KEY_NOT_CHECKED
+TS-AN-08-E1,E1,mcq,B,NUMERIC_NOT_CHECKED
+TS-AN-08-E2,E2,mcq,C,NUMERIC_NOT_CHECKED
+TS-AN-08-E3,E3,open,N = 101 for ε = 10⁻²,TEXT_REVIEW
+TS-AN-08-E4,E4,mcq,D,NUMERIC_NOT_CHECKED
+TS-AN-09-E1,E1,open,proof written for A = 100 only,TEXT_REVIEW
+TS-AN-09-E2,E2,open,"""N = n + 1""",TEXT_REVIEW
+TS-AN-09-E3,E3,mcq,1000,NUMERIC_NOT_CHECKED
+TS-AN-09-E4,E4,mcq,1 000 000,NUMERIC_NOT_CHECKED
+TS-AN-10,K,mcq,uₙ → +∞,KEY_NOT_CHECKED
+TS-AN-10-E1,E1,mcq,"""nothing can be concluded unless uₙ ≤ vₙ""",TEXT_REVIEW
+TS-AN-10-E2,E2,open,N chosen before A,TEXT_REVIEW
+TS-AN-10-E3,E3,open,"""lim uₙ ≥ lim vₙ = +∞"" (limit assumed to exist)",TEXT_REVIEW
+TS-AN-10-E4,E4,mcq,"""(uₙ) converges""",TEXT_REVIEW
+TS-AN-10-E5,E5,mcq,"""uₙ → +∞ only if (uₙ) is increasing""",TEXT_REVIEW
+TS-AN-11,K,mcq,for every M there is n with uₙ > M,KEY_NOT_CHECKED
+TS-AN-11-E1,E1,mcq,"for every M, uₙ > M for every n",TEXT_REVIEW
+TS-AN-11-E2,E2,open,"u_N > A obtained, then ""so uₙ > A"" without using monotonicity",TEXT_REVIEW
+TS-AN-11-E3,E3,open,"""increasing, so it tends to +∞""",TEXT_REVIEW
+TS-AN-11-E4,E4,mcq,there is M with uₙ > M for every n,TEXT_REVIEW
+TS-AN-11-E5,E5,mcq,for every M there is n with uₙ < M,TEXT_REVIEW
+TS-AN-12,K,mcq,∃ε>0 ∀N ∃n≥N \|uₙ − ℓ\| ≥ ε,KEY_NOT_CHECKED
+TS-AN-12-E1,E1,mcq,∀ε>0 ∃N ∀n≥N \|uₙ − ℓ\| ≥ ε,TEXT_REVIEW
+TS-AN-12-E2,E2,mcq,∃ε>0 ∃N ∀n≥N \|uₙ − ℓ\| ≥ ε,TEXT_REVIEW
+TS-AN-12-E3,E3,open,proof for ℓ = 0 only,TEXT_REVIEW
+TS-AN-12-E4,E4,mcq,"""∃ε>0 ∀N ∃n≥N |uₙ − ℓ| > ε""",TEXT_REVIEW
+TS-AN-13,K,mcq,6 + h,KEY_NOT_CHECKED
+TS-AN-13-E1,E1,mcq,0/0,NUMERIC_NOT_CHECKED
+TS-AN-13-E2,E2,open,1/(a + h) − 1/a = 1/h,TEXT_REVIEW
+TS-AN-13-E3,E3,mcq,1 ((f(3) + h − f(3))/h),NUMERIC_NOT_CHECKED
+TS-AN-13-E4,E4,mcq,6,NUMERIC_NOT_CHECKED
+TS-AN-13-E5,E5,mcq,h,NUMERIC_NOT_CHECKED
+TS-AN-14-E1,E1,open,1.1105,NUMERIC_NOT_CHECKED
+TS-AN-14-E3,E3,mcq,"""under-estimate""",TEXT_REVIEW
+TS-AN-14-E3,E3,open,"""e^0.1 ≤ 1.1""",TEXT_REVIEW
+TS-AN-14-E4,E4,mcq,2.1,NUMERIC_NOT_CHECKED
+TS-AN-14-E5,E5,mcq,2.05,NUMERIC_NOT_CHECKED
+TS-AN-15-E3,E3,open,Sₙ ≤ ∫₀¹ x² dx ≤ sₙ,TEXT_REVIEW
+TS-AN-15-E4,E4,mcq,1/3,NUMERIC_NOT_CHECKED
+TS-AN-16-E1,E1,mcq,0,NUMERIC_NOT_CHECKED
+TS-AN-16-E2,E2,mcq,"""no limit (0/0)""",TEXT_REVIEW
+TS-AN-16-E3,E3,mcq,+∞,INFINITY_NOT_CHECKED
+TS-AN-17,K,mcq,0.01,KEY_NOT_CHECKED
+TS-AN-17-E1,E1,mcq,0.09,NUMERIC_NOT_CHECKED
+TS-AN-17-E2,E2,open,δ = \|x − 2\|/3,TEXT_REVIEW
+TS-AN-17-E3,E3,open,proof for ε = 0.03 only,TEXT_REVIEW
+TS-AN-17-E4,E4,mcq,0.03,NUMERIC_NOT_CHECKED
+TS-PR-01-E1,E1,mcq,1.2,NUMERIC_NOT_CHECKED
+TS-PR-01-E3,E3,mcq,0.3,NUMERIC_NOT_CHECKED
+TS-PR-02-E2,E2,mcq,3,NUMERIC_NOT_CHECKED
+TS-PR-02-E3,E3,mcq,√2.1 ≈ 1.45,NUMERIC_NOT_CHECKED
+TS-PR-03,K,mcq,5,KEY_NOT_CHECKED
+TS-PR-03-E1,E1,mcq,√2 + √3 ≈ 3.15,NUMERIC_NOT_CHECKED
+TS-PR-03-E2,E2,open,7,NUMERIC_NOT_CHECKED
+TS-PR-03-E3,E3,open,V(X + X) = 4,TEXT_REVIEW
+TS-PR-03-E4,E4,mcq,6,NUMERIC_NOT_CHECKED
+TS-PR-03-E5,E5,mcq,√5,NUMERIC_NOT_CHECKED
+TS-PR-04-E1,E1,mcq,"""≥ 1/4""",TEXT_REVIEW
+TS-PR-04-E2,E2,open,σ²/δ² = 16,TEXT_REVIEW
+TS-PR-04-E3,E3,open,"""P = 1/4""",TEXT_REVIEW
+TS-PR-04-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+TS-PR-04-E5,E5,mcq,1/2,NUMERIC_NOT_CHECKED
+TS-PR-10,K,mcq,"""P(heads) = 1/2, because the tosses are independent""",KEY_NOT_CHECKED
+TS-PR-10-E1,E1,mcq,"""tails is more likely, to balance the frequency""",TEXT_REVIEW
+TS-PR-10-E2,E2,mcq,"""heads is more likely, because the coin is on a streak""",TEXT_REVIEW
+TS-PR-10-E3,E3,mcq,"""P(tails) = 1/2, because the frequency must return to 1/2 within a few tosses""",TEXT_REVIEW
+TS-AP-01,K,mcq,3,KEY_NOT_CHECKED
+TS-AP-01-E1,E1,mcq,6,NUMERIC_NOT_CHECKED
+TS-AP-01-E2,E2,mcq,2,NUMERIC_NOT_CHECKED
+TS-AP-01-E3,E3,mcq,0,NUMERIC_NOT_CHECKED
+TS-AP-02,K,mcq,1.5,KEY_NOT_CHECKED
+TS-AP-02-E1,E1,open,[1.5 ; 2] kept,TEXT_REVIEW
+TS-AP-02-E2,E2,open,stops after one step,TEXT_REVIEW
+TS-AP-02-E3,E3,mcq,"""√2 = 1.5""",TEXT_REVIEW
+TS-AP-02-E4,E4,mcq,1.25,NUMERIC_NOT_CHECKED
+TS-AP-02-E5,E5,mcq,0.5,NUMERIC_NOT_CHECKED
+TS-AP-03-E3,E3,mcq,2,NUMERIC_NOT_CHECKED
+TS-AP-04,K,mcq,0.52,KEY_NOT_CHECKED
+TS-AP-04-E1,E1,open,"""p = 0.52""",TEXT_REVIEW
+TS-AP-04-E2,E2,open,seed reset inside the loop,TEXT_REVIEW
+TS-AP-04-E3,E3,open,no mention of sampling fluctuation,TEXT_REVIEW
+TS-AP-04-E4,E4,mcq,52,NUMERIC_NOT_CHECKED
+TS-AP-04-E5,E5,mcq,0.5,NUMERIC_NOT_CHECKED
+TS-AP-05-E1,E1,mcq,"""[1, 3, 7, 15]""",TEXT_REVIEW
+TS-AP-05-E2,E2,mcq,"""[1, 3, 3, 3, 3]""",TEXT_REVIEW
+TS-AP-05-E3,E3,mcq,"""[31]""",TEXT_REVIEW
+TS-LO-01,K,mcq,∃x f(x)≤0,KEY_NOT_CHECKED
+TS-LO-01-E1,E1,mcq,∀x f(x) ≤ 0,TEXT_REVIEW
+TS-LO-01-E2,E2,mcq,∃x f(x) < 0,TEXT_REVIEW
+TS-LO-01-E3,E3,mcq,"""f(x) ≤ 0""",TEXT_REVIEW
+TS-LO-02,K,mcq,P(1),KEY_NOT_CHECKED
+TS-LO-02-E1,E1,mcq,P(n + 1),NUMERIC_NOT_CHECKED
+TS-LO-02-E2,E2,mcq,"""nothing: the heredity step is enough""",TEXT_REVIEW
+TS-LO-02-E3,E3,mcq,"P(1), P(2) and P(3)",TEXT_REVIEW
+TS-LO-03,K,mcq,¬Q⇒¬P,KEY_NOT_CHECKED
+TS-LO-03-E1,E1,open,"""√2 is irrational, so p/q …"" used in the proof",TEXT_REVIEW
+TS-LO-03-E2,E2,open,"""p² = 2q², so p = 2q""",TEXT_REVIEW
+TS-LO-03-E3,E3,open,"p and q both even, no contradiction stated",TEXT_REVIEW
+TS-LO-03-E4,E4,mcq,Q ⇒ P,TEXT_REVIEW
+TS-LO-03-E5,E5,mcq,¬P ⇒ ¬Q,TEXT_REVIEW
+TS-LO-03-E6,E6,mcq,"""P ∧ ¬Q""",TEXT_REVIEW
+TS-LO-04,K,mcq,"Yes: if x = 2 then x² = 4 (sufficient), although it is not necessary",KEY_NOT_CHECKED
+TS-LO-04-E1,E1,mcq,"""No: x = −2 also works, so x = 2 is not sufficient""",TEXT_REVIEW
+TS-LO-04-E2,E2,open,"""x² = 4 ⇔ x = 2""",TEXT_REVIEW
+TS-LO-04-E3,E3,mcq,"""Yes: 2² = 4 and 3² ≠ 4, so the equivalence holds""",TEXT_REVIEW
+TS-LO-04-E4,E4,mcq,"""Yes, because x² = 4 implies x = 2""",TEXT_REVIEW
+TS-LO-05,K,mcq,"""do not study German or do not study Latin""",KEY_NOT_CHECKED
+TS-LO-05-E1,E1,mcq,"""study neither German nor Latin""",TEXT_REVIEW
+TS-LO-05-E2,E2,mcq,"""do not study German""",TEXT_REVIEW
+TS-LO-05-E3,E3,mcq,"""study German or Latin""",TEXT_REVIEW
+TE-CX-01,K,mcq,√2,KEY_NOT_CHECKED
+TE-CX-01-E1,E1,mcq,on −1 + i: −π/4,TEXT_REVIEW
+TE-CX-01-E2,E2,mcq,2,NUMERIC_NOT_CHECKED
+TE-CX-01-E3,E3,open,"""arg = π/4"" only, no 2kπ",TEXT_REVIEW
+TE-CX-01-E4,E4,mcq,π/4,NUMERIC_NOT_CHECKED
+TE-CX-01-E5,E5,mcq,1,NUMERIC_NOT_CHECKED
+TE-CX-02,K,mcq,cos2θ+i sin2θ,KEY_NOT_CHECKED
+TE-CX-02-E1,E1,open,−4√2,NUMERIC_NOT_CHECKED
+TE-CX-02-E2,E2,open,4e^(iπ/4),NUMERIC_NOT_CHECKED
+TE-CX-02-E3,E3,open,argument raised to the power 4,TEXT_REVIEW
+TE-CX-02-E4,E4,mcq,cos²θ + i sin²θ,NUMERIC_NOT_CHECKED
+TE-CX-02-E5,E5,mcq,2cos θ + 2i sin θ,NUMERIC_NOT_CHECKED
+TE-CX-02-E6,E6,mcq,cos(2θ),NUMERIC_NOT_CHECKED
+TE-CX-03,K,mcq,"1,e^(2πi/3),e^(4πi/3)",KEY_NOT_CHECKED
+TE-CX-03-E1,E1,mcq,1 only,TEXT_REVIEW
+TE-CX-03-E2,E2,mcq,±1,NUMERIC_NOT_CHECKED
+TE-CX-03-E3,E3,mcq,"1, e^(iπ/3), e^(2iπ/3)",TEXT_REVIEW
+TE-CX-04,K,mcq,AB,KEY_NOT_CHECKED
+TE-CX-04-E1,E1,open,modulus used for an angle condition,TEXT_REVIEW
+TE-CX-04-E2,E2,open,a = b not excluded before dividing,TEXT_REVIEW
+TE-CX-04-E3,E3,open,"""purely imaginary ⇒ aligned""",TEXT_REVIEW
+TE-CX-04-E4,E4,mcq,OB − OA,NUMERIC_NOT_CHECKED
+TE-CX-04-E5,E5,mcq,"""the angle (u⃗ ; AB⃗)""",TEXT_REVIEW
+TE-CX-04-E6,E6,mcq,"""AB²""",TEXT_REVIEW
+TE-AR-01,K,mcq,12,KEY_NOT_CHECKED
+TE-AR-01-E1,E1,open,84 = 36 × 3 − 24,TEXT_REVIEW
+TE-AR-01-E2,E2,mcq,36,NUMERIC_NOT_CHECKED
+TE-AR-01-E3,E3,open,"gcd found, Bézout coefficients not derived",TEXT_REVIEW
+TE-AR-01-E4,E4,mcq,252,NUMERIC_NOT_CHECKED
+TE-AR-01-E5,E5,mcq,6,NUMERIC_NOT_CHECKED
+TE-AR-02,K,mcq,x≡5,KEY_NOT_CHECKED
+TE-AR-02-E1,E1,open,"""2x ≡ 1 (mod 6): no solution"" (divided by 2, modulus kept)",TEXT_REVIEW
+TE-AR-02-E2,E2,open,x ≡ 2 (mod 6) only,TEXT_REVIEW
+TE-AR-02-E3,E3,mcq,x = 1/3,NUMERIC_NOT_CHECKED
+TE-AR-02-E4,E4,mcq,x ≡ 2,NUMERIC_NOT_CHECKED
+TE-AR-02-E5,E5,mcq,x ≡ 4,NUMERIC_NOT_CHECKED
+TE-AR-03-E1,E1,open,"Fermat used for a = 22, p = 11",TEXT_REVIEW
+TE-AR-03-E2,E2,open,"""p \| ab ⇒ p \| a and p \| b""",TEXT_REVIEW
+TE-AR-03-E3,E3,open,Fermat used modulo 9 or 15,TEXT_REVIEW
+TE-AR-03-E4,E4,mcq,1024,NUMERIC_NOT_CHECKED
+TE-AR-03-E5,E5,mcq,2,NUMERIC_NOT_CHECKED
+TE-AR-04-E1,E1,mcq,8,NUMERIC_NOT_CHECKED
+TE-AR-04-E2,E2,open,residue 0 forgotten or written 11,TEXT_REVIEW
+TE-AR-04-E3,E3,open,"""a plain digit sum also detects swaps""",TEXT_REVIEW
+TE-AR-04-E4,E4,mcq,7,NUMERIC_NOT_CHECKED
+TE-AR-04-E5,E5,mcq,9,NUMERIC_NOT_CHECKED
+TE-AR-08,K,mcq,"""if 5 divides 3n, then 5 divides n""",KEY_NOT_CHECKED
+TE-AR-08-E1,E1,mcq,"""if 6 divides 4n, then 6 divides n""",TEXT_REVIEW
+TE-AR-08-E2,E2,mcq,"""if 4 divides n², then 4 divides n""",TEXT_REVIEW
+TE-AR-08-E3,E3,mcq,"""if 3 divides n + 2, then 3 divides n""",TEXT_REVIEW
+TE-GM-01,K,mcq,"[[1,2],[0,1]]",KEY_NOT_CHECKED
+TE-GM-01-E1,E1,mcq,"[[1, 1], [0, 1]]",TEXT_REVIEW
+TE-GM-01-E2,E2,open,inverse taken entry by entry,TEXT_REVIEW
+TE-GM-01-E3,E3,open,BA computed for AB,TEXT_REVIEW
+TE-GM-01-E4,E4,mcq,"[[2, 1], [1, 1]]",TEXT_REVIEW
+TE-GM-01-E5,E5,mcq,"[[2, 2], [0, 2]]",TEXT_REVIEW
+TE-GM-02,K,mcq,2,KEY_NOT_CHECKED
+TE-GM-02-E1,E1,open,(A²)₃₁ read for walks from 1 to 3,TEXT_REVIEW
+TE-GM-02-E2,E2,mcq,0,NUMERIC_NOT_CHECKED
+TE-GM-02-E3,E3,open,directed graph treated as undirected,TEXT_REVIEW
+TE-GM-02-E4,E4,mcq,4,NUMERIC_NOT_CHECKED
+TE-GM-02-E5,E5,mcq,1,NUMERIC_NOT_CHECKED
+TE-GM-03,K,mcq,(0.55 ; 0.45),KEY_NOT_CHECKED
+TE-GM-03-E1,E1,mcq,(0.5 ; 0.5) (Pπ₀ᵀ),TEXT_REVIEW
+TE-GM-03-E2,E2,open,transition 1 → 2 read as 0.3,TEXT_REVIEW
+TE-GM-03-E3,E3,mcq,(0.55 ; 0.55) (sum not checked),NUMERIC_NOT_CHECKED
+TE-GM-03-E4,E4,mcq,(1.1 ; 0.9),NUMERIC_NOT_CHECKED
+TE-GM-04,K,mcq,πP=π,KEY_NOT_CHECKED
+TE-GM-04-E1,E1,mcq,Pπ = π,TEXT_REVIEW
+TE-GM-04-E2,E2,open,(3 ; 2) not normalised,TEXT_REVIEW
+TE-GM-04-E3,E3,open,"""π is the limit for every chain""",TEXT_REVIEW
+TE-GM-04-E4,E4,mcq,πP = 0,TEXT_REVIEW
+TE-GM-04-E5,E5,mcq,"""πP = I""",TEXT_REVIEW
+TE-GM-07-E1,E1,mcq,"""[[3, 4], [1, 2]]""",TEXT_REVIEW
+TE-GM-07-E2,E2,mcq,"""[[0, 2], [3, 0]]""",TEXT_REVIEW
+TE-GM-07-E3,E3,mcq,"""[[3, 1], [4, 2]]""",TEXT_REVIEW
+TE-GM-08-E1,E1,mcq,"""[[2, −1], [−5, 3]]""",TEXT_REVIEW
+TE-GM-08-E2,E2,mcq,"""[[−2, −1], [−5, −3]]""",TEXT_REVIEW
+TE-GM-08-E3,E3,mcq,"""[[1/2, 1], [1/5, 1/3]]""",TEXT_REVIEW
+TE-GM-11-E1,E1,mcq,"""[[0.7, 0.4], [0.3, 0.6]]""",TEXT_REVIEW
+TE-GM-11-E2,E2,mcq,"""[[0.3, 0.7], [0.6, 0.4]]""",TEXT_REVIEW
+TE-GM-11-E3,E3,mcq,"""[[0.4, 0.6], [0.7, 0.3]]""",TEXT_REVIEW
+TC-SE-01,K,mcq,1000×1.03^n,KEY_NOT_CHECKED
+TC-SE-01-E1,E1,mcq,1 000 + 30n,NUMERIC_NOT_CHECKED
+TC-SE-01-E2,E2,mcq,1 000 × 1.03ⁿ⁻¹,NUMERIC_NOT_CHECKED
+TC-SE-01-E3,E3,mcq,1.03ⁿ,NUMERIC_NOT_CHECKED
+TC-SE-01-E4,E4,mcq,1 000 × 0.03ⁿ,NUMERIC_NOT_CHECKED
+TC-SE-02,K,mcq,10,KEY_NOT_CHECKED
+TC-SE-02-E1,E1,mcq,11,NUMERIC_NOT_CHECKED
+TC-SE-02-E2,E2,open,"""0.8ⁿ → +∞""",TEXT_REVIEW
+TC-SE-02-E3,E3,open,"""uₙ = 100 for n large enough""",TEXT_REVIEW
+TC-SE-02-E4,E4,mcq,+∞,INFINITY_NOT_CHECKED
+TC-SE-02-E5,E5,mcq,0,NUMERIC_NOT_CHECKED
+TC-SE-03,K,mcq,u(n+1)=(1+r)u_n−a,KEY_NOT_CHECKED
+TC-SE-03-E1,E1,mcq,(1 + r)(uₙ − a),NUMERIC_NOT_CHECKED
+TC-SE-03-E2,E2,open,r = 0.5 used for 0.5 %,TEXT_REVIEW
+TC-SE-03-E3,E3,mcq,(1 + r)uₙ + a,NUMERIC_NOT_CHECKED
+TC-SE-03-E4,E4,mcq,"""u(n+1) = r uₙ − a""",TEXT_REVIEW
+TC-SE-04,K,mcq,resources limited,KEY_NOT_CHECKED
+TC-SE-04-E1,E1,mcq,"""it can continue for ever""",TEXT_REVIEW
+TC-SE-04-E2,E2,open,decreasing model allowed to go below 0,TEXT_REVIEW
+TC-SE-04-E3,E3,mcq,"""the growth rate is a constant of nature""",TEXT_REVIEW
+TC-SE-04-E4,E4,mcq,"""because the values become negative""",TEXT_REVIEW
+TC-FN-01,K,mcq,2q,KEY_NOT_CHECKED
+TC-FN-01-E1,E1,mcq,q² + 5,NUMERIC_NOT_CHECKED
+TC-FN-01-E2,E2,open,"""R increasing for q > 10""",TEXT_REVIEW
+TC-FN-01-E3,E3,open,negative quantities kept,TEXT_REVIEW
+TC-FN-01-E4,E4,mcq,2q + 5,NUMERIC_NOT_CHECKED
+TC-FN-01-E5,E5,mcq,q³/3 + 5q,NUMERIC_NOT_CHECKED
+TC-FN-02,K,mcq,increasing,KEY_NOT_CHECKED
+TC-FN-02-E1,E1,mcq,"""C is increasing""",TEXT_REVIEW
+TC-FN-02-E2,E2,open,"""C″ > 0, so C′ > 0""",TEXT_REVIEW
+TC-FN-02-E3,E3,open,C′ given without unit,TEXT_REVIEW
+TC-FN-02-E4,E4,mcq,"""C′ is positive""",TEXT_REVIEW
+TC-FN-02-E5,E5,mcq,"""decreasing""",TEXT_REVIEW
+TC-FN-03,K,mcq,x=ln 4,KEY_NOT_CHECKED
+TC-FN-03-E1,E1,open,t < 5 ln 2,TEXT_REVIEW
+TC-FN-03-E2,E2,mcq,x = e⁴,TEXT_REVIEW
+TC-FN-03-E3,E3,open,rate 0.2 read as 20,TEXT_REVIEW
+TC-FN-03-E4,E4,mcq,x = 4/e,NUMERIC_NOT_CHECKED
+TC-FN-03-E5,E5,mcq,x = 2,NUMERIC_NOT_CHECKED
+TC-FN-04,K,mcq,x=3,KEY_NOT_CHECKED
+TC-FN-04-E1,E1,open,x = 3,NUMERIC_NOT_CHECKED
+TC-FN-04-E2,E2,open,optimum given as a value of B instead of a quantity x,TEXT_REVIEW
+TC-FN-04-E3,E3,mcq,"""minimum at x = 3""",TEXT_REVIEW
+TC-FN-04-E4,E4,mcq,x = 6,NUMERIC_NOT_CHECKED
+TC-FN-04-E5,E5,mcq,x = −3,NUMERIC_NOT_CHECKED
+TC-FN-05-E2,E2,mcq,"""[0.5 ; 1]""",TEXT_REVIEW
+TC-FN-05-E3,E3,mcq,"""[0.75 ; 1]""",TEXT_REVIEW
+TC-FN-11-E1,E1,mcq,"""]−∞ ; 0] ∪ [2 ; +∞[""",TEXT_REVIEW
+TC-FN-11-E2,E2,mcq,"""]−∞ ; 1]""",TEXT_REVIEW
+TC-FN-11-E3,E3,mcq,"""[1/2 ; +∞[""",TEXT_REVIEW
+TC-IN-01,K,mcq,2,KEY_NOT_CHECKED
+TC-IN-01-E1,E1,mcq,0,NUMERIC_NOT_CHECKED
+TC-IN-01-E2,E2,mcq,1,NUMERIC_NOT_CHECKED
+TC-IN-01-E3,E3,open,∫₋₁¹ x dx = 1,TEXT_REVIEW
+TC-IN-01-E4,E4,mcq,4,NUMERIC_NOT_CHECKED
+TC-IN-02,K,mcq,2,KEY_NOT_CHECKED
+TC-IN-02-E1,E1,mcq,1,NUMERIC_NOT_CHECKED
+TC-IN-02-E2,E2,mcq,0 (left endpoint) or 4,TEXT_REVIEW
+TC-IN-02-E3,E3,open,"""the sums are equal to the integral""",TEXT_REVIEW
+TC-IN-03-E1,E1,mcq,26/3,NUMERIC_NOT_CHECKED
+TC-IN-03-E3,E3,mcq,4,NUMERIC_NOT_CHECKED
+TC-IN-04-E1,E1,mcq,1/4,NUMERIC_NOT_CHECKED
+TC-IN-04-E2,E2,mcq,3/4,NUMERIC_NOT_CHECKED
+TC-IN-04-E3,E3,mcq,0,NUMERIC_NOT_CHECKED
+TC-PR-01-E2,E2,open,0.8³ × 0.2 = 0.1024,TEXT_REVIEW
+TC-PR-01-E3,E3,open,probabilities not multiplied,TEXT_REVIEW
+TC-PR-01-E4,E4,mcq,0.008,NUMERIC_NOT_CHECKED
+TC-PR-01-E5,E5,mcq,0.4,NUMERIC_NOT_CHECKED
+TC-PR-02,K,mcq,e^(−λt),KEY_NOT_CHECKED
+TC-PR-02-E1,E1,mcq,1 − e^(−λt),NUMERIC_NOT_CHECKED
+TC-PR-02-E2,E2,mcq,λe^(−λt),NUMERIC_NOT_CHECKED
+TC-PR-02-E3,E3,open,e^(−2.5),NUMERIC_NOT_CHECKED
+TC-PR-03,K,mcq,1,KEY_NOT_CHECKED
+TC-PR-03-E1,E1,mcq,3,NUMERIC_NOT_CHECKED
+TC-PR-03-E2,E2,open,"""exactly 4 defective items in every batch""",TEXT_REVIEW
+TC-PR-03-E3,E3,mcq,0.75,NUMERIC_NOT_CHECKED
+TC-PR-03-E4,E4,mcq,0.25,NUMERIC_NOT_CHECKED
+TC-PR-04,K,mcq,40,KEY_NOT_CHECKED
+TC-PR-04-E1,E1,open,"""the population proportion is 0.4""",TEXT_REVIEW
+TC-PR-04-E2,E2,open,a volunteer sample generalised,TEXT_REVIEW
+TC-PR-04-E3,E3,open,"""a bigger sample changes the proportion""",TEXT_REVIEW
+TC-PR-04-E4,E4,mcq,0.4,NUMERIC_NOT_CHECKED
+TC-PR-04-E5,E5,mcq,4,NUMERIC_NOT_CHECKED
+TC-PR-04-E6,E6,mcq,60,NUMERIC_NOT_CHECKED
+TC-PR-06,K,mcq,"""p, because the geometric law has no memory""",KEY_NOT_CHECKED
+TC-PR-06-E1,E1,mcq,"""greater than p, because a success is due""",TEXT_REVIEW
+TC-PR-06-E2,E2,mcq,"""(1 − p)⁴p, because 4 failures have occurred""",TEXT_REVIEW
+TC-PR-06-E3,E3,mcq,"""1 − (1 − p)⁵, because there are 5 attempts in total""",TEXT_REVIEW
+TC-ST-01,K,mcq,rising linear tendency,KEY_NOT_CHECKED
+TC-ST-01-E1,E1,mcq,"""x causes y""",TEXT_REVIEW
+TC-ST-01-E2,E2,open,the influential point not discussed,TEXT_REVIEW
+TC-ST-01-E3,E3,mcq,"""y increases by r when x increases by 1""",TEXT_REVIEW
+TC-ST-01-E4,E4,mcq,"""all the points lie on a rising line""",TEXT_REVIEW
+TC-ST-02,K,mcq,7,KEY_NOT_CHECKED
+TC-ST-02-E1,E1,mcq,1,NUMERIC_NOT_CHECKED
+TC-ST-02-E2,E2,mcq,5,NUMERIC_NOT_CHECKED
+TC-ST-02-E3,E3,open,slope given without units,TEXT_REVIEW
+TC-ST-03,K,mcq,interpolation,KEY_NOT_CHECKED
+TC-ST-03-E1,E1,open,"""the trend will go on for ten years""",TEXT_REVIEW
+TC-ST-03-E2,E2,open,residuals not examined,TEXT_REVIEW
+TC-ST-03-E3,E3,open,change of context ignored,TEXT_REVIEW
+TC-ST-03-E4,E4,mcq,"""extrapolation""",TEXT_REVIEW
+TC-ST-03-E5,E5,mcq,"""an observed value""",TEXT_REVIEW
+TC-ST-03-E6,E6,mcq,"""a correlation""",TEXT_REVIEW
+TC-ST-04,K,mcq,2,KEY_NOT_CHECKED
+TC-ST-04-E1,E1,mcq,−2,NUMERIC_NOT_CHECKED
+TC-ST-04-E2,E2,open,residual read as a correlation,TEXT_REVIEW
+TC-ST-04-E3,E3,open,pattern of residuals not examined,TEXT_REVIEW
+TC-ST-04-E4,E4,mcq,14,NUMERIC_NOT_CHECKED
+TC-ST-04-E5,E5,mcq,4/3,NUMERIC_NOT_CHECKED
+TC-BA-01-E1,E1,mcq,0.99,NUMERIC_NOT_CHECKED
+TC-BA-01-E2,E2,mcq,1,NUMERIC_NOT_CHECKED
+TC-BA-01-E3,E3,mcq,0.0099,NUMERIC_NOT_CHECKED
+TC-BA-02,K,mcq,100,KEY_NOT_CHECKED
+TC-BA-02-E1,E1,open,99 sick people counted as negative,TEXT_REVIEW
+TC-BA-02-E2,E2,mcq,1,NUMERIC_NOT_CHECKED
+TC-BA-02-E3,E3,open,rounded counts that no longer add up,TEXT_REVIEW
+TC-BA-02-E4,E4,mcq,1 000,NUMERIC_NOT_CHECKED
+TC-BA-02-E5,E5,mcq,9 900,NUMERIC_NOT_CHECKED
+TC-BA-03,K,mcq,10%,KEY_NOT_CHECKED
+TC-BA-03-E1,E1,mcq,90 %,NUMERIC_NOT_CHECKED
+TC-BA-03-E2,E2,open,"""PPV does not depend on the prevalence""",TEXT_REVIEW
+TC-BA-03-E3,E3,mcq,"""the false-negative rate is 10 %""",TEXT_REVIEW
+TC-BA-03-E4,E4,mcq,1 %,NUMERIC_NOT_CHECKED
+TC-BA-04,K,mcq,"True: when the disease is rare, false positives can outnumber true positives",KEY_NOT_CHECKED
+TC-BA-04-E1,E1,mcq,"""True: the test is unreliable""",TEXT_REVIEW
+TC-BA-04-E2,E2,mcq,"""False: PPV is always equal to the sensitivity""",TEXT_REVIEW
+TC-BA-04-E3,E3,mcq,"""False: a positive screening test confirms the disease""",TEXT_REVIEW
+TC-LO-01,K,mcq,"""if it is divisible by 5, it ends in 0: false""",KEY_NOT_CHECKED
+TC-LO-01-E1,E1,mcq,"""if it does not end in 0, it is not divisible by 5: false""",TEXT_REVIEW
+TC-LO-01-E2,E2,mcq,"""if it is not divisible by 5, it does not end in 0: true""",TEXT_REVIEW
+TC-LO-01-E3,E3,mcq,"""if it is divisible by 5, it ends in 0: true""",TEXT_REVIEW
+M1-LO-01,K,mcq,"∃x ∀y, y≤x",KEY_NOT_CHECKED
+M1-LO-01-E1,E1,mcq,"∀x ∃y, y ≤ x",TEXT_REVIEW
+M1-LO-01-E2,E2,mcq,"same production as E1 (∀x ∃y, y ≤ x): code E1",TEXT_REVIEW
+M1-LO-01-E3,E3,mcq,"∀y ∃x, y ≤ x",TEXT_REVIEW
+M1-LO-01-E4,E4,mcq,"∃x ∀y, y > x",TEXT_REVIEW
+M1-LO-02,K,mcq,"No: (−1)² = 1², so two different numbers have the same image",KEY_NOT_CHECKED
+M1-LO-02-E1,E1,open,"""x ↦ x² is a surjection of ℝ onto ℝ"" (image [0 ; +∞[ ignored)",TEXT_REVIEW
+M1-LO-02-E2,E2,mcq,"""No, because −1 has no antecedent"" (non-surjectivity given as the reason)",TEXT_REVIEW
+M1-LO-02-E3,E3,mcq,"""Yes, because it is increasing""",TEXT_REVIEW
+M1-LO-02-E4,E4,mcq,"""Yes: x² = y² implies x = y""",TEXT_REVIEW
+M1-LO-03,K,mcq,equivalence relation,KEY_NOT_CHECKED
+M1-LO-03-E1,E1,mcq,"""an order relation""",TEXT_REVIEW
+M1-LO-03-E2,E2,open,reflexivity not checked,TEXT_REVIEW
+M1-LO-03-E3,E3,open,"transitivity ""checked"" on 0, 0.5, 1",TEXT_REVIEW
+M1-LO-03-E4,E4,mcq,"""not transitive""",TEXT_REVIEW
+M1-LO-03-E5,E5,mcq,"""an equivalence relation with 2 classes""",TEXT_REVIEW
+M1-LO-04,K,mcq,one counterexample,KEY_NOT_CHECKED
+M1-LO-04-E1,E1,open,"""e = e′ because the neutral element is unique""",TEXT_REVIEW
+M1-LO-04-E2,E2,open,"existence of a neutral element recalled, uniqueness not addressed",TEXT_REVIEW
+M1-LO-04-E3,E3,mcq,"""check P on many values"" (examples instead of one counterexample)",TEXT_REVIEW
+M1-LO-04-E4,E4,mcq,"""a proof that ¬P(x) for every x""",TEXT_REVIEW
+M1-LO-04-E5,E5,mcq,"""an x with P(x) true""",TEXT_REVIEW
+M1-LO-05-E1,E1,mcq,"""[1 ; 2]""",TEXT_REVIEW
+M1-LO-05-E2,E2,mcq,"""[1 ; 16]""",TEXT_REVIEW
+M1-LO-05-E3,E3,mcq,"""[1/4 ; 1]""",TEXT_REVIEW
+M1-LO-06,K,mcq,"""f is injective: f(x) = f(y) ⇒ g(f(x)) = g(f(y)) ⇒ x = y""",KEY_NOT_CHECKED
+M1-LO-06-E1,E1,mcq,"""g is injective, because g is applied last""",TEXT_REVIEW
+M1-LO-06-E2,E2,mcq,"""f and g are injective, because their composite is""",TEXT_REVIEW
+M1-LO-06-E3,E3,mcq,"""f is surjective, by analogy with g∘f surjective ⇒ g surjective""",TEXT_REVIEW
+M1-LO-07-E1,E1,mcq,"""n = 0 only""",TEXT_REVIEW
+M1-LO-07-E2,E2,mcq,"""n = 1 and n = 2""",TEXT_REVIEW
+M1-LO-07-E3,E3,mcq,"""n = 2, computed from the recurrence""",TEXT_REVIEW
+M1-CA-01,K,mcq,n(n+1)/2,KEY_NOT_CHECKED
+M1-CA-01-E1,E1,open,n(n + 1)/2,NUMERIC_NOT_CHECKED
+M1-CA-01-E2,E2,mcq,n!,NUMERIC_NOT_CHECKED
+M1-CA-01-E3,E3,mcq,n(n − 1)/2,NUMERIC_NOT_CHECKED
+M1-CA-01-E4,E4,mcq,n²/2,NUMERIC_NOT_CHECKED
+M1-CA-02-E1,E1,mcq,4,NUMERIC_NOT_CHECKED
+M1-CA-02-E2,E2,mcq,12,NUMERIC_NOT_CHECKED
+M1-CA-02-E3,E3,open,Σ_{k=1}^{n} C(n ; k) = 2ⁿ,TEXT_REVIEW
+M1-CA-02-E4,E4,mcq,16,NUMERIC_NOT_CHECKED
+M1-CA-03,K,mcq,6,KEY_NOT_CHECKED
+M1-CA-03-E1,E1,open,n²,NUMERIC_NOT_CHECKED
+M1-CA-03-E2,E2,open,Σ_{j=1}^{n} Σ_{i=1}^{j} written after the interchange,TEXT_REVIEW
+M1-CA-03-E3,E3,mcq,5,NUMERIC_NOT_CHECKED
+M1-CA-03-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+M1-CA-04,K,mcq,1 − 2sin²x,KEY_NOT_CHECKED
+M1-CA-04-E1,E1,mcq,2cos x,NUMERIC_NOT_CHECKED
+M1-CA-04-E2,E2,open,"x = π/6 only, no 2kπ",TEXT_REVIEW
+M1-CA-04-E3,E3,open,5π/6 lost,TEXT_REVIEW
+M1-CA-04-E4,E4,mcq,2sin²x − 1,NUMERIC_NOT_CHECKED
+M1-CA-07-E1,E1,mcq,"""]−∞ ; 4]""",TEXT_REVIEW
+M1-CA-07-E2,E2,mcq,"""]−∞ ; −1] ∪ [4 ; +∞[""",TEXT_REVIEW
+M1-CA-07-E3,E3,mcq,"""[−2 ; 8]""",TEXT_REVIEW
+M1-CX-01,K,mcq,3π/4,KEY_NOT_CHECKED
+M1-CX-01-E1,E1,mcq,−π/4,NUMERIC_NOT_CHECKED
+M1-CX-01-E2,E2,open,2e^(3iπ/4),NUMERIC_NOT_CHECKED
+M1-CX-01-E3,E3,open,"−5π/4 rejected as ""not an argument""",TEXT_REVIEW
+M1-CX-01-E4,E4,mcq,π/4,NUMERIC_NOT_CHECKED
+M1-CX-02,K,mcq,3,KEY_NOT_CHECKED
+M1-CX-02-E1,E1,mcq,1,NUMERIC_NOT_CHECKED
+M1-CX-02-E2,E2,open,2e^(ikπ/4),NUMERIC_NOT_CHECKED
+M1-CX-02-E3,E3,mcq,"""one triple root""",TEXT_REVIEW
+M1-CX-02-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+M1-CX-03,K,mcq,±i,KEY_NOT_CHECKED
+M1-CX-03-E1,E1,mcq,"""no solution""",TEXT_REVIEW
+M1-CX-03-E2,E2,open,z = 0 or z = 2,TEXT_REVIEW
+M1-CX-03-E3,E3,open,z = −1 ± i,NUMERIC_NOT_CHECKED
+M1-CX-03-E4,E4,mcq,i only,TEXT_REVIEW
+M1-CX-03-E5,E5,mcq,"""±1""",TEXT_REVIEW
+M1-CX-04,K,mcq,B,KEY_NOT_CHECKED
+M1-CX-04-E1,E1,open,"""purely imaginary ⇒ aligned""",TEXT_REVIEW
+M1-CX-04-E2,E2,open,b = a not excluded,TEXT_REVIEW
+M1-CX-04-E3,E3,open,angle (AC⃗ ; AB⃗) used for,TEXT_REVIEW
+M1-CX-04-E4,E4,mcq,BA⃗,TEXT_REVIEW
+M1-CX-04-E5,E5,mcq,"""the distance AB""",TEXT_REVIEW
+M1-CX-04-E6,E6,mcq,"""the midpoint of [AB]""",TEXT_REVIEW
+M1-CX-07-E1,E1,mcq,"""iπ only""",TEXT_REVIEW
+M1-CX-07-E2,E2,mcq,"""π + 2kπ, k ∈ ℤ""",TEXT_REVIEW
+M1-CX-07-E3,E3,mcq,"""no solution, because eˣ > 0""",TEXT_REVIEW
+M1-TA-01,K,mcq,ln x+C,KEY_NOT_CHECKED
+M1-TA-01-E1,E1,mcq,ln x,NUMERIC_NOT_CHECKED
+M1-TA-01-E2,E2,open,x² e^(x²),NUMERIC_NOT_CHECKED
+M1-TA-01-E3,E3,mcq,"""ln\|x\| + C on ℝ""",TEXT_REVIEW
+M1-TA-01-E4,E4,mcq,−1/x² + C,NUMERIC_NOT_CHECKED
+M1-TA-02,K,mcq,e^(2x),KEY_NOT_CHECKED
+M1-TA-02-E1,E1,open,y = 0,NUMERIC_NOT_CHECKED
+M1-TA-02-E2,E2,mcq,e⁻²ˣ,NUMERIC_NOT_CHECKED
+M1-TA-02-E3,E3,mcq,Ce²ˣ,NUMERIC_NOT_CHECKED
+M1-TA-02-E4,E4,mcq,2eˣ,NUMERIC_NOT_CHECKED
+M1-TA-03,K,mcq,A cos x+B sin x,KEY_NOT_CHECKED
+M1-TA-03-E1,E1,mcq,Aeˣ + Be⁻ˣ,NUMERIC_NOT_CHECKED
+M1-TA-03-E2,E2,mcq,A cos x,NUMERIC_NOT_CHECKED
+M1-TA-03-E3,E3,open,y′(0) = 0 written A + B = 0,TEXT_REVIEW
+M1-TA-03-E4,E4,mcq,Ae^(ix),NUMERIC_NOT_CHECKED
+M1-TA-04,K,mcq,3e^(3x),KEY_NOT_CHECKED
+M1-TA-04-E1,E1,mcq,e³ˣ,NUMERIC_NOT_CHECKED
+M1-TA-04-E2,E2,open,domain ℝ,TEXT_REVIEW
+M1-TA-04-E3,E3,mcq,ln(3x),NUMERIC_NOT_CHECKED
+M1-TA-04-E4,E4,mcq,3x e³ˣ⁻¹,NUMERIC_NOT_CHECKED
+M1-SU-01,K,mcq,"1, not attained",KEY_NOT_CHECKED
+M1-SU-01-E1,E1,mcq,"""max = 1""",TEXT_REVIEW
+M1-SU-01-E2,E2,open,"approximation property shown, upper bound not",TEXT_REVIEW
+M1-SU-01-E3,E3,open,set written from n = 0,TEXT_REVIEW
+M1-SU-01-E4,E4,mcq,"""no supremum""",TEXT_REVIEW
+M1-SU-01-E5,E5,mcq,"""0.99…, the largest element""",TEXT_REVIEW
+M1-SU-02,K,mcq,N = 1001,KEY_NOT_CHECKED
+M1-SU-02-E1,E1,mcq,"""N = n + 1""",TEXT_REVIEW
+M1-SU-02-E2,E2,open,"N chosen first, ε afterwards",TEXT_REVIEW
+M1-SU-02-E3,E3,open,"values of 1/n listed for n = 10, 100, 1000",TEXT_REVIEW
+M1-SU-02-E4,E4,mcq,N = 1000,NUMERIC_NOT_CHECKED
+M1-SU-02-E5,E5,mcq,"""N = 0.001""",TEXT_REVIEW
+M1-SU-03,K,mcq,convergent,KEY_NOT_CHECKED
+M1-SU-03-E1,E1,open,"""uₙ ≤ 2"" stated without proof",TEXT_REVIEW
+M1-SU-03-E2,E2,open,"""ℓ = √(2 + ℓ) gives ℓ = 2, so uₙ → 2"" (convergence not proved)",TEXT_REVIEW
+M1-SU-03-E3,E3,open,convergence inferred from u₀ … u₄,TEXT_REVIEW
+M1-SU-03-E4,E4,mcq,"""converges to its upper bound M""",TEXT_REVIEW
+M1-SU-03-E5,E5,mcq,"""(uₙ) tends to +∞""",TEXT_REVIEW
+M1-SU-03-E6,E6,mcq,"""(uₙ) is bounded, nothing more""",TEXT_REVIEW
+M1-SU-04,K,mcq,convergent subsequence,KEY_NOT_CHECKED
+M1-SU-04-E1,E1,mcq,"""a limit"" (bounded, so convergent)",TEXT_REVIEW
+M1-SU-04-E2,E2,open,two even subsequences chosen,TEXT_REVIEW
+M1-SU-04-E3,E3,open,parity of the indices not used,TEXT_REVIEW
+M1-SU-04-E4,E4,mcq,"""a unique accumulation point""",TEXT_REVIEW
+M1-SU-04-E5,E5,mcq,"""a subsequence tending to its supremum""",TEXT_REVIEW
+M1-SU-05,K,mcq,"""yes: (uₙ) increases, (vₙ) decreases and vₙ − uₙ → 0""",KEY_NOT_CHECKED
+M1-SU-05-E1,E1,mcq,"""yes, because both tend to 1""",TEXT_REVIEW
+M1-SU-05-E2,E2,mcq,"""no, because vₙ − uₙ is never 0""",TEXT_REVIEW
+M1-SU-05-E3,E3,mcq,"""yes, because uₙ ≤ vₙ for every n""",TEXT_REVIEW
+M1-LC-01,K,mcq,root exists,KEY_NOT_CHECKED
+M1-LC-01-E1,E1,open,IVT used for a function not shown continuous,TEXT_REVIEW
+M1-LC-01-E2,E2,mcq,"""exactly one root""",TEXT_REVIEW
+M1-LC-01-E3,E3,open,f(0) and f(1) not computed,TEXT_REVIEW
+M1-LC-01-E4,E4,mcq,"""a root only if f is differentiable""",TEXT_REVIEW
+M1-LC-01-E5,E5,mcq,"""a root at (a + b)/2""",TEXT_REVIEW
+M1-LC-02,K,mcq,Rolle,KEY_NOT_CHECKED
+M1-LC-02-E1,E1,open,MVT applied without stating continuity on [a ; b] and differentiability on ]a ; b[,TEXT_REVIEW
+M1-LC-02-E2,E2,open,cos a used for cos c,TEXT_REVIEW
+M1-LC-02-E3,E3,open,\|sin b − sin a\| ≥ \|b − a\|,TEXT_REVIEW
+M1-LC-02-E4,E4,mcq,"""the intermediate value theorem""",TEXT_REVIEW
+M1-LC-02-E5,E5,mcq,"""f′ = 0 everywhere""",TEXT_REVIEW
+M1-LC-02-E6,E6,mcq,"""Taylor's formula""",TEXT_REVIEW
+M1-LC-03,K,mcq,continuous at a,KEY_NOT_CHECKED
+M1-LC-03-E1,E1,mcq,"""continuity and differentiability are equivalent""",TEXT_REVIEW
+M1-LC-03-E2,E2,open,"""f″ > 0, so f is concave""",TEXT_REVIEW
+M1-LC-03-E3,E3,open,convexity stated without an interval,TEXT_REVIEW
+M1-LC-03-E4,E4,mcq,"""f′ is continuous at a""",TEXT_REVIEW
+M1-LC-03-E5,E5,mcq,"""f is monotone near a""",TEXT_REVIEW
+M1-LC-04,K,mcq,Yes: f is continuous on a closed bounded interval (segment),KEY_NOT_CHECKED
+M1-LC-04-E1,E1,mcq,"""Yes: f is bounded on ]0 ; 1[""",TEXT_REVIEW
+M1-LC-04-E2,E2,mcq,"""Yes: f is bounded, so it reaches its bounds""",TEXT_REVIEW
+M1-LC-04-E3,E3,mcq,"""Yes: every function on [0 ; 1] reaches its maximum""",TEXT_REVIEW
+M1-LC-05-E2,E2,mcq,"""not extendable""",TEXT_REVIEW
+M1-LC-05-E3,E3,mcq,"""+∞""",TEXT_REVIEW
+M1-LC-08,K,mcq,"""ln((x + y)/2) ≥ (ln x + ln y)/2, because ln is concave""",KEY_NOT_CHECKED
+M1-LC-08-E1,E1,mcq,"""ln((x + y)/2) ≤ (ln x + ln y)/2, because ln is increasing""",TEXT_REVIEW
+M1-LC-08-E2,E2,mcq,"""they are equal, by the properties of ln""",TEXT_REVIEW
+M1-LC-08-E3,E3,mcq,"""ln((x + y)/2) ≥ (ln x + ln y)/2, because ln is increasing""",TEXT_REVIEW
+M1-AA-01,K,mcq,True: sin x/x → 1 as x → 0,KEY_NOT_CHECKED
+M1-AA-01-E1,E1,mcq,"""True, because sin x = O(x)"" (O does not give ~)",TEXT_REVIEW
+M1-AA-01-E2,E2,open,"""sin x − x ~ x − x = 0""",TEXT_REVIEW
+M1-AA-01-E3,E3,mcq,"""True as x → +∞""",TEXT_REVIEW
+M1-AA-01-E4,E4,mcq,"0 → ""True, because sin x − x → 0""",TEXT_REVIEW
+M1-AA-02,K,mcq,1+x+x²/2+o(x²),KEY_NOT_CHECKED
+M1-AA-02-E1,E1,mcq,1 + x + x²/2,NUMERIC_NOT_CHECKED
+M1-AA-02-E2,E2,mcq,1 + x + x² + o(x²),NUMERIC_NOT_CHECKED
+M1-AA-02-E3,E3,open,sin x = 1 − x²/2 + o(x²),TEXT_REVIEW
+M1-AA-02-E4,E4,mcq,1 + x + o(x),NUMERIC_NOT_CHECKED
+M1-AA-03-E1,E1,mcq,"""0, because 1 − cos x ~ 1 − 1 = 0""",TEXT_REVIEW
+M1-AA-03-E2,E2,open,0,NUMERIC_NOT_CHECKED
+M1-AA-03-E3,E3,mcq,"""0, because (1 − cos x)/x² tends to 0 as x tends to +∞""",TEXT_REVIEW
+M1-AA-03-E4,E4,mcq,"""2, because x²/(1 − cos x) tends to 2""",TEXT_REVIEW
+M1-AA-04,K,mcq,n! ~ √(2πn)(n/e)ⁿ,KEY_NOT_CHECKED
+M1-AA-04-E1,E1,open,proof of Stirling attempted or required,TEXT_REVIEW
+M1-AA-04-E2,E2,mcq,n! ~ (n/e)ⁿ,TEXT_REVIEW
+M1-AA-04-E3,E3,mcq,n! ~ √(2πn)(e/n)ⁿ,TEXT_REVIEW
+M1-AA-04-E4,E4,mcq,n! ~ nⁿ,TEXT_REVIEW
+M1-AR-01,K,mcq,12,KEY_NOT_CHECKED
+M1-AR-01-E1,E1,open,84 = 36 × 3 − 24,TEXT_REVIEW
+M1-AR-01-E2,E2,mcq,36,NUMERIC_NOT_CHECKED
+M1-AR-01-E3,E3,mcq,252,NUMERIC_NOT_CHECKED
+M1-AR-01-E4,E4,mcq,6,NUMERIC_NOT_CHECKED
+M1-AR-02-E1,E1,mcq,49,NUMERIC_NOT_CHECKED
+M1-AR-02-E2,E2,open,"2a ≡ 2b (mod 4) ""so a ≡ b (mod 4)""",TEXT_REVIEW
+M1-AR-02-E3,E3,open,"""a² ≡ b² (mod m²)""",TEXT_REVIEW
+M1-AR-02-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+M1-AR-02-E5,E5,mcq,14,NUMERIC_NOT_CHECKED
+M1-AR-03-E1,E1,mcq,4,NUMERIC_NOT_CHECKED
+M1-AR-03-E2,E2,mcq,1,NUMERIC_NOT_CHECKED
+M1-AR-03-E3,E3,mcq,8,NUMERIC_NOT_CHECKED
+M1-AR-04,K,mcq,Yes: gcd(6 ; 9) = 3 divides 3,KEY_NOT_CHECKED
+M1-AR-04-E1,E1,mcq,"""No: 6 and 9 are not coprime""",TEXT_REVIEW
+M1-AR-04-E2,E2,mcq,"""Yes: x = 1/2, y = 0""",TEXT_REVIEW
+M1-AR-04-E3,E3,open,(−1 ; 1) only,TEXT_REVIEW
+M1-AR-04-E4,E4,mcq,"""Yes: 3 divides 6 and 9""",TEXT_REVIEW
+M1-AR-06-E2,E2,mcq,"""no inverse""",TEXT_REVIEW
+M1-ST-01,K,mcq,subgroup,KEY_NOT_CHECKED
+M1-ST-01-E1,E1,open,neutral element (non-emptiness) not checked,TEXT_REVIEW
+M1-ST-01-E2,E2,mcq,"""a subset, not necessarily stable""",TEXT_REVIEW
+M1-ST-01-E3,E3,mcq,"""a subgroup only if G is commutative""",TEXT_REVIEW
+M1-ST-01-E4,E4,mcq,"""the whole group G""",TEXT_REVIEW
+M1-ST-02,K,mcq,4ℤ,KEY_NOT_CHECKED
+M1-ST-02-E1,E1,mcq,"{1, i, −1, −i}",TEXT_REVIEW
+M1-ST-02-E2,E2,mcq,∅,NUMERIC_NOT_CHECKED
+M1-ST-02-E3,E3,open,morphism property not checked,TEXT_REVIEW
+M1-ST-02-E4,E4,mcq,2ℤ,NUMERIC_NOT_CHECKED
+M1-ST-03,K,mcq,No: 2 has no inverse in ℤ,KEY_NOT_CHECKED
+M1-ST-03-E1,E1,mcq,"""Yes: every non-zero integer is invertible (1/2 exists)""",TEXT_REVIEW
+M1-ST-03-E2,E2,mcq,"""Yes: ℤ is a commutative ring""",TEXT_REVIEW
+M1-ST-03-E3,E3,mcq,"""No: multiplication is not associative in ℤ""",TEXT_REVIEW
+M1-ST-04,K,mcq,subgroup,KEY_NOT_CHECKED
+M1-ST-04-E1,E1,mcq,"""H ∪ K is a subgroup too""",TEXT_REVIEW
+M1-ST-04-E2,E2,open,stability under inverses not checked,TEXT_REVIEW
+M1-ST-04-E3,E3,open,checked on 2ℤ ∩ 3ℤ only,TEXT_REVIEW
+M1-ST-04-E4,E4,mcq,"""H ∩ K may be empty""",TEXT_REVIEW
+M1-ST-04-E5,E5,mcq,"""a subgroup only if H ⊂ K""",TEXT_REVIEW
+M1-ST-05-E1,E1,mcq,"""ℕ""",TEXT_REVIEW
+M1-ST-05-E2,E2,mcq,"""the odd integers""",TEXT_REVIEW
+M1-ST-05-E3,E3,mcq,"""{0 ; 1}""",TEXT_REVIEW
+M1-ST-06,K,mcq,"""yes: for example A = B = [[0, 1], [0, 0]]""",KEY_NOT_CHECKED
+M1-ST-06-E1,E1,mcq,"""no, because a product of non-zero factors is non-zero""",TEXT_REVIEW
+M1-ST-06-E2,E2,mcq,"""no, because det(AB) = 0 forces A = 0 or B = 0""",TEXT_REVIEW
+M1-ST-06-E3,E3,mcq,"""yes, because matrix multiplication is not commutative""",TEXT_REVIEW
+M1-PO-01,K,mcq,P(a),KEY_NOT_CHECKED
+M1-PO-01-E1,E1,open,X² + 1,NUMERIC_NOT_CHECKED
+M1-PO-01-E2,E2,mcq,"""a remainder of degree ≤ 1""",TEXT_REVIEW
+M1-PO-01-E3,E3,mcq,P′(a),NUMERIC_NOT_CHECKED
+M1-PO-01-E4,E4,mcq,P(−a),NUMERIC_NOT_CHECKED
+M1-PO-02,K,mcq,2,KEY_NOT_CHECKED
+M1-PO-02-E1,E1,open,2,NUMERIC_NOT_CHECKED
+M1-PO-02-E2,E2,mcq,1,NUMERIC_NOT_CHECKED
+M1-PO-02-E3,E3,mcq,"""exactly 2""",TEXT_REVIEW
+M1-PO-03-E1,E1,open,"""X⁴ + 1 is irreducible over ℂ""",TEXT_REVIEW
+M1-PO-03-E2,E2,open,(X − e^(iπ/4))(X − e^(3iπ/4)) only,TEXT_REVIEW
+M1-PO-03-E3,E3,mcq,(X − 1)⁴,NUMERIC_NOT_CHECKED
+M1-PO-03-E4,E4,mcq,(X − 1)(X + 1)(X − i)(X + i),NUMERIC_NOT_CHECKED
+M1-PO-03-E5,E5,mcq,(X² − 1)²,NUMERIC_NOT_CHECKED
+M1-PO-04,K,mcq,"A = 2, B = 1",KEY_NOT_CHECKED
+M1-PO-04-E1,E1,open,A/(X − 1) + B/(X + 3) written (A + B)/((X − 1)(X + 3)),TEXT_REVIEW
+M1-PO-04-E2,E2,open,decomposition written without checking the poles −1 and −2,TEXT_REVIEW
+M1-PO-04-E3,E3,mcq,"A = 2, B = −1",TEXT_REVIEW
+M1-PO-04-E4,E4,mcq,"A = 1, B = 2",TEXT_REVIEW
+M1-PO-04-E5,E5,mcq,"A = 8/3, B = 11/3",TEXT_REVIEW
+M1-AL-01,K,mcq,1,KEY_NOT_CHECKED
+M1-AL-01-E1,E1,mcq,5,NUMERIC_NOT_CHECKED
+M1-AL-01-E2,E2,mcq,2,NUMERIC_NOT_CHECKED
+M1-AL-01-E3,E3,mcq,0,NUMERIC_NOT_CHECKED
+M1-AL-01-E4,E4,mcq,3,NUMERIC_NOT_CHECKED
+M1-AL-02,K,mcq,(1 ; 2),KEY_NOT_CHECKED
+M1-AL-02-E2,E2,open,matrix product computed entry by entry,TEXT_REVIEW
+M1-AL-02-E3,E3,open,"row 0 = c (c ≠ 0) not read as ""no solution""",TEXT_REVIEW
+M1-AL-02-E4,E4,mcq,y = −16/7,NUMERIC_NOT_CHECKED
+M1-AL-02-E5,E5,mcq,(2 ; 1),NUMERIC_NOT_CHECKED
+M1-AL-03,K,mcq,X = PX′,KEY_NOT_CHECKED
+M1-AL-03-E1,E1,mcq,X′ = PX,TEXT_REVIEW
+M1-AL-03-E2,E2,mcq,X = PᵀX′,TEXT_REVIEW
+M1-AL-03-E3,E3,open,A′ = PAP⁻¹,TEXT_REVIEW
+M1-AL-03-E4,E4,mcq,X = X′,TEXT_REVIEW
+M1-AL-04,K,mcq,trace and determinant,KEY_NOT_CHECKED
+M1-AL-04-E1,E1,mcq,"""the same entries""",TEXT_REVIEW
+M1-AL-04-E2,E2,open,P⁻¹AP = AP⁻¹P = A,TEXT_REVIEW
+M1-AL-04-E3,E3,open,product of non-compatible sizes,TEXT_REVIEW
+M1-AL-04-E4,E4,mcq,"""the same eigenvectors""",TEXT_REVIEW
+M1-AL-04-E5,E5,mcq,"""the same columns, up to order""",TEXT_REVIEW
+M1-AL-05-E1,E1,mcq,"""AᵀBᵀ""",TEXT_REVIEW
+M1-AL-05-E2,E2,mcq,"""AB""",TEXT_REVIEW
+M1-AL-05-E3,E3,mcq,"""BA""",TEXT_REVIEW
+M1-AL-06-E1,E1,mcq,"""[[1, 1/2], [0, 1]]""",TEXT_REVIEW
+M1-AL-06-E2,E2,mcq,"""[[1, 0], [2, 1]]""",TEXT_REVIEW
+M1-AL-06-E3,E3,mcq,"""[[1, 2], [0, 1]]""",TEXT_REVIEW
+M1-AL-07-E3,E3,mcq,"""no value""",TEXT_REVIEW
+M1-AL-08,K,mcq,"""{(x, y, z) : x + 2y − z = 0}""",KEY_NOT_CHECKED
+M1-AL-08-E1,E1,mcq,"""{(x, y, z) : x + 2y − z = 1}""",TEXT_REVIEW
+M1-AL-08-E2,E2,mcq,"""{(x, y, z) : xy = 0}""",TEXT_REVIEW
+M1-AL-08-E3,E3,mcq,"""{(x, y, z) : x ≥ 0}""",TEXT_REVIEW
+M1-AL-09,K,mcq,"""2, because u₂ = 2u₁ and (u₁, u₃) is free""",KEY_NOT_CHECKED
+M1-AL-09-E1,E1,mcq,"""3, because no vector is zero""",TEXT_REVIEW
+M1-AL-09-E2,E2,mcq,"""3, because the vectors are pairwise distinct""",TEXT_REVIEW
+M1-AL-09-E3,E3,mcq,"""1, because u₂ = 2u₁""",TEXT_REVIEW
+M1-AL-13-E1,E1,mcq,"""[[2, 1], [3, −1]]""",TEXT_REVIEW
+M1-AL-13-E2,E2,mcq,"""[[3, 2], [−1, 1]]""",TEXT_REVIEW
+M1-AL-13-E3,E3,mcq,"""[[2, 3], [1, 1]]""",TEXT_REVIEW
+M1-AL-14,K,mcq,"""no: a matrix similar to 2I is equal to 2I""",KEY_NOT_CHECKED
+M1-AL-14-E1,E1,mcq,"""yes, because they have the same trace""",TEXT_REVIEW
+M1-AL-14-E2,E2,mcq,"""yes, because both are triangular""",TEXT_REVIEW
+M1-AL-14-E3,E3,mcq,"""no, because their traces differ""",TEXT_REVIEW
+M1-DT-01,K,mcq,−1,KEY_NOT_CHECKED
+M1-DT-01-E1,E1,mcq,2,NUMERIC_NOT_CHECKED
+M1-DT-01-E2,E2,open,(1 2)∘(1 3) written (it is (1 3 2); the sign is unchanged),TEXT_REVIEW
+M1-DT-01-E3,E3,mcq,+1,NUMERIC_NOT_CHECKED
+M1-DT-01-E4,E4,mcq,0,NUMERIC_NOT_CHECKED
+M1-DT-02-E1,E1,mcq,5,NUMERIC_NOT_CHECKED
+M1-DT-02-E2,E2,mcq,−1,NUMERIC_NOT_CHECKED
+M1-DT-03,K,mcq,0,KEY_NOT_CHECKED
+M1-DT-03-E1,E1,mcq,2,NUMERIC_NOT_CHECKED
+M1-DT-03-E2,E2,open,det(2A) = 2 det A for a 3 × 3 matrix,TEXT_REVIEW
+M1-DT-03-E3,E3,open,column property applied to rows without justification,TEXT_REVIEW
+M1-DT-03-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+M1-DT-03-E5,E5,mcq,"""cannot be determined without the entries""",TEXT_REVIEW
+M1-DT-04,K,mcq,invertible,KEY_NOT_CHECKED
+M1-DT-04-E1,E1,mcq,"""A has no zero entry""",TEXT_REVIEW
+M1-DT-04-E2,E2,open,m = −3 or m = 2,TEXT_REVIEW
+M1-DT-04-E3,E3,mcq,"""A is diagonalisable""",TEXT_REVIEW
+M1-DT-04-E4,E4,mcq,"""A is symmetric""",TEXT_REVIEW
+M1-IN-01,K,mcq,1/2,KEY_NOT_CHECKED
+M1-IN-01-E1,E1,mcq,x²/2,NUMERIC_NOT_CHECKED
+M1-IN-01-E2,E2,mcq,1/2 + C,NUMERIC_NOT_CHECKED
+M1-IN-01-E3,E3,mcq,−1/2,NUMERIC_NOT_CHECKED
+M1-IN-01-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+M1-IN-02,K,mcq,1/2,KEY_NOT_CHECKED
+M1-IN-02-E1,E1,mcq,+∞,INFINITY_NOT_CHECKED
+M1-IN-02-E2,E2,open,points k/n outside [0 ; 1],TEXT_REVIEW
+M1-IN-02-E3,E3,open,"""left and right sums have different limits""",TEXT_REVIEW
+M1-IN-02-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+M1-IN-03,K,mcq,x²,KEY_NOT_CHECKED
+M1-IN-03-E1,E1,mcq,t²,NUMERIC_NOT_CHECKED
+M1-IN-03-E2,E2,mcq,0,NUMERIC_NOT_CHECKED
+M1-IN-03-E3,E3,open,F(1) = 1 + 1 = 2,TEXT_REVIEW
+M1-IN-03-E4,E4,mcq,2x,NUMERIC_NOT_CHECKED
+M1-IN-04,K,mcq,∫₀ˣ (x − t) f″(t) dt,KEY_NOT_CHECKED
+M1-IN-04-E1,E1,mcq,∫₀ˣ (x − t) f′(t) dt,NUMERIC_NOT_CHECKED
+M1-IN-04-E2,E2,mcq,0,NUMERIC_NOT_CHECKED
+M1-IN-04-E3,E3,open,bound with max of eᵗ taken at t = 0,TEXT_REVIEW
+M1-IN-04-E4,E4,mcq,∫₀ˣ f″(t) dt,NUMERIC_NOT_CHECKED
+M1-IN-04-E5,E5,mcq,∫₀ˣ ((x − t)²/2) f″(t) dt,NUMERIC_NOT_CHECKED
+M1-IN-05-E3,E3,mcq,"""+∞""",TEXT_REVIEW
+M1-IN-06-E1,E1,mcq,"""[1 ; 3]""",TEXT_REVIEW
+M1-IN-06-E2,E2,mcq,"""[0 ; 6]""",TEXT_REVIEW
+M1-IN-06-E3,E3,mcq,"""[2 ; 3]""",TEXT_REVIEW
+M1-PR-01-E1,E1,mcq,36,NUMERIC_NOT_CHECKED
+M1-PR-01-E2,E2,mcq,30,NUMERIC_NOT_CHECKED
+M1-PR-01-E4,E4,mcq,12,NUMERIC_NOT_CHECKED
+M1-PR-02-E1,E1,mcq,1/11,NUMERIC_NOT_CHECKED
+M1-PR-02-E2,E2,mcq,6/11,NUMERIC_NOT_CHECKED
+M1-PR-02-E3,E3,mcq,1/7,NUMERIC_NOT_CHECKED
+M1-PR-03,K,mcq,2/4,KEY_NOT_CHECKED
+M1-PR-03-E1,E1,mcq,3/5,NUMERIC_NOT_CHECKED
+M1-PR-03-E2,E2,mcq,2/5,NUMERIC_NOT_CHECKED
+M1-PR-03-E3,E3,mcq,3/10,NUMERIC_NOT_CHECKED
+M1-PR-04,K,mcq,3.5,KEY_NOT_CHECKED
+M1-PR-04-E1,E1,mcq,21,NUMERIC_NOT_CHECKED
+M1-PR-04-E2,E2,open,V(X) = p,TEXT_REVIEW
+M1-PR-04-E3,E3,open,√(p(1 − p)) given for V(X),TEXT_REVIEW
+M1-PR-04-E4,E4,mcq,3,NUMERIC_NOT_CHECKED
+M1-EU-01,K,mcq,0,KEY_NOT_CHECKED
+M1-EU-01-E1,E1,open,"⟨u, v⟩ ≤ 1 written",TEXT_REVIEW
+M1-EU-01-E2,E2,open,−‖u‖ used as a norm,TEXT_REVIEW
+M1-EU-01-E3,E3,open,"""same norm √2, so orthogonal""",TEXT_REVIEW
+M1-EU-01-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+M1-EU-01-E5,E5,mcq,(1 ; −1),NUMERIC_NOT_CHECKED
+M1-EU-01-E6,E6,mcq,(2 ; 0),NUMERIC_NOT_CHECKED
+M1-EU-02,K,mcq,"(3/5,4/5)",KEY_NOT_CHECKED
+M1-EU-02-E1,E1,mcq,(3 ; 4),NUMERIC_NOT_CHECKED
+M1-EU-02-E2,E2,open,projection on v₂ subtracted instead of on e₁,TEXT_REVIEW
+M1-EU-02-E3,E3,open,Gram–Schmidt applied to a dependent family,TEXT_REVIEW
+M1-EU-02-E4,E4,mcq,(3/7 ; 4/7),NUMERIC_NOT_CHECKED
+M1-EU-02-E5,E5,mcq,(3/25 ; 4/25),NUMERIC_NOT_CHECKED
+M1-EU-03,K,mcq,"(1,0)",KEY_NOT_CHECKED
+M1-EU-03-E1,E1,open,(3 ; 3),NUMERIC_NOT_CHECKED
+M1-EU-03-E2,E2,mcq,(0 ; 1),NUMERIC_NOT_CHECKED
+M1-EU-03-E3,E3,mcq,(−1 ; 0),NUMERIC_NOT_CHECKED
+M1-EU-03-E4,E4,mcq,(1 ; 1),NUMERIC_NOT_CHECKED
+M1-EU-04,K,mcq,1,KEY_NOT_CHECKED
+M1-EU-04-E1,E1,mcq,2,NUMERIC_NOT_CHECKED
+M1-EU-04-E2,E2,mcq,0,NUMERIC_NOT_CHECKED
+M1-EU-04-E3,E3,mcq,√5,NUMERIC_NOT_CHECKED
+M1-SN-01,K,mcq,Converges: Riemann series with α = 2 > 1,KEY_NOT_CHECKED
+M1-SN-01-E1,E1,mcq,"""Converges, because 1/n² → 0""",TEXT_REVIEW
+M1-SN-01-E2,E2,mcq,"""Converges, because 1/n² ≤ 1/n""",TEXT_REVIEW
+M1-SN-01-E3,E3,open,comparison used for a series with terms of any sign,TEXT_REVIEW
+M1-SN-01-E4,E4,mcq,"""Diverges, like Σ 1/n""",TEXT_REVIEW
+M1-SN-02,K,mcq,Yes: Σ \|(−1)ⁿ/n²\| = Σ 1/n² converges,KEY_NOT_CHECKED
+M1-SN-02-E1,E1,open,comparison used instead of the telescoping sum,TEXT_REVIEW
+M1-SN-02-E2,E2,open,1/(n(n + 1)) = 1/n + 1/(n + 1),TEXT_REVIEW
+M1-SN-02-E3,E3,mcq,"""No: it is only conditionally convergent""",TEXT_REVIEW
+M1-SN-02-E4,E4,mcq,"""No: the terms change sign""",TEXT_REVIEW
+M1-SN-02-E5,E5,mcq,"""Yes, by the alternating series test""",TEXT_REVIEW
+M1-SN-03,K,mcq,2,KEY_NOT_CHECKED
+M1-SN-03-E1,E1,open,(1 − qⁿ⁺¹)/(1 − q) used for q = 1,TEXT_REVIEW
+M1-SN-03-E2,E2,open,Σ 2ⁿ = 1/(1 − 2) = −1,TEXT_REVIEW
+M1-SN-03-E3,E3,mcq,1,NUMERIC_NOT_CHECKED
+M1-SN-03-E4,E4,mcq,2/3,NUMERIC_NOT_CHECKED
+M1-SN-04,K,mcq,True: n²/(n² + 1) → 1,KEY_NOT_CHECKED
+M1-SN-04-E1,E1,mcq,"""False: 1/(n² + 1) − 1/n² ≠ 0"" (equivalence confused with equality)",TEXT_REVIEW
+M1-SN-04-E2,E2,mcq,"""True: both tend to 0""",TEXT_REVIEW
+M1-SN-04-E3,E3,open,equivalence used for terms of any sign,TEXT_REVIEW
+M1-SN-04-E4,E4,mcq,"""True, because 1/(n² + 1) ≤ 1/n²""",TEXT_REVIEW
+M1-SN-05,K,mcq,"""diverges, because its general term tends to 1 ≠ 0""",KEY_NOT_CHECKED
+M1-SN-05-E1,E1,mcq,"""converges, because n/(n + 1) < 1""",TEXT_REVIEW
+M1-SN-05-E2,E2,mcq,"""converges, because its terms are bounded""",TEXT_REVIEW
+M1-SN-05-E3,E3,mcq,"""diverges, because n/(n + 1) ~ 1/n""",TEXT_REVIEW
+M1-SN-06,K,mcq,"""diverges: Riemann series with α = 1/2 ≤ 1""",KEY_NOT_CHECKED
+M1-SN-06-E1,E1,mcq,"""converges, because 1/√n tends to 0""",TEXT_REVIEW
+M1-SN-06-E2,E2,mcq,"""converges, because 1/√n ≤ 1/n""",TEXT_REVIEW
+M1-SN-06-E3,E3,mcq,"""converges: Riemann series with α = 1/2 > 0""",TEXT_REVIEW
+M1-F2-01,K,mcq,2xy,KEY_NOT_CHECKED
+M1-F2-01-E1,E1,mcq,2xy + x²,NUMERIC_NOT_CHECKED
+M1-F2-01-E2,E2,mcq,"""2xy dx + x² dy""",TEXT_REVIEW
+M1-F2-01-E3,E3,open,∂ₓ(x²y + xy²) = 2xy,TEXT_REVIEW
+M1-F2-01-E4,E4,mcq,x²,NUMERIC_NOT_CHECKED
+M1-F2-02,K,mcq,"""(0 ; 0), because ∂f/∂x = 2x and ∂f/∂y = 2y vanish only there""",KEY_NOT_CHECKED
+M1-F2-02-E1,E1,mcq,"""x = 0, from ∂f/∂x = 0 alone (y left free)""",TEXT_REVIEW
+M1-F2-02-E2,E2,mcq,"""(0 ; 0), because f(0 ; 0) = 0""",TEXT_REVIEW
+M1-F2-02-E3,E3,mcq,"""0, the minimum value of f""",TEXT_REVIEW
+M1-F2-03,K,mcq,(1 ; 2),KEY_NOT_CHECKED
+M1-F2-03-E1,E1,mcq,(2 ; 1),NUMERIC_NOT_CHECKED
+M1-F2-03-E2,E2,mcq,√5,NUMERIC_NOT_CHECKED
+M1-F2-03-E3,E3,open,"gradient of x² + y² given as (2x ; 2y), not evaluated at",TEXT_REVIEW
+M1-F2-03-E4,E4,mcq,3,NUMERIC_NOT_CHECKED
+M1-F2-04,K,mcq,minimum,KEY_NOT_CHECKED
+M1-F2-04-E1,E1,mcq,"""maximum""",TEXT_REVIEW
+M1-F2-04-E2,E2,open,minimum stated from a local picture only,TEXT_REVIEW
+M1-F2-04-E3,E3,mcq,"""saddle point""",TEXT_REVIEW
+M1-F2-04-E4,E4,mcq,"""no conclusion: ∇f(0 ; 0) = 0 is only necessary""",TEXT_REVIEW
+M2-ST-01,K,mcq,5,KEY_NOT_CHECKED
+M2-ST-01-E1,E1,open,classes 3 and 11 counted as different,TEXT_REVIEW
+M2-ST-01-E2,E2,open,"2x ≡ 2 (mod 8) ""so x ≡ 1""",TEXT_REVIEW
+M2-ST-01-E3,E3,open,"1, 2, …, 7 all invertible in ℤ/8ℤ",TEXT_REVIEW
+M2-ST-01-E4,E4,mcq,1/3,NUMERIC_NOT_CHECKED
+M2-ST-01-E5,E5,mcq,4,NUMERIC_NOT_CHECKED
+M2-ST-02,K,mcq,7(mod 15),KEY_NOT_CHECKED
+M2-ST-02-E1,E1,open,uniqueness modulo 15 claimed without coprimality,TEXT_REVIEW
+M2-ST-02-E2,E2,mcq,3,NUMERIC_NOT_CHECKED
+M2-ST-02-E3,E3,mcq,7,NUMERIC_NOT_CHECKED
+M2-ST-02-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+M2-ST-03-E1,E1,mcq,11,NUMERIC_NOT_CHECKED
+M2-ST-03-E2,E2,open,a¹⁴ ≡ 1,NUMERIC_NOT_CHECKED
+M2-ST-03-E3,E3,open,order of 2 modulo 15 (4) taken for φ(15),TEXT_REVIEW
+M2-ST-03-E4,E4,mcq,2,NUMERIC_NOT_CHECKED
+M2-ST-03-E5,E5,mcq,6,NUMERIC_NOT_CHECKED
+M2-ST-04,K,mcq,2Z,KEY_NOT_CHECKED
+M2-ST-04-E1,E1,open,closure under multiplication by every integer not checked,TEXT_REVIEW
+M2-ST-04-E2,E2,mcq,30ℤ,NUMERIC_NOT_CHECKED
+M2-ST-04-E3,E3,open,zero ideal forgotten,TEXT_REVIEW
+M2-ST-04-E4,E4,mcq,60ℤ,NUMERIC_NOT_CHECKED
+M2-ST-04-E5,E5,mcq,16ℤ,NUMERIC_NOT_CHECKED
+M2-ST-06-E1,E1,mcq,"""ℤ/9ℤ""",TEXT_REVIEW
+M2-ST-06-E2,E2,mcq,"""ℤ/8ℤ""",TEXT_REVIEW
+M2-ST-06-E3,E3,mcq,"""ℤ""",TEXT_REVIEW
+M2-RED-01,K,mcq,(X−2)(X−3),KEY_NOT_CHECKED
+M2-RED-01-E1,E1,mcq,(X + 2)(X + 3),NUMERIC_NOT_CHECKED
+M2-RED-01-E2,E2,open,det(A − XI) in dimension 3 gives −χ,TEXT_REVIEW
+M2-RED-01-E3,E3,mcq,(1 ; 0) and (0 ; 1),TEXT_REVIEW
+M2-RED-01-E4,E4,mcq,X² + 6,NUMERIC_NOT_CHECKED
+M2-RED-02,K,mcq,diagonalizable,KEY_NOT_CHECKED
+M2-RED-02-E1,E1,open,"""χ is split, so A is diagonalisable""",TEXT_REVIEW
+M2-RED-02-E2,E2,open,E₁ = ℝ²,TEXT_REVIEW
+M2-RED-02-E3,E3,open,"""triangular, so diagonalisable""",TEXT_REVIEW
+M2-RED-02-E4,E4,mcq,"""diagonalisable only if A is symmetric""",TEXT_REVIEW
+M2-RED-02-E5,E5,mcq,"""invertible""",TEXT_REVIEW
+M2-RED-02-E6,E6,mcq,"""trigonalisable only""",TEXT_REVIEW
+M2-RED-03,K,mcq,{0},KEY_NOT_CHECKED
+M2-RED-03-E1,E1,open,"""the minimal polynomial is X² − 3X + 2"" (false for A = I)",TEXT_REVIEW
+M2-RED-03-E2,E2,open,"""Sp(A) = {1 ; 2}""",TEXT_REVIEW
+M2-RED-03-E3,E3,open,diagonalisability not deduced from the simple roots,TEXT_REVIEW
+M2-RED-03-E4,E4,mcq,∅,NUMERIC_NOT_CHECKED
+M2-RED-03-E5,E5,mcq,"""{0 ; 1}""",TEXT_REVIEW
+M2-RED-03-E6,E6,mcq,"""{−1 ; 1}""",TEXT_REVIEW
+M2-RED-04,K,mcq,0 (n≥1),KEY_NOT_CHECKED
+M2-RED-04-E1,E1,open,"""A nilpotent, so A = 0""",TEXT_REVIEW
+M2-RED-04-E2,E2,mcq,"""invertible""",TEXT_REVIEW
+M2-RED-04-E3,E3,open,"""nilpotent, so diagonalisable""",TEXT_REVIEW
+M2-RED-04-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+M2-RED-06,K,mcq,"""no: dim E₂ = 1, less than the multiplicity 2""",KEY_NOT_CHECKED
+M2-RED-06-E1,E1,mcq,"""yes, because its eigenvalues are real""",TEXT_REVIEW
+M2-RED-06-E2,E2,mcq,"""yes, because A is triangular""",TEXT_REVIEW
+M2-RED-06-E3,E3,mcq,"""no, because A has a repeated eigenvalue""",TEXT_REVIEW
+M2-RED-09,K,mcq,"""A is diagonalisable and Sp(A) ⊂ {−1 ; 0 ; 1}""",KEY_NOT_CHECKED
+M2-RED-09-E1,E1,mcq,"""A ∈ {−I ; 0 ; I}""",TEXT_REVIEW
+M2-RED-09-E2,E2,mcq,"""Sp(A) = {−1 ; 0 ; 1}""",TEXT_REVIEW
+M2-RED-09-E3,E3,mcq,"""A is invertible and A² = I""",TEXT_REVIEW
+M2-RED-10-E1,E1,mcq,"""(5I − A)/2""",TEXT_REVIEW
+M2-RED-10-E2,E2,mcq,"""A − 5I""",TEXT_REVIEW
+M2-RED-10-E3,E3,mcq,"""(A + 5I)/2""",TEXT_REVIEW
+M2-RED-11-E1,E1,mcq,"""N² = 0""",TEXT_REVIEW
+M2-RED-11-E2,E2,mcq,"""N = 0""",TEXT_REVIEW
+M2-RED-11-E3,E3,mcq,"""N¹⁶ = 0, and no smaller power in general""",TEXT_REVIEW
+M2-EU-01,K,mcq,A transpose,KEY_NOT_CHECKED
+M2-EU-01-E1,E1,mcq,(Aᵀ)⁻¹,NUMERIC_NOT_CHECKED
+M2-EU-01-E2,E2,open,Aᵀ used in a non-orthonormal basis,TEXT_REVIEW
+M2-EU-01-E3,E3,mcq,A⁻¹,NUMERIC_NOT_CHECKED
+M2-EU-01-E4,E4,mcq,A,NUMERIC_NOT_CHECKED
+M2-EU-02,K,mcq,I,KEY_NOT_CHECKED
+M2-EU-02-E1,E1,mcq,Q² = I,TEXT_REVIEW
+M2-EU-02-E2,E2,open,"""det Q = 1""",TEXT_REVIEW
+M2-EU-02-E3,E3,open,"""an isometry is the identity""",TEXT_REVIEW
+M2-EU-02-E4,E4,mcq,Q,TEXT_REVIEW
+M2-EU-03,K,mcq,orthonormal eigenbasis,KEY_NOT_CHECKED
+M2-EU-03-E1,E1,open,P with non-normalised columns used as P⁻¹ = Pᵀ,TEXT_REVIEW
+M2-EU-03-E2,E2,open,PᵀAP and P⁻¹AP mixed up for a non-orthogonal P,TEXT_REVIEW
+M2-EU-03-E3,E3,mcq,"""an eigenbasis of ℂⁿ only""",TEXT_REVIEW
+M2-EU-03-E4,E4,mcq,"""an eigenbasis, not necessarily orthogonal""",TEXT_REVIEW
+M2-EU-03-E5,E5,mcq,"""real eigenvalues, but possibly no eigenbasis""",TEXT_REVIEW
+M2-EU-04,K,mcq,Yes: its eigenvalues 1 and 0 are ≥ 0,KEY_NOT_CHECKED
+M2-EU-04-E1,E1,mcq,"""Yes: every symmetric matrix is positive""",TEXT_REVIEW
+M2-EU-04-E2,E2,mcq,"""Yes: its entries are ≥ 0"" (entries used instead of eigenvalues)",TEXT_REVIEW
+M2-EU-04-E3,E3,mcq,"""No: it is not invertible"" (positive definite required)",TEXT_REVIEW
+M2-EU-05-E1,E1,mcq,"""[[1, 1], [0, 1]]""",TEXT_REVIEW
+M2-EU-05-E2,E2,mcq,"""[[1, −1], [1, 1]]""",TEXT_REVIEW
+M2-EU-05-E3,E3,mcq,"""(1/2)[[1, −1], [1, 1]]""",TEXT_REVIEW
+M2-EU-07,K,mcq,"""positive definite, because its eigenvalues are 1 and 3""",KEY_NOT_CHECKED
+M2-EU-07-E1,E1,mcq,"""not positive, because it has negative entries""",TEXT_REVIEW
+M2-EU-07-E2,E2,mcq,"""positive definite, because its diagonal entries are positive""",TEXT_REVIEW
+M2-EU-07-E3,E3,mcq,"""indefinite, because its eigenvalues are −1 and 3""",TEXT_REVIEW
+M2-EU-08-E1,E1,mcq,"""[[1, 2], [2, 4]]""",TEXT_REVIEW
+M2-EU-08-E2,E2,mcq,"""(1/√5)[[1, 2], [2, 4]]""",TEXT_REVIEW
+M2-EU-08-E3,E3,mcq,"""(1/5)[[4, −2], [−2, 1]]""",TEXT_REVIEW
+M2-EVN-01,K,mcq,5,KEY_NOT_CHECKED
+M2-EVN-01-E1,E1,mcq,7,NUMERIC_NOT_CHECKED
+M2-EVN-01-E2,E2,open,continuity of linear maps claimed in infinite dimension,TEXT_REVIEW
+M2-EVN-01-E3,E3,open,finite dimension not used,TEXT_REVIEW
+M2-EVN-01-E4,E4,mcq,25,NUMERIC_NOT_CHECKED
+M2-EVN-02,K,mcq,closed and bounded,KEY_NOT_CHECKED
+M2-EVN-02-E1,E1,mcq,"""open""",TEXT_REVIEW
+M2-EVN-02-E2,E2,open,"""the closed unit ball is always compact""",TEXT_REVIEW
+M2-EVN-02-E3,E3,open,"closedness argued for one norm only, without equivalence",TEXT_REVIEW
+M2-EVN-02-E4,E4,mcq,"""closed, not bounded""",TEXT_REVIEW
+M2-EVN-02-E5,E5,mcq,"""neither open nor closed""",TEXT_REVIEW
+M2-EVN-03,K,mcq,min and max,KEY_NOT_CHECKED
+M2-EVN-03-E1,E1,open,"""on ]−2 ; 1[ the maximum is reached""",TEXT_REVIEW
+M2-EVN-03-E2,E2,open,Weierstrass used without continuity,TEXT_REVIEW
+M2-EVN-03-E3,E3,open,"""ℝ is closed, so compact""",TEXT_REVIEW
+M2-EVN-03-E4,E4,mcq,"""its maximum only""",TEXT_REVIEW
+M2-EVN-03-E5,E5,mcq,"""neither, without differentiability""",TEXT_REVIEW
+M2-EVN-03-E6,E6,mcq,"""bounds that need not be attained""",TEXT_REVIEW
+M2-EVN-04,K,mcq,True: ℝⁿ is finite-dimensional,KEY_NOT_CHECKED
+M2-EVN-04-E1,E1,open,coordinate-wise convergence confused with uniform convergence of functions,TEXT_REVIEW
+M2-EVN-04-E2,E2,mcq,"""True, by Banach's theorem"" (tool outside the programme)",TEXT_REVIEW
+M2-EVN-04-E3,E3,mcq,"""True in every normed vector space""",TEXT_REVIEW
+M2-EVN-04-E4,E4,mcq,"""False: ‖·‖₁ and ‖·‖∞ give different values""",TEXT_REVIEW
+M2-EVN-06-E1,E1,mcq,"""closed""",TEXT_REVIEW
+M2-EVN-06-E2,E2,mcq,"""open""",TEXT_REVIEW
+M2-EVN-06-E3,E3,mcq,"""both open and closed""",TEXT_REVIEW
+M2-EVN-08-E1,E1,mcq,"""{(x, y) : x² + y² < 1}""",TEXT_REVIEW
+M2-EVN-08-E2,E2,mcq,"""{(x, y) : y = x²}""",TEXT_REVIEW
+M2-EVN-08-E3,E3,mcq,"""{(1/n ; 0) : n ≥ 1}""",TEXT_REVIEW
+M2-EVN-09,K,mcq,"""yes: two of its points can be joined by a broken line avoiding the point""",KEY_NOT_CHECKED
+M2-EVN-09-E1,E1,mcq,"""no, because removing a point disconnects the set""",TEXT_REVIEW
+M2-EVN-09-E2,E2,mcq,"""yes, because the set is convex""",TEXT_REVIEW
+M2-EVN-09-E3,E3,mcq,"""no, because the set is not convex""",TEXT_REVIEW
+M2-SE-01,K,mcq,Yes: Riemann series with α = 2 > 1,KEY_NOT_CHECKED
+M2-SE-01-E1,E1,mcq,"""Yes: 1/n² ≤ 1/n"" (bounded by a divergent series)",TEXT_REVIEW
+M2-SE-01-E2,E2,open,comparison used with terms of any sign,TEXT_REVIEW
+M2-SE-01-E3,E3,mcq,"""Yes: 1/n² → 0""",TEXT_REVIEW
+M2-SE-01-E4,E4,mcq,"""Yes, by the ratio test (uₙ₊₁/uₙ → 1)""",TEXT_REVIEW
+M2-SE-02-E1,E1,open,ratio test applied to a series with terms of any sign,TEXT_REVIEW
+M2-SE-02-E2,E2,mcq,0,NUMERIC_NOT_CHECKED
+M2-SE-02-E3,E3,open,"""ratio → 1, so convergent""",TEXT_REVIEW
+M2-SE-02-E4,E4,mcq,e,NUMERIC_NOT_CHECKED
+M2-SE-03,K,mcq,converges,KEY_NOT_CHECKED
+M2-SE-03-E1,E1,open,each coordinate series declared convergent without proof,TEXT_REVIEW
+M2-SE-03-E2,E2,open,‖uₙ‖ replaced by a single component,TEXT_REVIEW
+M2-SE-03-E3,E3,open,completeness invoked as a theorem to prove,TEXT_REVIEW
+M2-SE-03-E4,E4,mcq,"""converges for ‖·‖₁ only""",TEXT_REVIEW
+M2-SE-03-E5,E5,mcq,"""converges, but the sum depends on the norm""",TEXT_REVIEW
+M2-SE-03-E6,E6,mcq,"""nothing can be said in dimension 2""",TEXT_REVIEW
+M2-SE-04,K,mcq,converges,KEY_NOT_CHECKED
+M2-SE-04-E1,E1,mcq,"""converges to the same sum as Σ 1/n²""",TEXT_REVIEW
+M2-SE-04-E2,E2,open,"""1/(n² + n) − 1/n² ~ 0"" used to conclude",TEXT_REVIEW
+M2-SE-04-E3,E3,open,positivity of the terms not stated,TEXT_REVIEW
+M2-SE-04-E4,E4,mcq,"""converges only if uₙ ≤ 1/n²""",TEXT_REVIEW
+M2-SE-04-E5,E5,mcq,"""nothing can be said""",TEXT_REVIEW
+M2-SE-06-E2,E2,mcq,"""+∞""",TEXT_REVIEW
+M2-SE-07-E1,E1,mcq,"""Σ uₙ converges""",TEXT_REVIEW
+M2-SE-07-E2,E2,mcq,"""Σ_{k≤n} uₖ − Σ_{k≤n} vₖ → 0""",TEXT_REVIEW
+M2-SE-07-E3,E3,mcq,"""nothing can be said""",TEXT_REVIEW
+M2-SF-01,K,mcq,No: the pointwise limit is discontinuous at 1,KEY_NOT_CHECKED
+M2-SF-01-E1,E1,mcq,"""Yes: for every x, xⁿ converges"" (pointwise taken as uniform)",TEXT_REVIEW
+M2-SF-01-E2,E2,mcq,"""Yes: each fₙ is continuous""",TEXT_REVIEW
+M2-SF-01-E3,E3,mcq,"""Yes: xⁿ → 0 on [0 ; 1]"" (x = 1 forgotten)",TEXT_REVIEW
+M2-SF-02,K,mcq,continuous,KEY_NOT_CHECKED
+M2-SF-02-E1,E1,open,"""\|x/n\| ≤ x/n → 0"" (bound depending on x)",TEXT_REVIEW
+M2-SF-02-E2,E2,open,"""on ℝ, sup \|x/n\| = 1/n"" (it is +∞)",TEXT_REVIEW
+M2-SF-02-E3,E3,open,theorem used without uniform convergence,TEXT_REVIEW
+M2-SF-02-E4,E4,mcq,"""differentiable""",TEXT_REVIEW
+M2-SF-02-E5,E5,mcq,"""uniformly continuous""",TEXT_REVIEW
+M2-SF-02-E6,E6,mcq,"""possibly discontinuous""",TEXT_REVIEW
+M2-SF-03,K,mcq,uniform convergence,KEY_NOT_CHECKED
+M2-SF-03-E1,E1,open,sup of the sum bounded by the sum of sups written the other way round,TEXT_REVIEW
+M2-SF-03-E2,E2,open,\|xⁿ/n²\| ≤ 1/n,TEXT_REVIEW
+M2-SF-03-E3,E3,mcq,"""normal convergence ⇔ uniform convergence""",TEXT_REVIEW
+M2-SF-03-E4,E4,mcq,"""convergence of Σ fₙ′""",TEXT_REVIEW
+M2-SF-03-E5,E5,mcq,"""pointwise convergence only""",TEXT_REVIEW
+M2-SF-04,K,mcq,integration,KEY_NOT_CHECKED
+M2-SF-04-E1,E1,open,integral and sum swapped without justification,TEXT_REVIEW
+M2-SF-04-E2,E2,mcq,"""differentiation""",TEXT_REVIEW
+M2-SF-04-E3,E3,open,same swap on [0 ; 2[ without checking,TEXT_REVIEW
+M2-SF-04-E4,E4,mcq,"""integration and differentiation""",TEXT_REVIEW
+M2-SF-04-E5,E5,mcq,"""neither""",TEXT_REVIEW
+M2-SF-05-E2,E2,mcq,"""+∞""",TEXT_REVIEW
+M2-SEN-01,K,mcq,1,KEY_NOT_CHECKED
+M2-SEN-01-E1,E1,open,radius of Σ nxⁿ taken from the limit of the terms,TEXT_REVIEW
+M2-SEN-01-E2,E2,open,"""converges on [−1 ; 1]""",TEXT_REVIEW
+M2-SEN-01-E3,E3,open,\|x\| < R written as x < R,TEXT_REVIEW
+M2-SEN-01-E4,E4,mcq,+∞,INFINITY_NOT_CHECKED
+M2-SEN-01-E6,E6,mcq,"""it depends on n""",TEXT_REVIEW
+M2-SEN-02,K,mcq,1/(1−x),KEY_NOT_CHECKED
+M2-SEN-02-E1,E1,open,result used at x = 1,TEXT_REVIEW
+M2-SEN-02-E2,E2,open,Σ xⁿ⁻¹ = 1/(1 − x)²,TEXT_REVIEW
+M2-SEN-02-E3,E3,open,radius 1/2 after differentiation,TEXT_REVIEW
+M2-SEN-02-E4,E4,mcq,1/(1 + x),NUMERIC_NOT_CHECKED
+M2-SEN-02-E5,E5,mcq,x/(1 − x),NUMERIC_NOT_CHECKED
+M2-SEN-03,K,mcq,infinitely differentiable,KEY_NOT_CHECKED
+M2-SEN-03-E1,E1,mcq,"""C^∞ on [−R ; R]""",TEXT_REVIEW
+M2-SEN-03-E2,E2,mcq,"""uniformly convergent on ]−R ; R[""",TEXT_REVIEW
+M2-SEN-03-E3,E3,open,(xⁿ/n)′ = xⁿ⁻¹/n,TEXT_REVIEW
+M2-SEN-03-E4,E4,mcq,"""continuous only""",TEXT_REVIEW
+M2-SEN-04,K,mcq,"No: Σ 1/n is the harmonic series, which diverges",KEY_NOT_CHECKED
+M2-SEN-04-E1,E1,mcq,"""Yes: \|x\| ≤ R = 1""",TEXT_REVIEW
+M2-SEN-04-E2,E2,open,alternating harmonic series called absolutely convergent,TEXT_REVIEW
+M2-SEN-04-E3,E3,mcq,"""Yes: 1/n → 0""",TEXT_REVIEW
+M2-SEN-04-E4,E4,mcq,"""Yes, by the alternating series test""",TEXT_REVIEW
+M2-SEN-05-E3,E3,mcq,"""+∞""",TEXT_REVIEW
+M2-SEN-06-E1,E1,mcq,"""Σ_{n≥1} xⁿ/n""",TEXT_REVIEW
+M2-SEN-06-E2,E2,mcq,"""Σ_{n≥1} (−1)^(n+1) xⁿ/n!""",TEXT_REVIEW
+M2-SEN-06-E3,E3,mcq,"""Σ_{n≥1} (−1)ⁿ xⁿ/n""",TEXT_REVIEW
+M2-SEN-08-E1,E1,mcq,"""exactly 2""",TEXT_REVIEW
+M2-SEN-08-E2,E2,mcq,"""6""",TEXT_REVIEW
+M2-SEN-08-E3,E3,mcq,"""3""",TEXT_REVIEW
+M2-FV-01,K,mcq,"(2t,e^t)",KEY_NOT_CHECKED
+M2-FV-01-E1,E1,mcq,(√(t⁴ + e²ᵗ))′,NUMERIC_NOT_CHECKED
+M2-FV-01-E2,E2,open,coordinates of F′ and of F mixed up,TEXT_REVIEW
+M2-FV-01-E3,E3,mcq,2t + eᵗ,NUMERIC_NOT_CHECKED
+M2-FV-01-E4,E4,mcq,(t³/3 ; eᵗ),NUMERIC_NOT_CHECKED
+M2-FV-02,K,mcq,"(1/2,1/3)",KEY_NOT_CHECKED
+M2-FV-02-E1,E1,open,∫₀¹ ‖(2t ; eᵗ)‖ dt computed,TEXT_REVIEW
+M2-FV-02-E2,E2,open,primitive without constant vector,TEXT_REVIEW
+M2-FV-02-E3,E3,mcq,(−1/2 ; −1/3),NUMERIC_NOT_CHECKED
+M2-FV-02-E4,E4,mcq,(1 ; 2),NUMERIC_NOT_CHECKED
+M2-FV-02-E5,E5,mcq,5/6,NUMERIC_NOT_CHECKED
+M2-FV-03,K,mcq,"(1,t)+o(t)",KEY_NOT_CHECKED
+M2-FV-03-E1,E1,open,remainder o(t) written for an order-2 expansion,TEXT_REVIEW
+M2-FV-03-E2,E2,open,second derivative term omitted,TEXT_REVIEW
+M2-FV-03-E3,E3,open,(1 + t ; 1 − t²/2) + o(t²),NUMERIC_NOT_CHECKED
+M2-FV-03-E4,E4,mcq,(1 ; 0) + o(t),NUMERIC_NOT_CHECKED
+M2-FV-03-E5,E5,mcq,(t ; 1) + o(t),NUMERIC_NOT_CHECKED
+M2-FV-03-E6,E6,mcq,"""(0 ; 1) + o(t)""",TEXT_REVIEW
+M2-FV-04,K,mcq,M(b−a),KEY_NOT_CHECKED
+M2-FV-04-E1,E1,open,"""F(b) − F(a) = F′(c)(b − a)""",TEXT_REVIEW
+M2-FV-04-E2,E2,open,bound on one coordinate only,TEXT_REVIEW
+M2-FV-04-E3,E3,open,\|b − a\| dropped,TEXT_REVIEW
+M2-FV-04-E4,E4,mcq,M,NUMERIC_NOT_CHECKED
+M2-FV-04-E5,E5,mcq,"""M(b − a)²""",TEXT_REVIEW
+M2-FV-04-E6,E6,mcq,"""M/(b − a)""",TEXT_REVIEW
+M2-FV-05-E1,E1,mcq,"""⟨F(t), F′(t)⟩""",TEXT_REVIEW
+M2-FV-05-E2,E2,mcq,"""2‖F(t)‖‖F′(t)‖""",TEXT_REVIEW
+M2-FV-05-E3,E3,mcq,"""‖F′(t)‖²""",TEXT_REVIEW
+M2-IN-01,K,mcq,1,KEY_NOT_CHECKED
+M2-IN-01-E1,E1,mcq,"""diverges""",TEXT_REVIEW
+M2-IN-01-E2,E2,mcq,−1,NUMERIC_NOT_CHECKED
+M2-IN-01-E3,E3,open,"""−1/∞ + 1"" written",TEXT_REVIEW
+M2-IN-01-E4,E4,mcq,0,NUMERIC_NOT_CHECKED
+M2-IN-02,K,mcq,True: ∫₁ˣ t⁻ᵖ dt = (1 − x^(1−p))/(p − 1) → 1/(p − 1),KEY_NOT_CHECKED
+M2-IN-02-E1,E1,mcq,"""False: it converges for p < 1""",TEXT_REVIEW
+M2-IN-02-E2,E2,open,comparison used without positivity,TEXT_REVIEW
+M2-IN-02-E3,E3,mcq,"""True: it converges near 0 for p > 1""",TEXT_REVIEW
+M2-IN-02-E4,E4,mcq,"""True, because t^(−p) → 0 as t → +∞""",TEXT_REVIEW
+M2-IN-03,K,mcq,0 (under hypotheses),KEY_NOT_CHECKED
+M2-IN-03-E1,E1,open,no dominating function given,TEXT_REVIEW
+M2-IN-03-E2,E2,open,"""fₙ → 0 on [0 ; 1]"" (t = 0 ignored)",TEXT_REVIEW
+M2-IN-03-E3,E3,open,proof of the theorem attempted,TEXT_REVIEW
+M2-IN-03-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+M2-IN-03-E5,E5,mcq,"""nothing can be said without uniform convergence""",TEXT_REVIEW
+M2-IN-03-E6,E6,mcq,"""∫ g""",TEXT_REVIEW
+M2-IN-04-E1,E1,open,boundary term at +∞ dropped,TEXT_REVIEW
+M2-IN-04-E2,E2,open,IPP done directly on [0 ; +∞[ without convergence check,TEXT_REVIEW
+M2-IN-04-E3,E3,mcq,−1,NUMERIC_NOT_CHECKED
+M2-IN-04-E4,E4,mcq,0,NUMERIC_NOT_CHECKED
+M2-IN-05-E1,E1,mcq,"""α > 1""",TEXT_REVIEW
+M2-IN-05-E2,E2,mcq,"""α ≤ 1""",TEXT_REVIEW
+M2-IN-05-E3,E3,mcq,"""α > 0""",TEXT_REVIEW
+M2-IN-06,K,mcq,"""converges, because 0 ≤ sin²(t)/t² ≤ 1/t²""",KEY_NOT_CHECKED
+M2-IN-06-E1,E1,mcq,"""diverges, because sin² has no limit""",TEXT_REVIEW
+M2-IN-06-E2,E2,mcq,"""converges, because sin²(t)/t² tends to 0""",TEXT_REVIEW
+M2-IN-06-E3,E3,mcq,"""diverges, because sin²(t)/t² ~ 1/t²""",TEXT_REVIEW
+M2-IN-07-E2,E2,mcq,"""diverges""",TEXT_REVIEW
+M2-PR-01,K,mcq,e^(−lambda),KEY_NOT_CHECKED
+M2-PR-01-E1,E1,open,sum stopped at a finite k,TEXT_REVIEW
+M2-PR-01-E2,E2,open,integral used instead of a sum,TEXT_REVIEW
+M2-PR-01-E3,E3,open,e^(−λ) factor forgotten,TEXT_REVIEW
+M2-PR-01-E4,E4,mcq,1 − e^(−λ),NUMERIC_NOT_CHECKED
+M2-PR-01-E5,E5,mcq,λe^(−λ),NUMERIC_NOT_CHECKED
+M2-PR-02,K,mcq,1/p,KEY_NOT_CHECKED
+M2-PR-02-E1,E1,mcq,(1 − p)/p,NUMERIC_NOT_CHECKED
+M2-PR-02-E2,E2,open,V(X) = λ²,TEXT_REVIEW
+M2-PR-02-E3,E3,open,V(X) = λ(1 − λ),TEXT_REVIEW
+M2-PR-02-E4,E4,mcq,p,NUMERIC_NOT_CHECKED
+M2-PR-03,K,mcq,exp(lambda(t−1)),KEY_NOT_CHECKED
+M2-PR-03-E1,E1,open,G_X + G_Y,NUMERIC_NOT_CHECKED
+M2-PR-03-E2,E2,open,product used without stating independence,TEXT_REVIEW
+M2-PR-03-E3,E3,open,E(X) = G′(0),TEXT_REVIEW
+M2-PR-03-E4,E4,mcq,e^(λt),NUMERIC_NOT_CHECKED
+M2-PR-03-E5,E5,mcq,e^(λ(1 − t)),NUMERIC_NOT_CHECKED
+M2-PR-04,K,mcq,1/4,KEY_NOT_CHECKED
+M2-PR-04-E1,E1,open,Markov's inequality applied to X − E(X),TEXT_REVIEW
+M2-PR-04-E2,E2,open,σ²/ε²,TEXT_REVIEW
+M2-PR-04-E3,E3,mcq,"""exactly 1/4""",TEXT_REVIEW
+M2-PR-04-E4,E4,mcq,1,NUMERIC_NOT_CHECKED
+M2-PR-04-E5,E5,mcq,1/2,NUMERIC_NOT_CHECKED
+M2-PR-08-E1,E1,mcq,"""ℝ, because ℚ is dense in ℝ""",TEXT_REVIEW
+M2-PR-08-E2,E2,mcq,"""the set of subsets of ℕ""",TEXT_REVIEW
+M2-PR-08-E3,E3,mcq,"""[0 ; 1]""",TEXT_REVIEW
+M2-ED-01,K,mcq,2e^(3t),KEY_NOT_CHECKED
+M2-ED-01-E1,E1,mcq,2e^(−3t),NUMERIC_NOT_CHECKED
+M2-ED-01-E2,E2,mcq,e^(3t),NUMERIC_NOT_CHECKED
+M2-ED-01-E3,E3,open,C = e²,TEXT_REVIEW
+M2-ED-01-E4,E4,mcq,3e^(2t),NUMERIC_NOT_CHECKED
+M2-ED-02,K,mcq,e^(tA)X0,KEY_NOT_CHECKED
+M2-ED-02-E1,E1,open,e^(tA) computed entry by entry for a non-diagonal A,TEXT_REVIEW
+M2-ED-02-E2,E2,mcq,X₀e^(tA),NUMERIC_NOT_CHECKED
+M2-ED-02-E3,E3,mcq,e^(tA),NUMERIC_NOT_CHECKED
+M2-ED-02-E4,E4,mcq,eᵗAX₀,NUMERIC_NOT_CHECKED
+M2-ED-03,K,mcq,P e^(tD) P^-1,KEY_NOT_CHECKED
+M2-ED-03-E1,E1,mcq,P⁻¹e^(tD)P,NUMERIC_NOT_CHECKED
+M2-ED-03-E2,E2,mcq,Pe^D P⁻¹,NUMERIC_NOT_CHECKED
+M2-ED-03-E3,E3,open,method applied to a non-diagonalisable matrix,TEXT_REVIEW
+M2-ED-03-E4,E4,mcq,"""e^(tP)e^(tD)e^(tP⁻¹)""",TEXT_REVIEW
+M2-ED-04-E1,E1,open,integrating factor e^(−at) forgotten,TEXT_REVIEW
+M2-ED-04-E2,E2,open,∫₀ᵗ written ∫ₜ⁰,TEXT_REVIEW
+M2-ED-04-E3,E3,mcq,1,NUMERIC_NOT_CHECKED
+M2-ED-04-E4,E4,mcq,1 + e^(−t),NUMERIC_NOT_CHECKED
+M2-ED-04-E5,E5,mcq,0,NUMERIC_NOT_CHECKED
+M2-ED-05-E1,E1,mcq,"""[[1, e^t], [1, 1]]""",TEXT_REVIEW
+M2-ED-05-E2,E2,mcq,"""[[1, 0], [0, 1]]""",TEXT_REVIEW
+M2-ED-05-E3,E3,mcq,"""[[0, t], [0, 0]]""",TEXT_REVIEW
+M2-CD-01,K,mcq,"(2x−2,2y)",KEY_NOT_CHECKED
+M2-CD-01-E1,E1,mcq,(2y ; 2x − 2),NUMERIC_NOT_CHECKED
+M2-CD-01-E2,E2,open,"x = 1, y left free",TEXT_REVIEW
+M2-CD-01-E3,E3,open,−1 given as the critical point,TEXT_REVIEW
+M2-CD-01-E4,E4,mcq,(2x ; 2y),NUMERIC_NOT_CHECKED
+M2-CD-01-E5,E5,mcq,(2x − 2 ; 0),NUMERIC_NOT_CHECKED
+M2-CD-02-E1,E1,mcq,4,NUMERIC_NOT_CHECKED
+M2-CD-02-E2,E2,mcq,2,NUMERIC_NOT_CHECKED
+M2-CD-02-E3,E3,mcq,0,NUMERIC_NOT_CHECKED
+M2-CD-03,K,mcq,2I,KEY_NOT_CHECKED
+M2-CD-03-E1,E1,open,"""∇f(a) = 0, so minimum""",TEXT_REVIEW
+M2-CD-03-E2,E2,open,"""det H > 0, so minimum"" (sign of the trace forgotten)",TEXT_REVIEW
+M2-CD-03-E3,E3,open,second differential used,TEXT_REVIEW
+M2-CD-03-E4,E4,mcq,I,NUMERIC_NOT_CHECKED
+M2-CD-03-E6,E6,mcq,"""(2x ; 2y)""",TEXT_REVIEW
+M2-CD-04,K,mcq,1,KEY_NOT_CHECKED
+M2-CD-04-E1,E1,open,"""∇(x + y) ≠ 0, so there is no extremum""",TEXT_REVIEW
+M2-CD-04-E2,E2,open,boundary not studied,TEXT_REVIEW
+M2-CD-04-E3,E3,open,implicit function theorem used,TEXT_REVIEW
+M2-CD-04-E4,E4,mcq,√2,NUMERIC_NOT_CHECKED
+M2-CD-05-E1,E1,mcq,"""[[1, 1], [2, 2]]""",TEXT_REVIEW
+M2-CD-05-E2,E2,mcq,"""[[2, 1], [1, 2]]""",TEXT_REVIEW
+M2-CD-05-E3,E3,mcq,"""[[1, 2], [1, 1]]""",TEXT_REVIEW
+M2-CD-06,K,mcq,"""saddle point, because det H = 4 − 16 < 0""",KEY_NOT_CHECKED
+M2-CD-06-E1,E1,mcq,"""minimum, because the diagonal entries of H are positive""",TEXT_REVIEW
+M2-CD-06-E2,E2,mcq,"""minimum, because ∇f(0 ; 0) = 0""",TEXT_REVIEW
+M2-CD-06-E3,E3,mcq,"""maximum, because det H < 0""",TEXT_REVIEW
+BR-DF-03,A,,"110, then −11, final 99 (net −1 %)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 99)
+BR-GM-02,K,,36π cm³,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 36)
+BR-GM-02,E2,,144π,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 144)
+BR-GM-04,A,,€1.20,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1.2)
+BR-EG-01,E5,,√28 ≈ 5.3,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 5.291502622129181)
+BR-EG-01,A,,"13² = 169 and 5² + 12² = 25 + 144 = 169: equal, so the triangle is right (converse of Pythagoras), right angle opposite the side 13",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 169)
+BR-EG-07,K,,"no — 9² = 81 and 6² + 7² = 85, 81 ≠ 85, contrapositive",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 81)
+BR-EG-07,E2,,"""No, because 7² ≠ 6² + 9²"" (right conclusion, wrong hypotenuse: wrong reason)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 117)
+BR-EG-07,A,,"BC² = 289 = 64 + 225 = AB² + AC², converse ⇒ right at A",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 289)
+BR-EG-08,K,,"no — 21/35 ≠ 20/35, contrapositive",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 21)
+BR-EG-08,A,,"AM/AB = 0.4 = AN/AC, alignment and order stated, converse of Thalès",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 2/5)
+BR-EG-15,K,,"B̂, opposite the longest side AC",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 169)
+BR-EG-15,A,,25 + 144 = 169 = 13² ⇒ right at B; tan Â = BC/AB = 12/5 = 2.4; Â ≈ 67.4°,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 67.38)
+BR-AP-03,A,,"1, 4, 7, 10, 13; the loop stops at 13 because 10 > 10 is false",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 13)
+1S-AU-02,K,,-4%,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: -1/25)
+1S-AU-04,A,,−2x + 3 = 5 ⇔ x = −1; check f(−1) = 5,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: -1)
+1S-AL-04,A,,"u_n=3+2n, sum 35",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 35)
+1S-AN-03,A,,at x=2 value -3,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: -3)
+1S-AN-05,E1,,0.9998,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 0.99983)
+1S-PS-02,K,,"Yes, because P(A ∩ B) = P(A) × P(B)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 0.2)
+1S-PS-02,A,,P(+) = 0.08 + 0.09 = 0.17; P(A \| +) = 0.08/0.17 = 8/17 ≈ 0.47,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 8/17)
+1S-AP-02,A,,"n = 0, u = 1; while u <= 2: n = n + 1; u = 1.1 * u; returns 8 (1.1⁷ ≈ 1.95 ≤ 2 < 1.1⁸ ≈ 2.14); the loop stops because u grows",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 8)
+1C-AU-01,A,,1/8 = 1 ÷ 8 = 0.125 = 12.5/100 = 12.5 %,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 0.125)
+1C-AU-02,A,,5 × 1.9 × 10³ = 9.5 × 10³ kWh ≈ 10⁴ kWh; 9.5 × 10⁴ kWh is ten times too large,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 9500.0)
+1C-AU-04,A,,45 with multiplier,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 45)
+1C-SE-03,E4,,16.67,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 50/3)
+1C-SE-04,A,,"1.2² = 1.44, 1.2³ = 1.728: n = 3 (equality reached at n = 3)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 172.8)
+TS-AN-13,K,,6 + h,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: h + 6)
+TS-AN-13,A,,−1/(a(a + h)) → −1/a²,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: -1/(x*(h + x)))
+TS-AN-14,E1,,1.1105,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 2.0247)
+TS-PR-02,E3,,√2.1 ≈ 1.45,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1.449)
+TS-PR-02,A,,"E = 5, V = 3.75, σ ≈ 1.94",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 3.75)
+TS-PR-03,E1,,√2 + √3 ≈ 3.15,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 3.146)
+TS-PR-04,A,,"E(X̄) = μ, V(X̄) = σ²/n; Bienaymé–Tchebychev: P(\|X̄ − μ\| ≥ δ) ≤ σ²/(nδ²); e.g. σ² = 4, n = 100, δ = 0.5: ≤ 0.16",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 0.16)
+TS-AP-01,A,,"s = 0; for k in range(1, n + 1): s = s + k**2; return s; invariant: after turn k, s = 1² + … + k²; n = 3 gives 14",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 14)
+TS-AP-03,A,,3/8 and 5/8,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 0.375)
+TE-CX-04,A,,"A, B, C distinct are aligned ⇔ (c − a)/(b − a) ∈ ℝ; e.g. a = 1 + i, b = 3 + 2i, c = 5 + 3i: (4 + 2i)/(2 + i) = 2 ∈ ℝ, so they are aligned",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 2)
+TE-AR-01,A,,"84 = 2 × 36 + 12, 36 = 3 × 12: gcd = 12 = 84 − 2 × 36 (u = 1, v = −2)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 12)
+TE-AR-02,K,,x≡5,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1)
+TE-AR-04,A,,"c = (d₁ + 2d₂ + 3d₃) mod 11 (10 written X); 123: 14 ≡ 3, code 1233; a single wrong digit changes the sum by kΔ (1 ≤ k ≤ 3, 0 < \|Δ\| ≤ 9), never a multiple of the prime 11: detected",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 3)
+TC-SE-01,A,,additive: 1 000 + 3 × 30 = 1 090 €; multiplicative: 1 000 × 1.03³ = 1 092.727 €; the percentage applies to a growing base,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1092.727)
+TC-FN-03,A,,t>5ln2,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 3.465735902799726)
+TC-FN-04,A,,"B′(x) = −2x + 6 > 0 on [0 ; 2]: B is increasing, maximum at x = 2, B(2) = 8 (the vertex x = 3 is outside the domain)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 8)
+M1-CA-01,A,,n(n+3)/2,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: x**2/2 + 3*x/2)
+M1-CA-03,A,,n(n+1)/2,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: x**2/2 + x/2)
+M1-TA-01,A,,e^(x²)+C,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 2*x*exp(x**2))
+M1-TA-03,A,,2e^x−e^(2x),V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: -exp(2*x) + 2*exp(x))
+M1-PO-04,K,,"A = 2, B = 1",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1/(X + 2) + 2/(X + 1))
+M1-PO-04,A,,"A = 8/4 = 2, B = 4/(−4) = −1; check 2(X + 3) − (X − 1) = X + 7",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: -1/(X + 3) + 2/(X - 1))
+M1-PR-02,A,,"Ω = {1, …, 6}², 36 equally likely ordered pairs; P(sum = 4) = 3/36 (1-3, 2-2, 3-1)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1/12)
+M1-SN-02,A,,"1/(n(n + 1)) = 1/n − 1/(n + 1); Sₙ = 1 − 1/(n + 1) → 1: convergent, sum 1",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1)
+M2-ST-01,K,,5,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1)
+M2-ST-04,K,,2Z,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 2)
+M2-RED-01,A,,χ(X) = (X − 2)(X − 3) (triangular matrix); eigenvalues 2 and 3,V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: X**2 - 5*X + 6)
+M2-SEN-03,A,,"R = 1; on ]−1 ; 1[: (Σ xⁿ/n)′ = Σ xⁿ⁻¹ = 1/(1 − x), so Σ xⁿ/n = −ln(1 − x)",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1/(1 - x))
+M2-IN-01,A,,"∫₁ˣ dt/t² = 1 − 1/x → 1: convergent, value 1",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: 1)
+M2-IN-03,A,,"fₙ(t) = e^(−nt) → 0 on ]0 ; 1] (1 at t = 0, a single point); \|fₙ\| ≤ 1, integrable on [0 ; 1]: ∫₀¹ fₙ → 0; directly (1 − e⁻ⁿ)/n → 0",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: (1 - exp(-npos))/npos)
+M2-ED-01,A,,"y = Ce^(2t); y(1) = Ce² = e², so C = 1 and y = e^(2t); uniqueness: (y e^(−2t))′ = 0, or the linear Cauchy theorem",V6_CHECKS_AN_INTERMEDIATE_VALUE (checked: exp(2*t))

@@ -1,0 +1,44 @@
+{
+  "title": "Diagnostic de calcul — démonstrateur v11",
+  "language": "fr",
+  "items": [
+    {
+      "id": "DEMO-SGN-01", "type": "mcq", "skill_id": "BR-NC-06",
+      "question": "Calculer : −5 − (−8)",
+      "options": [
+        {"text": "−13", "correct": false, "error_code": "CB-SGN-02", "why": "La soustraction d’un nombre négatif a été traitée comme une soustraction ordinaire."},
+        {"text": "3", "correct": true},
+        {"text": "−3", "correct": false, "error_code": "LOCAL", "why": "Le signe du résultat a probablement été inversé."},
+        {"text": "13", "correct": false, "error_code": "LOCAL", "why": "Les valeurs absolues semblent avoir été additionnées."}
+      ],
+      "solution": "−5 − (−8) = −5 + 8 = 3."
+    },
+    {
+      "id": "DEMO-PAR-02", "type": "mcq", "skill_id": "BR-NC-04",
+      "question": "Développer : −(4 − 2x)",
+      "options": [
+        {"text": "−4 − 2x", "correct": false, "error_code": "CB-SGN-03", "why": "Le signe moins n’a pas été distribué à tous les termes."},
+        {"text": "4 − 2x", "correct": false, "error_code": "LOCAL", "why": "Le signe moins devant la parenthèse semble avoir été ignoré."},
+        {"text": "−4 + 2x", "correct": true},
+        {"text": "4 + 2x", "correct": false, "error_code": "LOCAL", "why": "Les deux signes ont été modifiés sans appliquer correctement la règle."}
+      ],
+      "solution": "−(4 − 2x) = −4 + 2x."
+    },
+    {
+      "id": "DEMO-FRA-03", "type": "mcq", "skill_id": "BR-NC-10",
+      "question": "Calculer : 1/4 + 2/3",
+      "options": [
+        {"text": "3/7", "correct": false, "error_code": "CB-FRA-01", "why": "Les numérateurs et les dénominateurs ont été additionnés séparément."},
+        {"text": "3/12", "correct": false, "error_code": "LOCAL", "why": "Les fractions ont été mises au même dénominateur sans adapter les numérateurs."},
+        {"text": "3/4", "correct": false, "error_code": "LOCAL", "why": "Le dénominateur de la première fraction semble avoir été conservé."},
+        {"text": "11/12", "correct": true}
+      ],
+      "solution": "1/4 + 2/3 = 3/12 + 8/12 = 11/12."
+    },
+    {
+      "id": "DEMO-GEO-04", "type": "open", "skill_id": "BR-EG-07",
+      "question": "Un triangle a trois côtés de longueurs 5 cm, 12 cm et 13 cm. Démontrer qu’il est rectangle. Citer la propriété utilisée.",
+      "solution": "Le plus grand côté mesure 13 cm. On calcule 13² = 169 et 5² + 12² = 25 + 144 = 169. Comme 13² = 5² + 12², d’après la réciproque du théorème de Pythagore, le triangle est rectangle. Son hypoténuse est le côté de longueur 13 cm."
+    }
+  ]
+}

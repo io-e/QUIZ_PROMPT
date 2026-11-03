@@ -1,0 +1,820 @@
+{
+ "file": "French_Math_Diagnostic_Curriculum_Reference_CLAUDE_EN_v11.md",
+ "scope": {
+  "automatic_gates": [
+   "markdown rows re-rendered from the CSV",
+   "ID grammar, uniqueness, reserved patterns, E-numbering, statuses",
+   "mode / sig_mcq / sig_open consistency",
+   "transversal codes defined in §2A",
+   "anchor presence and status consistency",
+   "migration coverage (v5, v6, v7 and current IDs; merged and retired IDs)",
+   "MCQ allowed only with three distinct MCQ-seed signatures",
+   "masking and collisions on each seed (rule R1)",
+   "numeric recomputation of keys and signatures (chk_*.py, check_values_v6.py)"
+  ],
+  "not_checked": [
+   "pedagogical plausibility of each signature (teacher review)",
+   "that a BO paraphrase supports the capability (PROVISIONAL anchors need a BO check)",
+   "empirical diagnostic validity (no pilot data: signatures are hypotheses)",
+   "YAML compatibility with the player JSON schema (schema file not in this package)",
+   "wording and French student-facing text of generated items"
+  ],
+  "release_rule": "Zero blocking findings establishes only a structural pass. Programme passages, mathematical coverage and teacher review remain required for any release labelled \"validated\". Today 152 rows are PROVISIONAL and 6 NOT_SUPPORTED (158 not source-linked)."
+ },
+ "findings": {},
+ "counts": {
+  "md_rows": 600,
+  "csv_rows": 600,
+  "active_error_ids": 2177,
+  "active_by_mode": {
+   "mcq": 1808,
+   "open": 357,
+   "mcq+open": 12
+  },
+  "active_by_origin": {
+   "v5": 806,
+   "v6": 271,
+   "v7": 993,
+   "v8": 107
+  },
+  "retired_error_ids": 1,
+  "merged_error_ids": 1,
+  "by_level": {
+   "BR": 95,
+   "1S": 79,
+   "1C": 40,
+   "TS": 85,
+   "TE": 36,
+   "TC": 42,
+   "M1": 130,
+   "M2": 93
+  },
+  "by_status": {
+   "V6_KEPT": 263,
+   "NEW_V7": 331,
+   "V6_REVISED_V7": 6
+  },
+  "reasoned_rows": 62,
+  "rows_changed_in_v8": 101,
+  "codes_defined": 110,
+  "ref_entries": 355,
+  "ref_entries_by_status": {
+   "OFFICIAL": 281,
+   "COPY": 62,
+   "TOC": 10,
+   "NOT_SUPPORTED": 2
+  },
+  "rows_by_anchor_status": {
+   "SOURCE_LINKED": 442,
+   "PROVISIONAL": 152,
+   "NOT_SUPPORTED": 6
+  },
+  "rows_by_weakest_anchor": {
+   "OFFICIAL": 442,
+   "COPY": 136,
+   "TOC": 16,
+   "NOT_SUPPORTED": 6
+  },
+  "codex_v5_301": {
+   "enumerated": 301,
+   "review_status": {
+    "PROPOSED_UNREVIEWED": 301,
+    "REVIEWED": 0
+   },
+   "relations": {
+    "EXACT": 246,
+    "PARTIAL": 28,
+    "UNMAPPED": 27
+   }
+  },
+  "migration_rows": 3083,
+  "migration_relations": {
+   "SAME": 1303,
+   "SEED_REVISED": 43,
+   "NEW_V7": 1324,
+   "MERGED": 1,
+   "RETIRED": 1,
+   "NEW_V8": 107,
+   "RESERVED": 3,
+   "PARTIAL": 28,
+   "EXACT": 246,
+   "UNMAPPED": 27
+  },
+  "legacy_ids_checked": 2779,
+  "allowed_items": {
+   "MCQ+OPEN": 599,
+   "OPEN_ONLY": 1
+  }
+ },
+ "scan": {
+  "masking_mcq": [],
+  "masking_open": [],
+  "collision_mcq": [],
+  "collision_open": [],
+  "declared_form_distinct": [
+   [
+    "BR-NC-02",
+    "BR-NC-02-E2",
+    "same value as the key, not in scientific form; the item asks for the form"
+   ],
+   [
+    "BR-NC-03",
+    "BR-NC-03-E3",
+    "same value as the key, with 1 listed as a prime factor; the item asks for the decomposition"
+   ],
+   [
+    "M1-AA-02",
+    "M1-AA-02-E1",
+    "same polynomial as the key, remainder term missing; the item asks for the expansion"
+   ],
+   [
+    "M1-PO-03",
+    "M1-PO-03-E4",
+    "same polynomial as the key, factors not real; the item asks for the factorisation over ℝ"
+   ]
+  ],
+  "open_only_rows": [
+   [
+    "TC-IN-02",
+    "on f(x) = x the midpoint, trapezoid and exact values coincide, so the MCQ seed separates only two mechanisms; use the open seed (f(x) = x², n = 2)"
+   ]
+  ]
+ },
+ "coverage": {
+  "rows_total": 600,
+  "rows_with_key_check": 351,
+  "rows_with_any_check": 416,
+  "errors_active": 2177,
+  "errors_with_signature_check": 949,
+  "numeric_signatures_total": 1288,
+  "numeric_signatures_checked": 825,
+  "text_signatures_for_review": 901,
+  "symbolic_infinity": [
+   [
+    "1S-AL-12-E2",
+    "−∞",
+    "CHECKED"
+   ],
+   [
+    "1S-AN-03-E3",
+    "variation table without behaviour at ±∞",
+    "NOT_CHECKED"
+   ],
+   [
+    "1C-FN-03-E3",
+    "]−∞ ; 1] ∪ [3 ; +∞[ for the strict inequality",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-02-E4",
+    "+∞",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-03-E2",
+    "\"decreasing on ]1 ; +∞[\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-18-E2",
+    "\"2, because cos(n)/n = cos(∞)/∞ = 0\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-19-E3",
+    "−∞",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-20-E2",
+    "\"(uₙ) tends to +∞\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-22-E1",
+    "−∞",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-23-E1",
+    "+∞",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-23-E2",
+    "−∞",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-24-E2",
+    "+∞",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-29-E2",
+    "+∞",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-33-E1",
+    "\"]−∞ ; 1[\"",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-33-E2",
+    "\"]−∞ ; 1/2[\"",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-33-E3",
+    "\"]1 ; +∞[\"",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-45-E2",
+    "+∞",
+    "CHECKED"
+   ],
+   [
+    "TS-AN-10-E3",
+    "\"lim uₙ ≥ lim vₙ = +∞\" (limit assumed to exist)",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-10-E5",
+    "\"uₙ → +∞ only if (uₙ) is increasing\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-11-E3",
+    "\"increasing, so it tends to +∞\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "TS-AN-16-E3",
+    "+∞",
+    "NOT_CHECKED"
+   ],
+   [
+    "TC-SE-02-E2",
+    "\"0.8ⁿ → +∞\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "TC-SE-02-E4",
+    "+∞",
+    "NOT_CHECKED"
+   ],
+   [
+    "TC-FN-07-E3",
+    "+∞",
+    "CHECKED"
+   ],
+   [
+    "TC-FN-11-E1",
+    "\"]−∞ ; 0] ∪ [2 ; +∞[\"",
+    "CHECKED"
+   ],
+   [
+    "TC-FN-11-E2",
+    "\"]−∞ ; 1]\"",
+    "CHECKED"
+   ],
+   [
+    "TC-FN-11-E3",
+    "\"[1/2 ; +∞[\"",
+    "CHECKED"
+   ],
+   [
+    "M1-LO-02-E1",
+    "\"x ↦ x² is a surjection of ℝ onto ℝ\" (image [0 ; +∞[ ignored)",
+    "NOT_CHECKED"
+   ],
+   [
+    "M1-CA-07-E1",
+    "\"]−∞ ; 4]\"",
+    "CHECKED"
+   ],
+   [
+    "M1-CA-07-E2",
+    "\"]−∞ ; −1] ∪ [4 ; +∞[\"",
+    "CHECKED"
+   ],
+   [
+    "M1-SU-03-E5",
+    "\"(uₙ) tends to +∞\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "M1-SU-08-E2",
+    "+∞",
+    "CHECKED"
+   ],
+   [
+    "M1-LC-05-E3",
+    "\"+∞\"",
+    "CHECKED"
+   ],
+   [
+    "M1-AA-01-E3",
+    "\"True as x → +∞\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "M1-AA-03-E3",
+    "\"0, because (1 − cos x)/x² tends to 0 as x tends to +∞\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "M1-IN-02-E1",
+    "+∞",
+    "NOT_CHECKED"
+   ],
+   [
+    "M1-IN-05-E3",
+    "\"+∞\"",
+    "CHECKED"
+   ],
+   [
+    "M1-SN-03-E5",
+    "+∞",
+    "CHECKED"
+   ],
+   [
+    "M2-EVN-04-E4",
+    "\"False: ‖·‖₁ and ‖·‖∞ give different values\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-SE-06-E2",
+    "\"+∞\"",
+    "CHECKED"
+   ],
+   [
+    "M2-SF-02-E2",
+    "\"on ℝ, sup \\|x/n\\| = 1/n\" (it is +∞)",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-SF-05-E2",
+    "\"+∞\"",
+    "CHECKED"
+   ],
+   [
+    "M2-SEN-01-E4",
+    "+∞",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-SEN-03-E1",
+    "\"C^∞ on [−R ; R]\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-SEN-05-E3",
+    "\"+∞\"",
+    "CHECKED"
+   ],
+   [
+    "M2-IN-01-E3",
+    "\"−1/∞ + 1\" written",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-IN-02-E4",
+    "\"True, because t^(−p) → 0 as t → +∞\"",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-IN-04-E1",
+    "boundary term at +∞ dropped",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-IN-04-E2",
+    "IPP done directly on [0 ; +∞[ without convergence check",
+    "NOT_CHECKED"
+   ],
+   [
+    "M2-IN-04-E5",
+    "+∞",
+    "CHECKED"
+   ]
+  ],
+  "form_distinct_review": 4,
+  "gaps": {
+   "KEY_NOT_CHECKED": 249,
+   "NUMERIC_NOT_CHECKED": 458,
+   "INFINITY_NOT_CHECKED": 5,
+   "TEXT_REVIEW": 901,
+   "V6_CHECKS": 58
+  }
+ },
+ "numeric": {
+  "checked": 1406,
+  "passed": 1406,
+  "failed": [],
+  "unparsed": [],
+  "extra_ok": 147,
+  "extra_failed": [],
+  "rows_with_checks": 337,
+  "v6_checks_run": 310,
+  "v6_checks_failed": 0,
+  "v6_failures": [],
+  "v6_label": "v6 checks: recomputed in-process; a check counts as coverage only when its written value equals the value shown in the current CSV",
+  "v6_linked_to_csv": 163,
+  "v6_link_mismatch_for_review": [
+   [
+    "BR-DF-03",
+    "A",
+    "110, then −11, final 99 (net −1 %)",
+    "99"
+   ],
+   [
+    "BR-GM-02",
+    "K",
+    "36π cm³",
+    "36"
+   ],
+   [
+    "BR-GM-02",
+    "E2",
+    "144π",
+    "144"
+   ],
+   [
+    "BR-GM-04",
+    "A",
+    "€1.20",
+    "1.2"
+   ],
+   [
+    "BR-EG-01",
+    "E5",
+    "√28 ≈ 5.3",
+    "5.291502622129181"
+   ],
+   [
+    "BR-EG-01",
+    "A",
+    "13² = 169 and 5² + 12² = 25 + 144 = 169: equal, so the triangle is right (converse of Pythagoras), right angle opposite the side 13",
+    "169"
+   ],
+   [
+    "BR-EG-07",
+    "K",
+    "no — 9² = 81 and 6² + 7² = 85, 81 ≠ 85, contrapositive",
+    "81"
+   ],
+   [
+    "BR-EG-07",
+    "E2",
+    "\"No, because 7² ≠ 6² + 9²\" (right conclusion, wrong hypotenuse: wrong reason)",
+    "117"
+   ],
+   [
+    "BR-EG-07",
+    "A",
+    "BC² = 289 = 64 + 225 = AB² + AC², converse ⇒ right at A",
+    "289"
+   ],
+   [
+    "BR-EG-08",
+    "K",
+    "no — 21/35 ≠ 20/35, contrapositive",
+    "21"
+   ],
+   [
+    "BR-EG-08",
+    "A",
+    "AM/AB = 0.4 = AN/AC, alignment and order stated, converse of Thalès",
+    "2/5"
+   ],
+   [
+    "BR-EG-15",
+    "K",
+    "B̂, opposite the longest side AC",
+    "169"
+   ],
+   [
+    "BR-EG-15",
+    "A",
+    "25 + 144 = 169 = 13² ⇒ right at B; tan Â = BC/AB = 12/5 = 2.4; Â ≈ 67.4°",
+    "67.38"
+   ],
+   [
+    "BR-AP-03",
+    "A",
+    "1, 4, 7, 10, 13; the loop stops at 13 because 10 > 10 is false",
+    "13"
+   ],
+   [
+    "1S-AU-02",
+    "K",
+    "-4%",
+    "-1/25"
+   ],
+   [
+    "1S-AU-04",
+    "A",
+    "−2x + 3 = 5 ⇔ x = −1; check f(−1) = 5",
+    "-1"
+   ],
+   [
+    "1S-AL-04",
+    "A",
+    "u_n=3+2n, sum 35",
+    "35"
+   ],
+   [
+    "1S-AN-03",
+    "A",
+    "at x=2 value -3",
+    "-3"
+   ],
+   [
+    "1S-AN-05",
+    "E1",
+    "0.9998",
+    "0.99983"
+   ],
+   [
+    "1S-PS-02",
+    "K",
+    "Yes, because P(A ∩ B) = P(A) × P(B)",
+    "0.2"
+   ],
+   [
+    "1S-PS-02",
+    "A",
+    "P(+) = 0.08 + 0.09 = 0.17; P(A \\| +) = 0.08/0.17 = 8/17 ≈ 0.47",
+    "8/17"
+   ],
+   [
+    "1S-AP-02",
+    "A",
+    "n = 0, u = 1; while u <= 2: n = n + 1; u = 1.1 * u; returns 8 (1.1⁷ ≈ 1.95 ≤ 2 < 1.1⁸ ≈ 2.14); the loop stops because u grows",
+    "8"
+   ],
+   [
+    "1C-AU-01",
+    "A",
+    "1/8 = 1 ÷ 8 = 0.125 = 12.5/100 = 12.5 %",
+    "0.125"
+   ],
+   [
+    "1C-AU-02",
+    "A",
+    "5 × 1.9 × 10³ = 9.5 × 10³ kWh ≈ 10⁴ kWh; 9.5 × 10⁴ kWh is ten times too large",
+    "9500.0"
+   ],
+   [
+    "1C-AU-04",
+    "A",
+    "45 with multiplier",
+    "45"
+   ],
+   [
+    "1C-SE-03",
+    "E4",
+    "16.67",
+    "50/3"
+   ],
+   [
+    "1C-SE-04",
+    "A",
+    "1.2² = 1.44, 1.2³ = 1.728: n = 3 (equality reached at n = 3)",
+    "172.8"
+   ],
+   [
+    "TS-AN-13",
+    "K",
+    "6 + h",
+    "h + 6"
+   ],
+   [
+    "TS-AN-13",
+    "A",
+    "−1/(a(a + h)) → −1/a²",
+    "-1/(x*(h + x))"
+   ],
+   [
+    "TS-AN-14",
+    "E1",
+    "1.1105",
+    "2.0247"
+   ],
+   [
+    "TS-PR-02",
+    "E3",
+    "√2.1 ≈ 1.45",
+    "1.449"
+   ],
+   [
+    "TS-PR-02",
+    "A",
+    "E = 5, V = 3.75, σ ≈ 1.94",
+    "3.75"
+   ],
+   [
+    "TS-PR-03",
+    "E1",
+    "√2 + √3 ≈ 3.15",
+    "3.146"
+   ],
+   [
+    "TS-PR-04",
+    "A",
+    "E(X̄) = μ, V(X̄) = σ²/n; Bienaymé–Tchebychev: P(\\|X̄ − μ\\| ≥ δ) ≤ σ²/(nδ²); e.g. σ² = 4, n = 100, δ = 0.5: ≤ 0.16",
+    "0.16"
+   ],
+   [
+    "TS-AP-01",
+    "A",
+    "s = 0; for k in range(1, n + 1): s = s + k**2; return s; invariant: after turn k, s = 1² + … + k²; n = 3 gives 14",
+    "14"
+   ],
+   [
+    "TS-AP-03",
+    "A",
+    "3/8 and 5/8",
+    "0.375"
+   ],
+   [
+    "TE-CX-04",
+    "A",
+    "A, B, C distinct are aligned ⇔ (c − a)/(b − a) ∈ ℝ; e.g. a = 1 + i, b = 3 + 2i, c = 5 + 3i: (4 + 2i)/(2 + i) = 2 ∈ ℝ, so they are aligned",
+    "2"
+   ],
+   [
+    "TE-AR-01",
+    "A",
+    "84 = 2 × 36 + 12, 36 = 3 × 12: gcd = 12 = 84 − 2 × 36 (u = 1, v = −2)",
+    "12"
+   ],
+   [
+    "TE-AR-02",
+    "K",
+    "x≡5",
+    "1"
+   ],
+   [
+    "TE-AR-04",
+    "A",
+    "c = (d₁ + 2d₂ + 3d₃) mod 11 (10 written X); 123: 14 ≡ 3, code 1233; a single wrong digit changes the sum by kΔ (1 ≤ k ≤ 3, 0 < \\|Δ\\| ≤ 9), never a multiple of the prime 11: detected",
+    "3"
+   ],
+   [
+    "TC-SE-01",
+    "A",
+    "additive: 1 000 + 3 × 30 = 1 090 €; multiplicative: 1 000 × 1.03³ = 1 092.727 €; the percentage applies to a growing base",
+    "1092.727"
+   ],
+   [
+    "TC-FN-03",
+    "A",
+    "t>5ln2",
+    "3.465735902799726"
+   ],
+   [
+    "TC-FN-04",
+    "A",
+    "B′(x) = −2x + 6 > 0 on [0 ; 2]: B is increasing, maximum at x = 2, B(2) = 8 (the vertex x = 3 is outside the domain)",
+    "8"
+   ],
+   [
+    "M1-CA-01",
+    "A",
+    "n(n+3)/2",
+    "x**2/2 + 3*x/2"
+   ],
+   [
+    "M1-CA-03",
+    "A",
+    "n(n+1)/2",
+    "x**2/2 + x/2"
+   ],
+   [
+    "M1-TA-01",
+    "A",
+    "e^(x²)+C",
+    "2*x*exp(x**2)"
+   ],
+   [
+    "M1-TA-03",
+    "A",
+    "2e^x−e^(2x)",
+    "-exp(2*x) + 2*exp(x)"
+   ],
+   [
+    "M1-PO-04",
+    "K",
+    "A = 2, B = 1",
+    "1/(X + 2) + 2/(X + 1)"
+   ],
+   [
+    "M1-PO-04",
+    "A",
+    "A = 8/4 = 2, B = 4/(−4) = −1; check 2(X + 3) − (X − 1) = X + 7",
+    "-1/(X + 3) + 2/(X - 1)"
+   ],
+   [
+    "M1-PR-02",
+    "A",
+    "Ω = {1, …, 6}², 36 equally likely ordered pairs; P(sum = 4) = 3/36 (1-3, 2-2, 3-1)",
+    "1/12"
+   ],
+   [
+    "M1-SN-02",
+    "A",
+    "1/(n(n + 1)) = 1/n − 1/(n + 1); Sₙ = 1 − 1/(n + 1) → 1: convergent, sum 1",
+    "1"
+   ],
+   [
+    "M2-ST-01",
+    "K",
+    "5",
+    "1"
+   ],
+   [
+    "M2-ST-04",
+    "K",
+    "2Z",
+    "2"
+   ],
+   [
+    "M2-RED-01",
+    "A",
+    "χ(X) = (X − 2)(X − 3) (triangular matrix); eigenvalues 2 and 3",
+    "X**2 - 5*X + 6"
+   ],
+   [
+    "M2-SEN-03",
+    "A",
+    "R = 1; on ]−1 ; 1[: (Σ xⁿ/n)′ = Σ xⁿ⁻¹ = 1/(1 − x), so Σ xⁿ/n = −ln(1 − x)",
+    "1/(1 - x)"
+   ],
+   [
+    "M2-IN-01",
+    "A",
+    "∫₁ˣ dt/t² = 1 − 1/x → 1: convergent, value 1",
+    "1"
+   ],
+   [
+    "M2-IN-03",
+    "A",
+    "fₙ(t) = e^(−nt) → 0 on ]0 ; 1] (1 at t = 0, a single point); \\|fₙ\\| ≤ 1, integrable on [0 ; 1]: ∫₀¹ fₙ → 0; directly (1 − e⁻ⁿ)/n → 0",
+    "(1 - exp(-npos))/npos"
+   ],
+   [
+    "M2-ED-01",
+    "A",
+    "y = Ce^(2t); y(1) = Ce² = e², so C = 1 and y = e^(2t); uniqueness: (y e^(−2t))′ = 0, or the linear Cauchy theorem",
+    "exp(2*t)"
+   ]
+  ],
+  "v6_unlinkable": 89
+ },
+ "blocking_findings": 0,
+ "non_blocking": {
+  "declared_form_distinct": 4,
+  "open_only_rows": 1,
+  "provisional_anchor_rows": 152,
+  "unparsed_values": 0
+ },
+ "status": "STRUCTURAL_PASS (not a release: see scope)",
+ "item_eligibility": {
+  "paper": {
+   "PASS": 0,
+   "HOLD": 594,
+   "FAIL": 6
+  },
+  "digital": {
+   "PASS": 0,
+   "HOLD": 594,
+   "FAIL": 6
+  }
+ },
+ "gates": {
+  "STRUCTURE_PASS": "PASS",
+  "CALCULATION_PASS": "PARTIAL",
+  "CURRICULUM_PASS": "HOLD",
+  "LEGACY_MIGRATION_PASS": "HOLD",
+  "PLAYER_SCHEMA_PASS": "UNVERIFIED",
+  "TEACHER_REVIEW_PASS": "HOLD",
+  "DIAGNOSTIC_VALIDITY_PASS": "HOLD"
+ },
+ "release_status": {
+  "scope": "all 600 rows",
+  "paper": "HOLD",
+  "digital": "HOLD"
+ },
+ "environment": {
+  "python": "3.13.5",
+  "implementation": "CPython",
+  "sympy": "1.14.0",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "command": "python validate_reference_v11.py"
+ },
+ "summary": "600 rows (BR 95, 1S 79, 1C 40, TS 85, TE 36, TC 42, M1 130, M2 93); 2177 active error IDs (MCQ seed 1808, open seed 357, both 12; 107 added in v8), 1 retired, 1 merged; structure, IDs, fields, codes, anchors, migration and allowed items: 0 findings; scan on each seed: 0 masking, 0 collisions, 4 declared form-distinct; MCQ+OPEN 599 rows, OPEN_ONLY 1; anchors SOURCE_LINKED 442, PROVISIONAL 152; numeric: 1406/1406 values, 147/147 extra checks, v6 checks 310/310; blocking findings: 0. Coverage: 351/600 rows with a key check, 949/2177 active errors with a signature check, 825/1288 numeric signatures checked, 901 text signatures for review, 50 symbolic infinities (25 checked); v6 checks linked to the CSV 163; NOT_SUPPORTED rows 6; CODEX v5 301 IDs enumerated 301 (reviewed 0); items (paper) PASS 0, HOLD 594, FAIL 6. Gates: STRUCTURE_PASS PASS, CALCULATION_PASS PARTIAL, CURRICULUM_PASS HOLD, LEGACY_MIGRATION_PASS HOLD, PLAYER_SCHEMA_PASS UNVERIFIED, TEACHER_REVIEW_PASS HOLD, DIAGNOSTIC_VALIDITY_PASS HOLD. release_status: paper HOLD, digital HOLD (scope: all rows)."
+}

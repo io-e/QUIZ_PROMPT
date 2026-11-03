@@ -1,0 +1,337 @@
+{
+ "items": [
+  {
+   "id": "BR-NC-01",
+   "type": "mcq",
+   "stem": "Calculer : −3/4 + 1/2. Donner le résultat sous forme de fraction irréductible.",
+   "options": [
+    {
+     "text": "−1/3",
+     "correct": false,
+     "error_code": "BR-NC-01-E1",
+     "why": "A additionné numérateurs et dénominateurs : (−3+1)/(4+2)."
+    },
+    {
+     "text": "−1/4",
+     "correct": true
+    },
+    {
+     "text": "5/4",
+     "correct": false,
+     "error_code": "BR-NC-01-E2",
+     "why": "A ignoré le signe moins de −3/4."
+    },
+    {
+     "text": "−5/4",
+     "correct": false,
+     "error_code": "BR-NC-01-E3",
+     "why": "A additionné les valeurs absolues en gardant le signe moins."
+    }
+   ],
+   "key": "B",
+   "anchor": "SOURCE_LINKED",
+   "elig": "HOLD/HOLD"
+  },
+  {
+   "id": "BR-NC-06",
+   "type": "mcq",
+   "stem": "Calculer : −7 + 3 − (−5)",
+   "options": [
+    {
+     "text": "−5",
+     "correct": false,
+     "error_code": "BR-NC-06-E1",
+     "why": "A additionné les valeurs absolues de −7 et 3 en gardant le signe moins."
+    },
+    {
+     "text": "−9",
+     "correct": false,
+     "error_code": "BR-NC-06-E2",
+     "why": "A traité « − (−5) » comme « − 5 »."
+    },
+    {
+     "text": "9",
+     "correct": false,
+     "error_code": "BR-NC-06-E3",
+     "why": "A perdu le signe de −7 + 3."
+    },
+    {
+     "text": "1",
+     "correct": true
+    }
+   ],
+   "key": "D",
+   "anchor": "SOURCE_LINKED",
+   "elig": "HOLD/HOLD"
+  },
+  {
+   "id": "BR-NC-10",
+   "type": "mcq",
+   "stem": "Calculer : 2/3 − 1/4. Donner le résultat sous forme de fraction irréductible.",
+   "options": [
+    {
+     "text": "5/12",
+     "correct": true
+    },
+    {
+     "text": "−1",
+     "correct": false,
+     "error_code": "BR-NC-10-E1",
+     "why": "A soustrait numérateurs et dénominateurs."
+    },
+    {
+     "text": "1/12",
+     "correct": false,
+     "error_code": "BR-NC-10-E2",
+     "why": "A pris 12 comme dénominateur commun sans convertir les numérateurs."
+    },
+    {
+     "text": "1/6",
+     "correct": false,
+     "error_code": "BR-NC-10-E3",
+     "why": "A appliqué la règle du produit à la différence."
+    }
+   ],
+   "key": "A",
+   "anchor": "SOURCE_LINKED",
+   "elig": "HOLD/HOLD"
+  },
+  {
+   "id": "BR-NC-22",
+   "type": "mcq",
+   "stem": "Développer et réduire : 5 − 3(2x − 4)",
+   "options": [
+    {
+     "text": "−7 − 6x",
+     "correct": false,
+     "error_code": "BR-NC-22-E1",
+     "why": "N’a pas appliqué le signe moins au second terme de la parenthèse."
+    },
+    {
+     "text": "1 − 6x",
+     "correct": false,
+     "error_code": "BR-NC-22-E2",
+     "why": "A multiplié seulement le premier terme par 3."
+    },
+    {
+     "text": "17 − 6x",
+     "correct": true
+    },
+    {
+     "text": "4x − 8",
+     "correct": false,
+     "error_code": "BR-NC-22-E3",
+     "why": "A calculé 5 − 3 d’abord."
+    }
+   ],
+   "key": "C",
+   "anchor": "SOURCE_LINKED",
+   "elig": "HOLD/HOLD"
+  },
+  {
+   "id": "BR-NC-26",
+   "type": "mcq",
+   "stem": "Résoudre l’équation : 5x − 7 = 2x + 8",
+   "options": [
+    {
+     "text": "x = 1/3",
+     "correct": false,
+     "error_code": "BR-NC-26-E1",
+     "why": "A déplacé −7 sans changer son signe."
+    },
+    {
+     "text": "x = 5",
+     "correct": true
+    },
+    {
+     "text": "x = 12",
+     "correct": false,
+     "error_code": "BR-NC-26-E2",
+     "why": "A confondu opposé et inverse (3x = 15 ⇒ x = 12)."
+    },
+    {
+     "text": "x = 15/7",
+     "correct": false,
+     "error_code": "BR-NC-26-E3",
+     "why": "A déplacé 2x sans changer son signe."
+    }
+   ],
+   "key": "B",
+   "anchor": "SOURCE_LINKED",
+   "elig": "HOLD/HOLD"
+  }
+ ],
+ "check": [
+  [
+   "BR-NC-01",
+   "Compute -3/4 + 1/2",
+   "-1/4",
+   "−1/4",
+   "-1/4",
+   "True",
+   [
+    [
+     "BR-NC-01-E1",
+     "−1/3",
+     "−1/3",
+     "-1/3",
+     true
+    ],
+    [
+     "BR-NC-01-E2",
+     "5/4",
+     "5/4",
+     "5/4",
+     true
+    ],
+    [
+     "BR-NC-01-E3",
+     "−5/4",
+     "−5/4",
+     "-5/4",
+     true
+    ]
+   ]
+  ],
+  [
+   "BR-NC-06",
+   "−7 + 3 − (−5)",
+   "1",
+   "1",
+   "1",
+   "True",
+   [
+    [
+     "BR-NC-06-E1",
+     "−5",
+     "−5",
+     "-5",
+     true
+    ],
+    [
+     "BR-NC-06-E2",
+     "−9",
+     "−9",
+     "-9",
+     true
+    ],
+    [
+     "BR-NC-06-E3",
+     "9",
+     "9",
+     "9",
+     true
+    ]
+   ]
+  ],
+  [
+   "BR-NC-10",
+   "2/3 − 1/4",
+   "5/12",
+   "5/12",
+   "5/12",
+   "True",
+   [
+    [
+     "BR-NC-10-E1",
+     "−1",
+     "−1",
+     "-1",
+     true
+    ],
+    [
+     "BR-NC-10-E2",
+     "1/12",
+     "1/12",
+     "1/12",
+     true
+    ],
+    [
+     "BR-NC-10-E3",
+     "1/6",
+     "1/6",
+     "1/6",
+     true
+    ]
+   ]
+  ],
+  [
+   "BR-NC-22",
+   "Expand and reduce 5 − 3(2x − 4)",
+   "17 − 6x",
+   "17 − 6x",
+   "17 - 6*x",
+   "True",
+   [
+    [
+     "BR-NC-22-E1",
+     "−7 − 6x",
+     "−7 − 6x",
+     "-6*x - 7",
+     true
+    ],
+    [
+     "BR-NC-22-E2",
+     "1 − 6x",
+     "1 − 6x",
+     "1 - 6*x",
+     true
+    ],
+    [
+     "BR-NC-22-E3",
+     "4x − 8",
+     "4x − 8",
+     "4*x - 8",
+     true
+    ]
+   ]
+  ],
+  [
+   "BR-NC-26",
+   "5x − 7 = 2x + 8",
+   "5",
+   "x = 5",
+   "5",
+   "True",
+   [
+    [
+     "BR-NC-26-E1",
+     "x = 1/3",
+     "1/3",
+     "1/3",
+     true
+    ],
+    [
+     "BR-NC-26-E2",
+     "x = 12",
+     "12",
+     "12",
+     true
+    ],
+    [
+     "BR-NC-26-E3",
+     "x = 15/7",
+     "15/7",
+     "15/7",
+     true
+    ]
+   ]
+  ]
+ ],
+ "open": [
+  [
+   "BR-NC-04",
+   "9x²−25=0",
+   "(3*x - 5)*(3*x + 5)",
+   "[-5/3, 5/3]",
+   true
+  ],
+  [
+   "BR-NC-05",
+   "2x+3≤11",
+   "x ≤ 4",
+   "4",
+   true
+  ]
+ ]
+}
