@@ -10,7 +10,8 @@ def _flow(s):
     return out
 def load_cases(path):
     cases = []
-    for line in open(path, encoding="utf-8"):
+    with open(path, encoding="utf-8") as f: lines = f.readlines()
+    for line in lines:
         if line.lstrip().startswith("#") or not line.strip() or line.strip() == "cases:": continue
         m = re.match(r"\s*-\s*input:\s*(\{.*\})\s*$", line)
         if m: cases.append({"input": _flow(m.group(1))}); continue

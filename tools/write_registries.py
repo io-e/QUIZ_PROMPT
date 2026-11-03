@@ -41,7 +41,8 @@ src={'EDUSCOL_C4_2020':dict(url=C4_2020,review_status='SOURCE_FETCHED'),'BO10_20
  'ESR_MP2I_2021':dict(url=MP2I,review_status='SOURCE_FETCHED_SEARCH_EXTRACT'),'ESR_MPI_2021':dict(url=MPI,review_status='SOURCE_FETCHED_SEARCH_EXTRACT'),
  'EDUSCOL_ENSEIGNER_C4':dict(url=ESC4,review_status='SOURCE_FETCHED_SEARCH_EXTRACT')}
 hdr="# Programme applicability registry (JSON-compatible YAML; schema aligned with the Codex kit examples/programme_registry.yaml).\n# Bounded ranges only: a year outside every range is UNVERIFIED_EDITION, never inferred.\n# Status values: VERIFIED (quoted from a fetched official source) / UNVERIFIED. Sources consulted 2026-11-03.\n# Append-only: never delete or rewrite an edition; register a new one with programme_diff.register_edition().\n"
-def w(p,obj): open(p,'w',encoding='utf-8').write(hdr+json.dumps(obj,ensure_ascii=False,indent=1)+"\n")
+def w(p,obj):
+    with open(p,'w',encoding='utf-8') as f: f.write(hdr+json.dumps(obj,ensure_ascii=False,indent=1)+"\n")
 w(f'{R}/subjects/mathematics/programme/editions.yaml',dict(registry_version='1.0-proposal',subject='mathematics',programmes=math,sources=src))
 w(f'{R}/subjects/physics_chemistry/programme/editions.yaml',dict(registry_version='1.0-proposal',subject='physics_chemistry',programmes=phys,sources=src))
 R2='https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N'

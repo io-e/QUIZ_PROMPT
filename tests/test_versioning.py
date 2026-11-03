@@ -1,6 +1,9 @@
 """Regression tests for quiz_eval (run: python3 -I tests/test_versioning.py)."""
 import csv, os, shutil, sys, tempfile, unittest, json, copy
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+def read_csv(rel):
+    with open(os.path.join(ROOT, rel), encoding="utf-8") as f: return list(csv.DictReader(f))
 sys.path.insert(0, ROOT); sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from quiz_eval import programme_resolver as PR, programme_diff as PD, release_gates as RG
 from quiz_eval.migrations import Migrations
@@ -105,7 +108,7 @@ class Reproducibility(unittest.TestCase):
 class SkillSelection(unittest.TestCase):
     def setUp(self):
         self.links = PR.load_links("mathematics")
-        A = {r["target_id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "subjects/mathematics/reference/sources/Official_Programme_Audit_600_GROK.csv"), encoding="utf-8"))}
+        A = {r["target_id"]: r for r in read_csv("subjects/mathematics/reference/sources/Official_Programme_Audit_600_GROK.csv")}
         self.flag = {k: v["edition_flag"] for k, v in A.items() if v["level"] == "BREVET"}
     def dnb(self, s): return R(policy="HISTORICAL_EXAM", subject="mathematics", grade="3e", track="general", assessment="DNB_MATH", exam_session=s)
     def test_2026_only_excluded_from_dnb_2027(self):
@@ -133,15 +136,15 @@ class SkillSelection(unittest.TestCase):
         self.assertTrue(all(l["approval"] == "PENDING" and l["proposed_action"].startswith("TO_DECIDE") for l in q))
         self.assertTrue(all(l["approval"] == "PENDING" for l in self.links))
     def test_worklist_neither_first(self):
-        wl = list(csv.DictReader(open(os.path.join(ROOT, "docs/REVIEW_WORKLIST.csv"), encoding="utf-8")))
+        wl = (read_csv("docs/REVIEW_WORKLIST.csv"))
         self.assertTrue(all(r["link_status"] == "QUARANTINE" for r in wl[:18]))
         self.assertEqual(len({r["skill_id"] for r in wl[:18]}), 9)
     def test_validated_requires_verified_edition(self):
         m = R(policy="CURRENT_FOR_COHORT", subject="mathematics", grade="1re", track="specialite", school_year="2025-2026")
         with self.assertRaises(PR.ResolutionError): PR.select_skills(m, validated=True)
     def test_ids_preserved(self):
-        sk = list(csv.DictReader(open(os.path.join(ROOT, "subjects/mathematics/reference/skills.csv"), encoding="utf-8")))
-        T = list(csv.DictReader(open(os.path.join(ROOT, "Math_Diagnostic_Reference_CLAUDE_v11/Math_Diagnostic_Targets_v11.csv"), encoding="utf-8")))
+        sk = (read_csv("subjects/mathematics/reference/skills.csv"))
+        T = (read_csv("Math_Diagnostic_Reference_CLAUDE_v11/Math_Diagnostic_Targets_v11.csv"))
         self.assertEqual([s["skill_id"] for s in sk], [t["id"] for t in T])
         e1 = sorted(e["id"] for t in T for e in json.loads(t["errors_json"])); e2 = sorted(e for s in sk for e in s["error_ids"].split())
         self.assertEqual(e1, e2)
