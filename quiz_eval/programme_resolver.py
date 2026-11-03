@@ -85,7 +85,9 @@ def resolve(policy, subject, grade, track, school_year=None, assessment=None, ex
         "curriculum_edition": {"id": p["id"], "title": p["title"], "applies": {"from_year": a["from_year"], "through_year": a["through_year"]},
                                "verification": _verification(a)},
         "exam_session": None if not exam else {"id": exam["id"], "session": exam["session"], "rules_id": exam["rules"]["id"],
-                                               "rules_status": exam["rules"]["status"], "format_review": exam["format_review"]},
+                                               "rules_status": exam["rules"].get("source_status", exam["rules"].get("status")),
+                                               "rules_source": exam["rules"].get("url"), "format": exam["rules"].get("format"),
+                                               "format_review": exam["format_review"]},
         "inputs_sha256": {os.path.relpath(f, root): _sha(f) for f in files if os.path.exists(f)},
         "release_status": {"paper": "HOLD", "digital": "HOLD"},
     }

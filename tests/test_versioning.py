@@ -31,7 +31,7 @@ class HistoricalBrevet(unittest.TestCase):
         for s, e in ((2025, "MATH_C4_2020"), (2026, "MATH_C4_2020"), (2027, "MATH_C4_2020"), (2028, "MATH_C4_2020"), (2029, "MATH_C4_2026")):
             m = R(policy="HISTORICAL_EXAM", subject="mathematics", grade="3e", track="general", assessment="DNB_MATH", exam_session=s)
             self.assertEqual(ed(m), e, s); self.assertEqual(m["exam_session"]["id"], f"DNB_MATH_{s}")
-            self.assertEqual(m["exam_session"]["rules_status"], "UNVERIFIED")  # rules stored separately, not yet verified
+            self.assertEqual(m["exam_session"]["rules_status"], "VERIFIED")  # rules stored separately per session
             self.assertEqual(m["label"], "HISTORICAL_EXAM")
     def test_unknown_session(self):
         with self.assertRaises(PR.ResolutionError) as cm:

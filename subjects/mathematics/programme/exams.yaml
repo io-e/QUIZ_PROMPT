@@ -15,11 +15,30 @@
    "school_year": "2024-2025",
    "rules": {
     "id": "DNB_MATH_RULES_2025",
-    "status": "UNVERIFIED",
-    "url": null,
-    "note": "Assessment rules for this session not yet recorded."
+    "source_status": "VERIFIED",
+    "source_kind": "official exam paper (sujet Métropole 26 June 2025)",
+    "url": "https://www.education.gouv.fr/sites/default/files/2025-06/dipl-me-national-du-brevet-2025-math-matiques-441366.pdf",
+    "page": "1/8",
+    "passage": "Durée de l’épreuve : 2 h 00 100 points [...] L'utilisation de la calculatrice avec mode examen actif est autorisée. L'utilisation de la calculatrice sans mémoire, « type collège », est autorisée.",
+    "sha256_of_fetched_file": "6777506e3e3e3e4bc4498878e3338279daf81fcc7abd523b08d390ca15ae206f",
+    "format": {
+     "total_duration_min": 120,
+     "scale": "100 points",
+     "parts": [
+      {
+       "part": 1,
+       "name": "Épreuve unique (5 exercices indépendants)",
+       "duration_min": 120,
+       "points": 100,
+       "calculator": true,
+       "mcq_allowed": true,
+       "answer_format": "justified answers; exercises may include an MCQ"
+      }
+     ]
+    },
+    "note": "The governing pre-2026 note was not read; the format is taken from the official paper, as the user specified. Exercise 3 of this paper is an MCQ (\"Cet exercice est un questionnaire à choix multiples (QCM).\")."
    },
-   "format_review": "PENDING"
+   "format_review": "PENDING_TEACHER_CHECK"
   },
   {
    "id": "DNB_MATH_2026",
@@ -31,11 +50,39 @@
    "school_year": "2025-2026",
    "rules": {
     "id": "DNB_MATH_RULES_2026",
-    "status": "UNVERIFIED",
-    "url": null,
-    "note": "Assessment rules for this session not yet recorded."
+    "source_status": "VERIFIED",
+    "source_kind": "note de service du 2-9-2025, NOR MENE2515977N (BO n°33 2025)",
+    "url": "https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N",
+    "retrieved_via": "https://web.archive.org/web/20260205090837/https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N",
+    "page": "section 3.1.2 (HTML page, no pagination)",
+    "passage": "Elle entre en vigueur à compter de la session 2026 du DNB. [...] La calculatrice n’est autorisée que sur la partie 2. Partie 1 – Automatismes : 6 points – 20 minutes Les élèves réalisent cette partie sans calculatrice. [...] Partie 2 – Raisonnement et résolution de problèmes :14 points – 1 heure et 40 minutes.",
+    "format": {
+     "total_duration_min": 120,
+     "scale": "/20",
+     "parts": [
+      {
+       "part": 1,
+       "name": "Automatismes",
+       "duration_min": 20,
+       "points": 6,
+       "calculator": false,
+       "mcq_allowed": null,
+       "answer_format": "not specified in the note (no MCQ prohibition)"
+      },
+      {
+       "part": 2,
+       "name": "Raisonnement et résolution de problèmes",
+       "duration_min": 100,
+       "points": 14,
+       "calculator": true,
+       "mcq_allowed": true,
+       "answer_format": "toutes les modalités possibles; rédaction sur 2 points"
+      }
+     ]
+    },
+    "note": "education.gouv.fr returned 403; the text was read from the web.archive.org snapshot of 2026-02-05. Abrogated from session 2027 by MENE2623228N, but still the rule for session 2026 (historical)."
    },
-   "format_review": "PENDING"
+   "format_review": "PENDING_TEACHER_CHECK"
   },
   {
    "id": "DNB_MATH_2027",
@@ -46,12 +93,44 @@
    "session": 2027,
    "school_year": "2026-2027",
    "rules": {
-    "id": "DNB_MATH_RULES_2027",
-    "status": "UNVERIFIED",
-    "url": "https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N",
-    "note": "DNB rules from session 2027 (BO, 17 Sep 2026, cited by v11 R2); page blocked (403), not read."
+    "id": "DNB_MATH_RULES_2027_ONWARD",
+    "source_status": "VERIFIED",
+    "source_kind": "note de service du 11-9-2026, NOR MENE2623228N (BO spécial n°4 du 17-9-2026)",
+    "url": "https://www.education.gouv.fr/sites/default/files/document/20260917boenjsspe4pdf-520753.pdf",
+    "html_url": "https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N",
+    "page": "PDF pp. 12 (entry into force), 19-20 (mathématiques)",
+    "passage": "Elle entre en vigueur à compter de la session 2027 du DNB. [...] Partie 1 : automatismes et applications directes (6 points – 20 minutes) Les élèves réalisent cette partie sans calculatrice. Cette partie est constituée de questions à réponses courtes [...] Partie 2 : raisonnement et résolution de problèmes (14 points – 1 heure et 40 minutes) Les élèves réalisent cette partie avec calculatrice. [...] Ils peuvent adopter toutes les modalités possibles hormis celle du questionnaire à choix multiple.",
+    "sha256_of_fetched_file": "63e1f2316c7c88b11a1376071c780e7c1f28d36ce59fb3f707f173bc6ad23537",
+    "format": {
+     "total_duration_min": 120,
+     "scale": "/20",
+     "parts": [
+      {
+       "part": 1,
+       "name": "Automatismes et applications directes",
+       "duration_min": 20,
+       "points": 6,
+       "calculator": false,
+       "mcq_allowed": null,
+       "answer_format": "questions à réponses courtes"
+      },
+      {
+       "part": 2,
+       "name": "Raisonnement et résolution de problèmes",
+       "duration_min": 100,
+       "points": 14,
+       "calculator": true,
+       "mcq_allowed": false,
+       "answer_format": "toutes les modalités possibles hormis celle du questionnaire à choix multiple; maîtrise de la langue sur 2 points"
+      }
+     ],
+     "separate_copies": true
+    },
+    "applies_from_session": 2027,
+    "subject_to_later_amendment": true,
+    "note": "Applies from session 2027 onward. "
    },
-   "format_review": "PENDING"
+   "format_review": "PENDING_TEACHER_CHECK"
   },
   {
    "id": "DNB_MATH_2028",
@@ -62,12 +141,44 @@
    "session": 2028,
    "school_year": "2027-2028",
    "rules": {
-    "id": "DNB_MATH_RULES_2028",
-    "status": "UNVERIFIED",
-    "url": "https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N",
-    "note": "DNB rules from session 2027 (BO, 17 Sep 2026, cited by v11 R2); page blocked (403), not read."
+    "id": "DNB_MATH_RULES_2027_ONWARD",
+    "source_status": "VERIFIED",
+    "source_kind": "note de service du 11-9-2026, NOR MENE2623228N (BO spécial n°4 du 17-9-2026)",
+    "url": "https://www.education.gouv.fr/sites/default/files/document/20260917boenjsspe4pdf-520753.pdf",
+    "html_url": "https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N",
+    "page": "PDF pp. 12 (entry into force), 19-20 (mathématiques)",
+    "passage": "Elle entre en vigueur à compter de la session 2027 du DNB. [...] Partie 1 : automatismes et applications directes (6 points – 20 minutes) Les élèves réalisent cette partie sans calculatrice. Cette partie est constituée de questions à réponses courtes [...] Partie 2 : raisonnement et résolution de problèmes (14 points – 1 heure et 40 minutes) Les élèves réalisent cette partie avec calculatrice. [...] Ils peuvent adopter toutes les modalités possibles hormis celle du questionnaire à choix multiple.",
+    "sha256_of_fetched_file": "63e1f2316c7c88b11a1376071c780e7c1f28d36ce59fb3f707f173bc6ad23537",
+    "format": {
+     "total_duration_min": 120,
+     "scale": "/20",
+     "parts": [
+      {
+       "part": 1,
+       "name": "Automatismes et applications directes",
+       "duration_min": 20,
+       "points": 6,
+       "calculator": false,
+       "mcq_allowed": null,
+       "answer_format": "questions à réponses courtes"
+      },
+      {
+       "part": 2,
+       "name": "Raisonnement et résolution de problèmes",
+       "duration_min": 100,
+       "points": 14,
+       "calculator": true,
+       "mcq_allowed": false,
+       "answer_format": "toutes les modalités possibles hormis celle du questionnaire à choix multiple; maîtrise de la langue sur 2 points"
+      }
+     ],
+     "separate_copies": true
+    },
+    "applies_from_session": 2027,
+    "subject_to_later_amendment": true,
+    "note": "Applies from session 2027 onward. Session 2028: no later amendment found on 2026-11-03; re-check before generating a validated test."
    },
-   "format_review": "PENDING"
+   "format_review": "PENDING_TEACHER_CHECK"
   },
   {
    "id": "DNB_MATH_2029",
@@ -78,12 +189,44 @@
    "session": 2029,
    "school_year": "2028-2029",
    "rules": {
-    "id": "DNB_MATH_RULES_2029",
-    "status": "UNVERIFIED",
-    "url": "https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N",
-    "note": "DNB rules from session 2027 (BO, 17 Sep 2026, cited by v11 R2); page blocked (403), not read."
+    "id": "DNB_MATH_RULES_2027_ONWARD",
+    "source_status": "VERIFIED",
+    "source_kind": "note de service du 11-9-2026, NOR MENE2623228N (BO spécial n°4 du 17-9-2026)",
+    "url": "https://www.education.gouv.fr/sites/default/files/document/20260917boenjsspe4pdf-520753.pdf",
+    "html_url": "https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N",
+    "page": "PDF pp. 12 (entry into force), 19-20 (mathématiques)",
+    "passage": "Elle entre en vigueur à compter de la session 2027 du DNB. [...] Partie 1 : automatismes et applications directes (6 points – 20 minutes) Les élèves réalisent cette partie sans calculatrice. Cette partie est constituée de questions à réponses courtes [...] Partie 2 : raisonnement et résolution de problèmes (14 points – 1 heure et 40 minutes) Les élèves réalisent cette partie avec calculatrice. [...] Ils peuvent adopter toutes les modalités possibles hormis celle du questionnaire à choix multiple.",
+    "sha256_of_fetched_file": "63e1f2316c7c88b11a1376071c780e7c1f28d36ce59fb3f707f173bc6ad23537",
+    "format": {
+     "total_duration_min": 120,
+     "scale": "/20",
+     "parts": [
+      {
+       "part": 1,
+       "name": "Automatismes et applications directes",
+       "duration_min": 20,
+       "points": 6,
+       "calculator": false,
+       "mcq_allowed": null,
+       "answer_format": "questions à réponses courtes"
+      },
+      {
+       "part": 2,
+       "name": "Raisonnement et résolution de problèmes",
+       "duration_min": 100,
+       "points": 14,
+       "calculator": true,
+       "mcq_allowed": false,
+       "answer_format": "toutes les modalités possibles hormis celle du questionnaire à choix multiple; maîtrise de la langue sur 2 points"
+      }
+     ],
+     "separate_copies": true
+    },
+    "applies_from_session": 2027,
+    "subject_to_later_amendment": true,
+    "note": "Applies from session 2027 onward. Session 2029: no later amendment found on 2026-11-03; re-check before generating a validated test."
    },
-   "format_review": "PENDING"
+   "format_review": "PENDING_TEACHER_CHECK"
   }
  ]
 }

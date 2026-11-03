@@ -45,8 +45,31 @@ def w(p,obj): open(p,'w',encoding='utf-8').write(hdr+json.dumps(obj,ensure_ascii
 w(f'{R}/subjects/mathematics/programme/editions.yaml',dict(registry_version='1.0-proposal',subject='mathematics',programmes=math,sources=src))
 w(f'{R}/subjects/physics_chemistry/programme/editions.yaml',dict(registry_version='1.0-proposal',subject='physics_chemistry',programmes=phys,sources=src))
 R2='https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N'
+U25='https://www.education.gouv.fr/sites/default/files/2025-06/dipl-me-national-du-brevet-2025-math-matiques-441366.pdf'
+U26='https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N'
+U26A='https://web.archive.org/web/20260205090837/https://www.education.gouv.fr/bo/2025/Hebdo33/MENE2515977N'
+U27='https://www.education.gouv.fr/sites/default/files/document/20260917boenjsspe4pdf-520753.pdf'
+U27H='https://www.education.gouv.fr/bo/2026/Hebdo4/MENE2623228N'
+F25=dict(total_duration_min=120,scale='100 points',parts=[dict(part=1,name='Épreuve unique (5 exercices indépendants)',duration_min=120,points=100,calculator=True,mcq_allowed=True,answer_format='justified answers; exercises may include an MCQ')])
+F26=dict(total_duration_min=120,scale='/20',parts=[dict(part=1,name='Automatismes',duration_min=20,points=6,calculator=False,mcq_allowed=None,answer_format='not specified in the note (no MCQ prohibition)'),
+  dict(part=2,name='Raisonnement et résolution de problèmes',duration_min=100,points=14,calculator=True,mcq_allowed=True,answer_format='toutes les modalités possibles; rédaction sur 2 points')])
+F27=dict(total_duration_min=120,scale='/20',parts=[dict(part=1,name='Automatismes et applications directes',duration_min=20,points=6,calculator=False,mcq_allowed=None,answer_format='questions à réponses courtes'),
+  dict(part=2,name='Raisonnement et résolution de problèmes',duration_min=100,points=14,calculator=True,mcq_allowed=False,answer_format='toutes les modalités possibles hormis celle du questionnaire à choix multiple; maîtrise de la langue sur 2 points')],
+  separate_copies=True)
+def rules(s):
+    if s==2025: return dict(id='DNB_MATH_RULES_2025',source_status='VERIFIED',source_kind='official exam paper (sujet Métropole 26 June 2025)',url=U25,page='1/8',
+        passage="Durée de l’épreuve : 2 h 00 100 points [...] L'utilisation de la calculatrice avec mode examen actif est autorisée. L'utilisation de la calculatrice sans mémoire, « type collège », est autorisée.",
+        sha256_of_fetched_file='6777506e3e3e3e4bc4498878e3338279daf81fcc7abd523b08d390ca15ae206f',format=F25,
+        note='The governing pre-2026 note was not read; the format is taken from the official paper, as the user specified. Exercise 3 of this paper is an MCQ ("Cet exercice est un questionnaire à choix multiples (QCM).").')
+    if s==2026: return dict(id='DNB_MATH_RULES_2026',source_status='VERIFIED',source_kind='note de service du 2-9-2025, NOR MENE2515977N (BO n°33 2025)',url=U26,retrieved_via=U26A,page='section 3.1.2 (HTML page, no pagination)',
+        passage="Elle entre en vigueur à compter de la session 2026 du DNB. [...] La calculatrice n’est autorisée que sur la partie 2. Partie 1 – Automatismes : 6 points – 20 minutes Les élèves réalisent cette partie sans calculatrice. [...] Partie 2 – Raisonnement et résolution de problèmes :14 points – 1 heure et 40 minutes.",
+        format=F26,note='education.gouv.fr returned 403; the text was read from the web.archive.org snapshot of 2026-02-05. Abrogated from session 2027 by MENE2623228N, but still the rule for session 2026 (historical).')
+    return dict(id='DNB_MATH_RULES_2027_ONWARD',source_status='VERIFIED',source_kind='note de service du 11-9-2026, NOR MENE2623228N (BO spécial n°4 du 17-9-2026)',url=U27,html_url=U27H,page='PDF pp. 12 (entry into force), 19-20 (mathématiques)',
+        passage="Elle entre en vigueur à compter de la session 2027 du DNB. [...] Partie 1 : automatismes et applications directes (6 points – 20 minutes) Les élèves réalisent cette partie sans calculatrice. Cette partie est constituée de questions à réponses courtes [...] Partie 2 : raisonnement et résolution de problèmes (14 points – 1 heure et 40 minutes) Les élèves réalisent cette partie avec calculatrice. [...] Ils peuvent adopter toutes les modalités possibles hormis celle du questionnaire à choix multiple.",
+        sha256_of_fetched_file='63e1f2316c7c88b11a1376071c780e7c1f28d36ce59fb3f707f173bc6ad23537',format=F27,
+        applies_from_session=2027,subject_to_later_amendment=True,
+        note=('Applies from session 2027 onward. ' + ('' if s==2027 else f'Session {s}: no later amendment found on 2026-11-03; re-check before generating a validated test.')))
 ex=[dict(id=f'DNB_MATH_{s}',assessment='DNB_MATH',subject='mathematics',grade='3e',track='general',session=s,school_year=f'{s-1}-{s}',
-  rules=dict(id=f'DNB_MATH_RULES_{s}',status='UNVERIFIED',url=(R2 if s>=2027 else None),note=('DNB rules from session 2027 (BO, 17 Sep 2026, cited by v11 R2); page blocked (403), not read.' if s>=2027 else 'Assessment rules for this session not yet recorded.')),
-  format_review='PENDING') for s in (2025,2026,2027,2028,2029)]
+  rules=rules(s),format_review='PENDING_TEACHER_CHECK') for s in (2025,2026,2027,2028,2029)]
 w(f'{R}/subjects/mathematics/programme/exams.yaml',dict(registry_version='1.0-proposal',exam_profiles=ex))
 w(f'{R}/subjects/physics_chemistry/programme/exams.yaml',dict(registry_version='1.0-proposal',exam_profiles=[dict(id='DNB_SCI_2027',assessment='DNB_SCIENCES',subject='physics_chemistry',grade='3e',track='general',session=2027,school_year='2026-2027',rules=dict(id='DNB_SCI_RULES_2027',status='UNVERIFIED',url=None,note='Placeholder: not verified.'),format_review='PENDING')]))
