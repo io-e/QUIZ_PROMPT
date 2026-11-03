@@ -1,0 +1,356 @@
+ref,level,chapter,section,capability_paraphrase,verified,edition,source,targets
+BR.NC.1,BREVET,Nombres et calculs,Nombres rationnels,"fraction irréductible, problèmes avec des fractions",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-10 BR-NC-11 BR-NC-12 BR-NC-13
+BR.NC.2,BREVET,Nombres et calculs,Nombres relatifs et rationnels,"comparer, ranger, calculer avec des relatifs et des fractions",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-01 BR-NC-06 BR-NC-07 BR-NC-08 BR-NC-09
+BR.NC.3,BREVET,Nombres et calculs,Puissances,"exposants négatifs, produits et quotients de puissances",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-14 BR-NC-15 BR-NC-16
+BR.NC.4,BREVET,Nombres et calculs,Puissances,"notation scientifique, problèmes",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-02 BR-NC-17
+BR.NC.5,BREVET,Nombres et calculs,Racine carrée,"racine carrée d'un positif, x² = a",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-18 BR-NC-19
+BR.NC.6,BREVET,Nombres et calculs,Divisibilité,"nombres premiers, décomposition en facteurs premiers",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-03 BR-NC-12 BR-NC-20 BR-NC-21
+BR.NC.7,BREVET,Nombres et calculs,Calcul littéral,"développer, factoriser, réduire (simple et double distributivité)",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-AP-08 BR-NC-22 BR-NC-23 BR-NC-25
+BR.NC.8,BREVET,Nombres et calculs,Calcul littéral,a² − b² (sortant) ; identités remarquables (nouveau),OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-04 BR-NC-24
+BR.NC.9,BREVET,Nombres et calculs,Équations,"équations du premier degré, mise en équation",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-05 BR-NC-26 BR-NC-27
+BR.NC.10,BREVET,Nombres et calculs,Inéquations,inéquations du premier degré (graphiquement : nouveau),OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-05 BR-NC-28
+BR.NC.11,BREVET,Nombres et calculs,Équations,équation produit nul,OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-NC-19 BR-NC-29
+BR.NC.12,BREVET,Nombres et calculs,Raisonnement,analyse-synthèse pour résoudre une équation,OFFICIAL,NEW,R15 (new edition) / R29 (outgoing edition),
+BR.DF.1,BREVET,"Données, fonctions",Données,"tableaux, diagrammes, effectifs, fréquences",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-06 BR-DF-07
+BR.DF.2,BREVET,"Données, fonctions",Indicateurs,"moyenne, médiane, étendue",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-01 BR-DF-08 BR-DF-09
+BR.DF.3,BREVET,"Données, fonctions",Indicateurs,"effectifs cumulés, quartiles, boîtes à moustaches",OFFICIAL,NEW,R15 (new edition) / R29 (outgoing edition),BR-DF-10 BR-DF-11
+BR.DF.4,BREVET,"Données, fonctions",Probabilités,"probabilités par dénombrement, deux épreuves",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-02 BR-DF-12 BR-DF-13
+BR.DF.5,BREVET,"Données, fonctions",Probabilités,"stabilisation des fréquences, simulation",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-14
+BR.DF.6,BREVET,"Données, fonctions",Probabilités,"relation entre P(A ∪ B), P(A ∩ B), P(A), P(B)",OFFICIAL,NEW,R15 (new edition) / R29 (outgoing edition),BR-DF-15
+BR.DF.7,BREVET,"Données, fonctions",Proportionnalité,"quatrième proportionnelle, pourcentages",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-16 BR-DF-17
+BR.DF.8,BREVET,"Données, fonctions",Proportionnalité,"pourcentage d'évolution, coefficient multiplicateur",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-03 BR-DF-18
+BR.DF.9,BREVET,"Données, fonctions",Fonctions,"image, antécédent, passage d'une représentation à l'autre",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-04 BR-DF-21
+BR.DF.10,BREVET,"Données, fonctions",Fonctions,"fonctions linéaires et affines, représentation, coefficients",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-05 BR-DF-20
+BR.DF.11,BREVET,"Données, fonctions",Fonctions,fonction linéaire et proportionnalité,OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-DF-19
+BR.DF.12,BREVET,"Données, fonctions",Fonctions,"fonction carré, résolution graphique",OFFICIAL,NEW,R15 (new edition) / R29 (outgoing edition),BR-DF-21 BR-DF-22
+BR.GM.1,BREVET,Grandeurs et mesures,Grandeurs,"longueurs, aires, volumes en unités adaptées",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-GM-01 BR-GM-02 BR-GM-05 BR-GM-06
+BR.GM.2,BREVET,Grandeurs et mesures,Grandeurs composées,"vitesse, débit, masse volumique, conversions",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-GM-04 BR-GM-08 BR-GM-09 BR-GM-11
+BR.GM.3,BREVET,Grandeurs et mesures,Transformations,"effet d'un agrandissement ou d'une réduction (k, k², k³)",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-GM-03 BR-GM-10
+BR.GM.4,BREVET,Grandeurs et mesures,Volumes,volume d'une boule,OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-GM-07
+BR.EG.1,BREVET,Espace et géométrie,Représenter l'espace,"sections de solides, sphère, grands cercles, repérage sur la sphère",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-EG-05 BR-EG-22 BR-EG-23 BR-EG-25
+BR.EG.2,BREVET,Espace et géométrie,Triangles,"Pythagore, réciproque, contraposée",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-EG-01 BR-EG-07 BR-EG-15 BR-EG-17 BR-EG-25
+BR.EG.3,BREVET,Espace et géométrie,Triangles,"Thalès, réciproque (contraposée explicite : nouveau)",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-EG-02 BR-EG-08 BR-EG-18
+BR.EG.4,BREVET,Espace et géométrie,Triangles,"cosinus, sinus, tangente dans le triangle rectangle",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-EG-03 BR-EG-19
+BR.EG.5,BREVET,Espace et géométrie,Triangles,"triangles semblables, homothéties",OFFICIAL,OUTGOING,R15 (new edition) / R29 (outgoing edition),BR-EG-04 BR-EG-11 BR-EG-13
+BR.EG.6,BREVET,Espace et géométrie,Transformations,"symétries, translation, rotation (homothétie : sortant)",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-EG-20
+BR.EG.7,BREVET,Espace et géométrie,Translations et vecteurs,"vecteurs égaux, somme, relation de Chasles",OFFICIAL,NEW,R15 (new edition) / R29 (outgoing edition),BR-EG-16 BR-EG-21
+BR.EG.8,BREVET,Espace et géométrie,Démontrer,"déduction, réciproque, contraposée, angles",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-EG-06 BR-EG-09 BR-EG-10 BR-EG-12 BR-EG-24
+BR.EG.9,BREVET,Espace et géométrie,Démontrer,théorèmes des milieux (4e),OFFICIAL,NEW,R15 (new edition) / R29 (outgoing edition),BR-EG-14
+BR.AP.1,BREVET,Algorithmique et programmation,Programmes,"séquences, boucles, conditions, variables",OFFICIAL,BOTH,R15 (new edition) / R29 (outgoing edition),BR-AP-01 BR-AP-02 BR-AP-03 BR-AP-04 BR-AP-05 BR-AP-08
+BR.AP.2,BREVET,Algorithmique et programmation,Programmes,"conditions composées, boucle conditionnelle",OFFICIAL,NEW,R15 (new edition) / R29 (outgoing edition),BR-AP-06 BR-AP-07
+1S.LO.1,BAC_1RE_SPE,Transversal,Vocabulaire ensembliste et logique,"ensembles, intervalles, produit cartésien, propositions avec « et », « ou »",COPY,2026,R3,1S-LO-05
+1S.LO.2,BAC_1RE_SPE,Transversal,Vocabulaire ensembliste et logique,"implication, équivalence, contraposée, contre-exemple, négation (∀, ∃ non exigibles)",COPY,2026,R3,1S-LO-01 1S-LO-02 1S-LO-03 1S-LO-04
+1S.LO.3,BAC_1RE_SPE,Transversal,Vocabulaire ensembliste et logique,"disjonction des cas, raisonnement par l'absurde",COPY,2026,R3,1S-LO-06 1S-LO-07
+1S.AP.1,BAC_1RE_SPE,Transversal,Algorithmique et programmation,"variables, affectations, conditionnelles, boucles, fonctions (Python)",COPY,2026,R3,1S-AP-01 1S-AP-03
+1S.AP.2,BAC_1RE_SPE,Transversal,Notion de liste,"listes en extension et en compréhension, indices, parcours",COPY,2026,R3,1S-AP-04 1S-AP-05 1S-AP-06
+1S.AP.3,BAC_1RE_SPE,Transversal,Algorithmes du programme,"seuils, Newton (cas favorables), Euler, Archimède, Monte-Carlo",COPY,2026,R3,1S-AP-02 1S-AP-07
+1S.AU.1,BAC_1RE_SPE,Transversal,Automatismes,"taux d'évolution, coefficients multiplicateurs, évolutions successives et réciproques",COPY,2026,R3,1S-AU-02 1S-AU-05
+1S.AU.2,BAC_1RE_SPE,Transversal,Automatismes,"calcul numérique et algébrique, équations produit nul",COPY,2026,R3,1S-AU-01 1S-AU-03 1S-AU-06 1S-AU-07
+1S.AU.3,BAC_1RE_SPE,Transversal,Automatismes,"fonctions et représentations graphiques, lectures",COPY,2026,R3,1S-AU-04 1S-AU-08
+1S.AU.4,BAC_1RE_SPE,Transversal,Automatismes,"indicateurs statistiques, probabilités conditionnelles simples",COPY,2026,R3,1S-AU-09 1S-AU-10
+1S.AL.1,BAC_1RE_SPE,Algèbre,Suites,"modes de génération (explicite, récurrence, motifs), registres",COPY,2026,R3,1S-AL-06
+1S.AL.2,BAC_1RE_SPE,Algèbre,Suites,"suites arithmétiques et géométriques, terme général",COPY,2026,R3,1S-AL-04 1S-AL-07 1S-AL-08 1S-AL-10
+1S.AL.3,BAC_1RE_SPE,Algèbre,Suites,sommes 1 + 2 + … + n et 1 + q + … + qⁿ,COPY,2026,R3,1S-AL-05 1S-AL-09
+1S.AL.4,BAC_1RE_SPE,Algèbre,Suites,"sens de variation, intuition de la limite (pas de formalisation)",COPY,2026,R3,1S-AL-11 1S-AL-12
+1S.AL.5,BAC_1RE_SPE,Algèbre,Second degré,"forme factorisée, racines, signe, somme et produit des racines",COPY,2026,R3,1S-AL-03 1S-AL-13 1S-AL-14
+1S.AL.6,BAC_1RE_SPE,Algèbre,Second degré,"forme canonique (cas simples), discriminant, résolution, signe",COPY,2026,R3,1S-AL-01 1S-AL-02 1S-AL-15
+1S.AN.1,BAC_1RE_SPE,Analyse,Dérivation,"taux de variation, nombre dérivé comme limite, tangente",COPY,2026,R3,1S-AN-02 1S-AN-06 1S-AN-07 TS-AN-13
+1S.AN.2,BAC_1RE_SPE,Analyse,Dérivation,approximation linéaire f(a + h) ≈ f(a) + f′(a)h,COPY,2026,R3,1S-AN-08
+1S.AN.3,BAC_1RE_SPE,Analyse,Dérivation,"fonction dérivée, opérations, puissances entières, non-dérivabilité (racine, valeur absolue en 0)",COPY,2026,R3,1S-AN-01 1S-AN-09 1S-AN-10 1S-AN-11
+1S.AN.4,BAC_1RE_SPE,Analyse,Variations,"signe de la dérivée et variations, extremums, optimisation, inégalités",COPY,2026,R3,1S-AN-03 1S-AN-12 1S-AN-13
+1S.AN.5,BAC_1RE_SPE,Analyse,Variations,"fonctions paires et impaires, comparaison de courbes",COPY,2026,R3,1S-AN-14
+1S.AN.6,BAC_1RE_SPE,Analyse,Fonction exponentielle,"f′ = f et f(0) = 1, propriétés algébriques, nombre e",COPY,2026,R3,1S-AN-04 1S-AN-15
+1S.AN.7,BAC_1RE_SPE,Analyse,Fonction exponentielle,"dérivée de t ↦ e^(at), croissance et décroissance exponentielles",COPY,2026,R3,1S-AN-16
+1S.AN.8,BAC_1RE_SPE,Analyse,Trigonométrie,"cercle trigonométrique, radian, cosinus, sinus, valeurs remarquables",COPY,2026,R3,1S-AN-05 1S-AN-17 1S-AN-18
+1S.AN.9,BAC_1RE_SPE,Analyse,Trigonométrie,"parité et périodicité, lecture graphique",COPY,2026,R3,1S-AN-19
+1S.GE.1,BAC_1RE_SPE,Géométrie,Produit scalaire,"projection, cosinus, orthogonalité, bilinéarité, base orthonormée",COPY,2026,R3,1S-GE-01 1S-GE-02 1S-GE-05 1S-GE-06
+1S.GE.2,BAC_1RE_SPE,Géométrie,Produit scalaire,"formule d'Al-Kashi, ensemble MA·MB = 0",COPY,2026,R3,1S-GE-07 1S-GE-08
+1S.GE.3,BAC_1RE_SPE,Géométrie,Géométrie repérée,"vecteur normal, équation cartésienne de droite, projeté orthogonal",COPY,2026,R3,1S-GE-03 1S-GE-09
+1S.GE.4,BAC_1RE_SPE,Géométrie,Géométrie repérée,"équation de cercle, centre et rayon",COPY,2026,R3,1S-GE-04 1S-GE-10
+1S.GE.5,BAC_1RE_SPE,Géométrie,Géométrie repérée,"parabole: axe de symétrie, sommet",COPY,2026,R3,1S-GE-11
+1S.PS.1,BAC_1RE_SPE,Probabilités et statistiques,Conditionnement,"P_A(B), arbres pondérés, tableaux, P_A(B) ≠ P_B(A)",COPY,2026,R3,1S-AU-10 1S-PS-01 1S-PS-05
+1S.PS.2,BAC_1RE_SPE,Probabilités et statistiques,Conditionnement,"probabilités totales, indépendance de deux événements",COPY,2026,R3,1S-PS-02 1S-PS-06 1S-PS-07
+1S.PS.3,BAC_1RE_SPE,Probabilités et statistiques,Conditionnement,"épreuves indépendantes, répétition de Bernoulli (n ≤ 4)",COPY,2026,R3,1S-PS-08
+1S.PS.4,BAC_1RE_SPE,Probabilités et statistiques,Variables aléatoires,"loi d'une variable sur un univers fini, notations {X = a}",COPY,2026,R3,
+1S.PS.5,BAC_1RE_SPE,Probabilités et statistiques,Variables aléatoires,"espérance, variance, écart type, linéarité, jeu équitable",COPY,2026,R3,1S-PS-03 1S-PS-04 1S-PS-09
+1S.PS.6,BAC_1RE_SPE,Probabilités et statistiques,Expérimentations,"simulation d'échantillons, écart à l'espérance, 2σ/√n",COPY,2026,R3,1S-PS-10
+1C.AU.1,BAC_1RE_COMMUN,Automatismes,Évolutions,"taux d'évolution, coefficients multiplicateurs, évolutions successives",COPY,2026,R4 (R31 for the 2022 text),1C-AU-04
+1C.AU.2,BAC_1RE_COMMUN,Automatismes,Calcul numérique et algébrique,"fractions, puissances de 10, pourcentages, équations simples",COPY,2026,R4 (R31 for the 2022 text),1C-AU-01 1C-AU-02 1C-AU-06
+1C.AU.3,BAC_1RE_COMMUN,Automatismes,Fonctions et représentations,"lecture d'image, d'antécédent, de coefficient directeur",COPY,2026,R4 (R31 for the 2022 text),1C-AU-03 1C-AU-05
+1C.AU.4,BAC_1RE_COMMUN,Automatismes,Statistiques et probabilités,"indicateurs, proportions, probabilités conditionnelles simples",COPY,2026,R4 (R31 for the 2022 text),
+1C.SD.1,BAC_1RE_COMMUN,Analyse de l'information chiffrée,Tableaux croisés,"deux caractères, fréquences conditionnelles et marginales",COPY,2026,R4 (R31 for the 2022 text),1C-SD-07
+1C.SD.2,BAC_1RE_COMMUN,Analyse de l'information chiffrée,Nuages de points,"nuage, point moyen, ajustement affine, interpolation, extrapolation",COPY,2026,R4 (R31 for the 2022 text),1C-SD-01 1C-SD-02 1C-SD-03 1C-SD-05 1C-SD-06
+1C.SD.3,BAC_1RE_COMMUN,Analyse de l'information chiffrée,Données,"tableur, filtres, critique de l'information",COPY,2026,R4 (R31 for the 2022 text),1C-SD-04 1C-SD-08
+1C.PR.1,BAC_1RE_COMMUN,Phénomènes aléatoires,Probabilités conditionnelles,"probabilité conditionnelle, arbre, tableau croisé",COPY,2026,R4 (R31 for the 2022 text),1C-PR-01 1C-PR-02 1C-PR-03
+1C.PR.2,BAC_1RE_COMMUN,Phénomènes aléatoires,Indépendance,indépendance de deux événements,COPY,2026,R4 (R31 for the 2022 text),1C-PR-05
+1C.PR.3,BAC_1RE_COMMUN,Phénomènes aléatoires,Épreuves répétées,"épreuves de Bernoulli répétées (arbre, n ≤ 4)",COPY,2026,R4 (R31 for the 2022 text),1C-PR-04 1C-PR-06
+1C.SE.1,BAC_1RE_COMMUN,Phénomènes d'évolution,Variation linéaire,"suites arithmétiques, fonctions affines, seuils",COPY,2026,R4 (R31 for the 2022 text),1C-FN-01 1C-SE-01 1C-SE-02 1C-SE-05 1C-SE-07
+1C.FN.1,BAC_1RE_COMMUN,Phénomènes d'évolution,Modélisation quadratique,"parabole, sommet, axe, racines, signe, forme factorisée (sans discriminant)",COPY,2026,R4 (R31 for the 2022 text),1C-FN-02 1C-FN-03 1C-FN-11
+1C.SE.2,BAC_1RE_COMMUN,Phénomènes d'évolution,Variation exponentielle,"suites géométriques à termes positifs, taux moyen, seuils",COPY,2026,R4 (R31 for the 2022 text),1C-FN-13 1C-SE-03 1C-SE-04 1C-SE-06 1C-SE-07
+1C.FN.2,BAC_1RE_COMMUN,Phénomènes d'évolution,Variation exponentielle,"fonctions x ↦ aˣ (a > 0), propriétés admises",COPY,2026,R4 (R31 for the 2022 text),1C-FN-04 1C-FN-12 1C-FN-13
+1C.FN.3,BAC_1RE_COMMUN,Variation instantanée et globale,Nombre dérivé,"nombre dérivé, tangente, coefficient directeur — v9: not in the 2026 programme (part « dérivation » removed)",NOT_SUPPORTED,2026,R4 (R31 for the 2022 text),1C-FN-05 1C-FN-09 1C-FN-10
+1C.FN.4,BAC_1RE_COMMUN,Variation instantanée et globale,Fonction dérivée,"dérivées usuelles, sens de variation, polynômes de degré ≤ 3 — v9: not in the 2026 programme (part « dérivation » removed)",NOT_SUPPORTED,2026,R4 (R31 for the 2022 text),1C-FN-06 1C-FN-07 1C-FN-08
+TS.AG.1,BAC_TLE_SPE,Algèbre et géométrie,Combinatoire et dénombrement,"principes additif et multiplicatif, k-uplets, permutations, combinaisons",OFFICIAL,2019,R26,TS-AG-01 TS-AG-05 TS-AG-06 TS-AG-08
+TS.AG.2,BAC_TLE_SPE,Algèbre et géométrie,Combinatoire et dénombrement,"coefficients binomiaux, relation de Pascal, somme des coefficients",OFFICIAL,2019,R26,TS-AG-02 TS-AG-07 TS-AG-09
+TS.AG.3,BAC_TLE_SPE,Algèbre et géométrie,"Vecteurs, droites et plans de l'espace","combinaisons linéaires, bases, repères, décomposition",OFFICIAL,2019,R26,TS-AG-10
+TS.AG.4,BAC_TLE_SPE,Algèbre et géométrie,"Vecteurs, droites et plans de l'espace","positions relatives de droites et plans, coplanarité",OFFICIAL,2019,R26,TS-AG-11
+TS.AG.5,BAC_TLE_SPE,Algèbre et géométrie,Orthogonalité et distances,"produit scalaire dans l'espace, base orthonormée, norme, distance",OFFICIAL,2019,R26,TS-AG-12 TS-AG-13
+TS.AG.6,BAC_TLE_SPE,Algèbre et géométrie,Orthogonalité et distances,"vecteur normal, projeté orthogonal, distance point-plan",OFFICIAL,2019,R26,TS-AG-14 TS-AG-15 TS-AG-18
+TS.AG.7,BAC_TLE_SPE,Algèbre et géométrie,Représentations paramétriques et équations,"droite paramétrée, équation cartésienne de plan",OFFICIAL,2019,R26,TS-AG-03 TS-AG-04 TS-AG-16
+TS.AG.8,BAC_TLE_SPE,Algèbre et géométrie,Représentations paramétriques et équations,intersections traduites en systèmes linéaires,OFFICIAL,2019,R26,TS-AG-17
+TS.AN.1,BAC_TLE_SPE,Analyse,Suites,"limites, convergence, comparaison, théorème des gendarmes",OFFICIAL,2019,R26,TS-AN-06 TS-AN-07 TS-AN-08 TS-AN-09 TS-AN-10 TS-AN-18
+TS.AN.2,BAC_TLE_SPE,Analyse,Suites,"opérations sur les limites, limite de qⁿ",OFFICIAL,2019,R26,TS-AN-02 TS-AN-19 TS-AN-45
+TS.AN.3,BAC_TLE_SPE,Analyse,Suites,"croissante majorée converge, croissante non majorée tend vers +∞",OFFICIAL,2019,R26,TS-AN-20
+TS.AN.4,BAC_TLE_SPE,Analyse,Suites,raisonnement par récurrence,OFFICIAL,2019,R26,TS-AN-01 TS-AN-21
+TS.AN.5,BAC_TLE_SPE,Analyse,Suites,"modélisation d'évolutions, recherche de seuils",OFFICIAL,2019,R26,TS-AN-44
+TS.AN.6,BAC_TLE_SPE,Analyse,Limites des fonctions,"limites en l'infini et en un point, asymptotes",OFFICIAL,2019,R26,TS-AN-17 TS-AN-22
+TS.AN.7,BAC_TLE_SPE,Analyse,Limites des fonctions,"limites de référence, croissances comparées",OFFICIAL,2019,R26,TS-AN-16 TS-AN-23
+TS.AN.8,BAC_TLE_SPE,Analyse,Compléments sur la dérivation,dérivée d'une fonction composée,OFFICIAL,2019,R26,TS-AN-25 TS-AN-26
+TS.AN.9,BAC_TLE_SPE,Analyse,Compléments sur la dérivation,"dérivée seconde, convexité, point d'inflexion",OFFICIAL,2019,R26,TS-AN-27
+TS.AN.10,BAC_TLE_SPE,Analyse,Compléments sur la dérivation,inégalités par convexité (position des tangentes),OFFICIAL,2019,R26,TS-AN-14 TS-AN-28
+TS.AN.11,BAC_TLE_SPE,Analyse,Continuité,"continuité, image d'une suite convergente",OFFICIAL,2019,R26,TS-AN-29
+TS.AN.12,BAC_TLE_SPE,Analyse,Continuité,"valeurs intermédiaires, solutions de f(x) = k, dichotomie",OFFICIAL,2019,R26,TS-AN-30
+TS.AN.13,BAC_TLE_SPE,Analyse,Continuité,"suites u(n+1) = f(u(n)), limite point fixe",OFFICIAL,2019,R26,TS-AN-31
+TS.AN.14,BAC_TLE_SPE,Analyse,Fonction logarithme,"propriétés algébriques, équations et inéquations",OFFICIAL,2019,R26,TS-AN-32 TS-AN-33
+TS.AN.15,BAC_TLE_SPE,Analyse,Fonction logarithme,"dérivée, limites, croissance comparée",OFFICIAL,2019,R26,TS-AN-03 TS-AN-24 TS-AN-34
+TS.AN.16,BAC_TLE_SPE,Analyse,Fonctions sinus et cosinus,"dérivées, variations, résolution de cos x = a",OFFICIAL,2019,R26,TS-AN-35
+TS.AN.17,BAC_TLE_SPE,Analyse,Primitives,"primitives de référence, forme (v′∘u)×u′",OFFICIAL,2019,R26,TS-AN-36 TS-AN-37
+TS.AN.18,BAC_TLE_SPE,Analyse,Équations différentielles,"y′ = ay + b, y′ = ay + f",OFFICIAL,2019,R26,TS-AN-05 TS-AN-38
+TS.AN.19,BAC_TLE_SPE,Analyse,Calcul intégral,"aire, F(b) − F(a), linéarité, Chasles",OFFICIAL,2019,R26,TS-AN-39 TS-AN-40
+TS.AN.20,BAC_TLE_SPE,Analyse,Calcul intégral,"valeur moyenne, encadrement, majoration",OFFICIAL,2019,R26,TS-AN-41
+TS.AN.21,BAC_TLE_SPE,Analyse,Calcul intégral,intégration par parties,OFFICIAL,2019,R26,TS-AN-04 TS-AN-42
+TS.AN.22,BAC_TLE_SPE,Analyse,Calcul intégral,aire entre deux courbes,OFFICIAL,2019,R26,TS-AN-40
+TS.AN.23,BAC_TLE_SPE,Analyse,Calcul intégral,"méthodes des rectangles, trapèzes",OFFICIAL,2019,R26,TS-AN-15 TS-AN-43
+TS.PR.1,BAC_TLE_SPE,Probabilités,Épreuves indépendantes,"probabilité produit, arbres",OFFICIAL,2019,R26,
+TS.PR.2,BAC_TLE_SPE,Probabilités,Schéma de Bernoulli,"loi binomiale, probabilité de k succès",OFFICIAL,2019,R26,TS-PR-01 TS-PR-05
+TS.PR.3,BAC_TLE_SPE,Probabilités,Schéma de Bernoulli,problèmes de seuil avec la loi binomiale,OFFICIAL,2019,R26,TS-PR-06
+TS.PR.4,BAC_TLE_SPE,Probabilités,Sommes de variables aléatoires,"linéarité de l'espérance, additivité de la variance",OFFICIAL,2019,R26,TS-PR-03 TS-PR-07 TS-PR-11
+TS.PR.5,BAC_TLE_SPE,Probabilités,Sommes de variables aléatoires,"espérance et variance de la binomiale, moyenne d'échantillon",OFFICIAL,2019,R26,TS-PR-02 TS-PR-08
+TS.PR.6,BAC_TLE_SPE,Probabilités,Concentration,"Bienaymé-Tchebychev, taille d'échantillon",OFFICIAL,2019,R26,TS-PR-04 TS-PR-09
+TS.PR.7,BAC_TLE_SPE,Probabilités,Loi des grands nombres,énoncé et interprétation,OFFICIAL,2019,R26,TS-PR-10
+TS.AP.1,BAC_TLE_SPE,Algorithmique et programmation,Listes,"générer, manipuler, parcourir une liste",OFFICIAL,2019,R26,TS-AP-01 TS-AP-05
+TS.AP.2,BAC_TLE_SPE,Algorithmique et programmation,Algorithmes du programme,"seuils, dichotomie, Euler, rectangles, simulation",OFFICIAL,2019,R26,TS-AP-02 TS-AP-03 TS-AP-04 TS-AP-06
+TS.LO.1,BAC_TLE_SPE,Vocabulaire ensembliste et logique,Ensembles,"inclusion, réunion, intersection, complémentaire, produit cartésien",OFFICIAL,2019,R26,TS-LO-05
+TS.LO.2,BAC_TLE_SPE,Vocabulaire ensembliste et logique,Logique,"quantificateurs, négation, contre-exemple, contraposée",OFFICIAL,2019,R26,TS-AN-11 TS-AN-12 TS-LO-01 TS-LO-03
+TS.LO.3,BAC_TLE_SPE,Vocabulaire ensembliste et logique,Raisonnements,"disjonction de cas, absurde, récurrence",OFFICIAL,2019,R26,TS-LO-02
+TS.LO.4,BAC_TLE_SPE,Vocabulaire ensembliste et logique,Conditions,"nécessaire, suffisante, équivalence",OFFICIAL,2019,R26,TS-LO-04
+TE.CX.1,BAC_TLE_EXPERTES,Nombres complexes,Point de vue algébrique,"forme algébrique, conjugué, inverse, binôme, équations az = b",OFFICIAL,2019,R27,TE-CX-05
+TE.CX.2,BAC_TLE_EXPERTES,Nombres complexes,Point de vue géométrique,"affixes, module, arguments, carré du module égal à z·z̄",OFFICIAL,2019,R27,TE-CX-01 TE-CX-06
+TE.CX.3,BAC_TLE_EXPERTES,Nombres complexes,Complexes et trigonométrie,"formules d'addition et de duplication, forme exponentielle",OFFICIAL,2019,R27,TE-CX-02 TE-CX-07 TE-CX-08
+TE.CX.4,BAC_TLE_EXPERTES,Nombres complexes,Complexes et trigonométrie,formules d'Euler et de Moivre en trigonométrie,OFFICIAL,2019,R27,TE-CX-08 TE-CX-09
+TE.CX.5,BAC_TLE_EXPERTES,Nombres complexes,Équations polynomiales,second degré à coefficients réels dans ℂ,OFFICIAL,2019,R27,TE-CX-10
+TE.CX.6,BAC_TLE_EXPERTES,Nombres complexes,Équations polynomiales,"factorisation par (z − a), degré 3 avec racine connue, nombre de racines",OFFICIAL,2019,R27,TE-CX-11
+TE.CX.7,BAC_TLE_EXPERTES,Nombres complexes,Complexes et géométrie,"module et argument de (c − a)/(b − a): alignement, orthogonalité",OFFICIAL,2019,R27,TE-CX-04 TE-CX-12
+TE.CX.8,BAC_TLE_EXPERTES,Nombres complexes,Complexes et géométrie,"racines n-ièmes de l'unité, polygones réguliers (n = 2, 3, 4)",OFFICIAL,2019,R27,TE-CX-03 TE-CX-13
+TE.AR.1,BAC_TLE_EXPERTES,Arithmétique,Divisibilité,"diviseurs, division euclidienne",OFFICIAL,2019,R27,TE-AR-05
+TE.AR.2,BAC_TLE_EXPERTES,Arithmétique,Congruences,"compatibilité avec les opérations, résolution de ax ≡ b [n], inverse modulo n",OFFICIAL,2019,R27,TE-AR-02 TE-AR-04 TE-AR-06
+TE.AR.3,BAC_TLE_EXPERTES,Arithmétique,PGCD,"algorithme d'Euclide, PGCD sous la forme ax + by",OFFICIAL,2019,R27,TE-AR-01 TE-AR-07
+TE.AR.4,BAC_TLE_EXPERTES,Arithmétique,Bézout et Gauss,"premiers entre eux, théorème de Gauss, équations diophantiennes",OFFICIAL,2019,R27,TE-AR-08 TE-AR-09
+TE.AR.5,BAC_TLE_EXPERTES,Arithmétique,Nombres premiers,"infinité, crible, décomposition en facteurs premiers",OFFICIAL,2019,R27,TE-AR-10
+TE.AR.6,BAC_TLE_EXPERTES,Arithmétique,Nombres premiers,"petit théorème de Fermat, tests et chiffrement",OFFICIAL,2019,R27,TE-AR-03 TE-AR-11
+TE.GM.1,BAC_TLE_EXPERTES,Graphes et matrices,Graphes,"sommets, arêtes, degré, ordre, chaînes, connexité, graphe complet",OFFICIAL,2019,R27,TE-GM-05 TE-GM-06
+TE.GM.2,BAC_TLE_EXPERTES,Graphes et matrices,Matrices,"opérations, inverse et puissances (ordre 2 ou 3)",OFFICIAL,2019,R27,TE-GM-01 TE-GM-07 TE-GM-08
+TE.GM.3,BAC_TLE_EXPERTES,Graphes et matrices,Matrices,systèmes linéaires et suites U(n+1) = AU(n) + C,OFFICIAL,2019,R27,TE-GM-08 TE-GM-09
+TE.GM.4,BAC_TLE_EXPERTES,Graphes et matrices,Matrices,"matrice d'adjacence, nombre de chemins de longueur n",OFFICIAL,2019,R27,TE-GM-02 TE-GM-10
+TE.GM.5,BAC_TLE_EXPERTES,Graphes et matrices,Chaînes de Markov,"graphe pondéré, matrice de transition, distribution après n étapes",OFFICIAL,2019,R27,TE-GM-03 TE-GM-11
+TE.GM.6,BAC_TLE_EXPERTES,Graphes et matrices,Chaînes de Markov,distribution invariante (2 ou 3 états),OFFICIAL,2019,R27,TE-GM-04 TE-GM-12
+TC.TH.1,BAC_TLE_COMPLEMENTAIRES,Thèmes d'étude,Thèmes,"modèles fonctionnels, évolution, logarithme historique, aires, richesses (Lorenz, Gini), bayésien, échantillonnage, temps d'attente, corrélation",OFFICIAL,2019,R28,TC-IN-04 TC-SE-04
+TC.SU.1,BAC_TLE_COMPLEMENTAIRES,Analyse,Suites,"limite intuitive, suites géométriques, somme géométrique (raison < 1)",OFFICIAL,2019,R28,TC-SE-01 TC-SE-02 TC-SE-05
+TC.SU.2,BAC_TLE_COMPLEMENTAIRES,Analyse,Suites,"suites arithmético-géométriques, représentation d'une récurrence",OFFICIAL,2019,R28,TC-SE-03 TC-SE-06
+TC.FN.1,BAC_TLE_COMPLEMENTAIRES,Analyse,Fonctions,"continuité, valeurs intermédiaires, encadrement (balayage, dichotomie)",OFFICIAL,2019,R28,TC-FN-05
+TC.FN.2,BAC_TLE_COMPLEMENTAIRES,Analyse,Fonctions,"dérivation, tableaux de variation, optimisation en contexte",OFFICIAL,2019,R28,TC-FN-01 TC-FN-04 TC-FN-08
+TC.FN.3,BAC_TLE_COMPLEMENTAIRES,Analyse,Fonctions,"logarithme népérien, équations et inéquations",OFFICIAL,2019,R28,TC-FN-03 TC-FN-06
+TC.FN.4,BAC_TLE_COMPLEMENTAIRES,Analyse,Fonctions,limites et asymptotes,OFFICIAL,2019,R28,TC-FN-07
+TC.PE.1,BAC_TLE_COMPLEMENTAIRES,Analyse,Primitives et équations différentielles,"primitives, vérification d'une solution",OFFICIAL,2019,R28,TC-FN-09
+TC.PE.2,BAC_TLE_COMPLEMENTAIRES,Analyse,Primitives et équations différentielles,"y′ = ay, y′ = ay + b avec solution constante",OFFICIAL,2019,R28,TC-FN-10
+TC.CV.1,BAC_TLE_COMPLEMENTAIRES,Analyse,Convexité,"dérivée seconde, convexe, concave, point d'inflexion",OFFICIAL,2019,R28,TC-FN-02 TC-FN-11
+TC.IN.1,BAC_TLE_COMPLEMENTAIRES,Analyse,Intégration,"intégrale comme aire, Chasles, calcul par primitives",OFFICIAL,2019,R28,TC-IN-01 TC-IN-02 TC-IN-05
+TC.IN.2,BAC_TLE_COMPLEMENTAIRES,Analyse,Intégration,"valeur moyenne, aires, interprétation en contexte",OFFICIAL,2019,R28,TC-IN-03 TC-IN-05
+TC.LD.1,BAC_TLE_COMPLEMENTAIRES,Probabilités et statistique,Lois discrètes,"uniforme, Bernoulli, binomiale, coefficients binomiaux",OFFICIAL,2019,R28,TC-PR-01 TC-PR-03 TC-PR-07
+TC.LD.2,BAC_TLE_COMPLEMENTAIRES,Probabilités et statistique,Lois discrètes,"loi géométrique (sans mémoire), espérance",OFFICIAL,2019,R28,TC-PR-05 TC-PR-06
+TC.LD.3,BAC_TLE_COMPLEMENTAIRES,Probabilités et statistique,Lois discrètes,"intervalle de probabilité donnée, échantillonnage",OFFICIAL,2019,R28,TC-PR-04 TC-PR-07
+TC.LC.1,BAC_TLE_COMPLEMENTAIRES,Probabilités et statistique,Lois à densité,"densité, fonction de répartition",OFFICIAL,2019,R28,TC-PR-09
+TC.LC.2,BAC_TLE_COMPLEMENTAIRES,Probabilités et statistique,Lois à densité,"lois uniforme et exponentielle, espérance",OFFICIAL,2019,R28,TC-PR-02 TC-PR-08 TC-PR-09
+TC.ST.1,BAC_TLE_COMPLEMENTAIRES,Probabilités et statistique,Statistique à deux variables,"nuage, point moyen, ajustement affine",OFFICIAL,2019,R28,TC-ST-02 TC-ST-04 TC-ST-06
+TC.ST.2,BAC_TLE_COMPLEMENTAIRES,Probabilités et statistique,Statistique à deux variables,"corrélation, changement de variable, interpolation et extrapolation",OFFICIAL,2019,R28,TC-ST-01 TC-ST-03 TC-ST-05 TC-ST-06
+TC.BA.1,BAC_TLE_COMPLEMENTAIRES,Thèmes d'étude,Inférence bayésienne,"probabilités conditionnelles inversées, dépistage",OFFICIAL,2019,R28,TC-BA-01 TC-BA-02 TC-BA-03 TC-BA-04
+TC.LO.1,BAC_TLE_COMPLEMENTAIRES,Logique,Vocabulaire ensembliste et logique,"implication, réciproque, négation, contre-exemple (∀, ∃ non exigibles)",OFFICIAL,2019,R28,TC-LO-01
+MP2I.01.1,MP2I,Raisonnement et vocabulaire ensembliste,Rudiments de logique,"négation, implication, quantificateurs, raisonnements, récurrence",OFFICIAL,2021,R24,M1-LO-01 M1-LO-04 M1-LO-07
+MP2I.01.2,MP2I,Raisonnement et vocabulaire ensembliste,Ensembles,"opérations, produit cartésien, ensemble des parties, partitions",OFFICIAL,2021,R24,
+MP2I.01.3,MP2I,Raisonnement et vocabulaire ensembliste,Applications,"injection, surjection, bijection, image directe et réciproque",OFFICIAL,2021,R24,M1-LO-02 M1-LO-05 M1-LO-06
+MP2I.01.4,MP2I,Raisonnement et vocabulaire ensembliste,Relations,"relations d'équivalence et d'ordre, congruences",OFFICIAL,2021,R24,M1-LO-03
+MP2I.02.1,MP2I,Calcul algébrique et trigonométrie,Sommes et produits,"télescopage, sommes doubles, formule du binôme",OFFICIAL,2021,R24,M1-CA-01 M1-CA-02 M1-CA-03 M1-CA-05 M1-CA-06
+MP2I.02.2,MP2I,Calcul algébrique et trigonométrie,Systèmes linéaires,"méthode du pivot, interprétation géométrique",OFFICIAL,2021,R24,
+MP2I.02.3,MP2I,Calcul algébrique et trigonométrie,Inégalités,"valeur absolue, partie entière, majorations",OFFICIAL,2021,R24,M1-CA-07
+MP2I.02.4,MP2I,Calcul algébrique et trigonométrie,Trigonométrie,"formules d'addition, fonction tangente",OFFICIAL,2021,R24,M1-CA-04
+MP2I.03.1,MP2I,Nombres complexes,Conjugaison et module,"opérations, conjugué, module, inégalité triangulaire",OFFICIAL,2021,R24,
+MP2I.03.2,MP2I,Nombres complexes,Module 1 et trigonométrie,"exponentielle iθ, Euler, linéarisation, Moivre",OFFICIAL,2021,R24,
+MP2I.03.3,MP2I,Nombres complexes,Forme trigonométrique,"arguments, a cos t + b sin t",OFFICIAL,2021,R24,M1-CX-01 M1-CX-06
+MP2I.03.4,MP2I,Nombres complexes,Équations algébriques,"second degré, racines carrées d'un complexe",OFFICIAL,2021,R24,M1-CX-03 M1-CX-05
+MP2I.03.5,MP2I,Nombres complexes,Racines n-ièmes,racines de l'unité et d'un complexe,OFFICIAL,2021,R24,M1-CX-02
+MP2I.03.6,MP2I,Nombres complexes,Exponentielle complexe,"définition, résolution de exp(z) = a",OFFICIAL,2021,R24,M1-CX-07
+MP2I.03.7,MP2I,Nombres complexes,Interprétation géométrique,"alignement, orthogonalité, similitudes directes",OFFICIAL,2021,R24,M1-CX-04 M1-CX-08
+MP2I.04.1,MP2I,Techniques de calcul différentiel et intégral,Généralités sur les fonctions,"parité, périodicité, monotonie, bornes",OFFICIAL,2021,R24,
+MP2I.04.2,MP2I,Techniques de calcul différentiel et intégral,Dérivation,"règles usuelles, variations, extremums",OFFICIAL,2021,R24,M1-TA-04
+MP2I.04.3,MP2I,Techniques de calcul différentiel et intégral,Fonctions usuelles,"exp, ln, puissances, croissances comparées",OFFICIAL,2021,R24,
+MP2I.04.4,MP2I,Techniques de calcul différentiel et intégral,Fonctions usuelles,"circulaires réciproques, fonctions hyperboliques",OFFICIAL,2021,R24,M1-TA-05 M1-TA-06
+MP2I.04.5,MP2I,Techniques de calcul différentiel et intégral,Dérivation complexe,dérivée de t ↦ exp(φ(t)),OFFICIAL,2021,R24,
+MP2I.04.6,MP2I,Techniques de calcul différentiel et intégral,Primitives,"intégration par parties, changement de variable",OFFICIAL,2021,R24,M1-TA-01 M1-TA-07
+MP2I.04.7,MP2I,Techniques de calcul différentiel et intégral,EDL d'ordre 1,"solutions homogènes, variation de la constante, Cauchy",OFFICIAL,2021,R24,M1-TA-02
+MP2I.04.8,MP2I,Techniques de calcul différentiel et intégral,EDL d'ordre 2,"coefficients constants, seconds membres usuels",OFFICIAL,2021,R24,M1-TA-03 M1-TA-08
+MP2I.05.1,MP2I,Nombres réels et suites numériques,Ensembles usuels,"rationnels, irrationnels, approximations décimales",OFFICIAL,2021,R24,
+MP2I.05.2,MP2I,Nombres réels et suites numériques,Borne supérieure,"propriété fondamentale, caractérisation",OFFICIAL,2021,R24,M1-SU-01 M1-SU-07
+MP2I.05.3,MP2I,Nombres réels et suites numériques,Limites de suites,"opérations, encadrement, passage à la limite",OFFICIAL,2021,R24,M1-SU-02
+MP2I.05.4,MP2I,Nombres réels et suites numériques,Suites monotones,"limite monotone, suites adjacentes",OFFICIAL,2021,R24,M1-SU-03 M1-SU-05
+MP2I.05.5,MP2I,Nombres réels et suites numériques,Suites extraites,"sous-suites, Bolzano-Weierstrass",OFFICIAL,2021,R24,M1-SU-04
+MP2I.05.6,MP2I,Nombres réels et suites numériques,Densité,"caractérisation séquentielle, densité de ℚ",OFFICIAL,2021,R24,
+MP2I.05.7,MP2I,Nombres réels et suites numériques,Suites complexes,parties réelle et imaginaire,OFFICIAL,2021,R24,
+MP2I.05.8,MP2I,Nombres réels et suites numériques,Suites particulières,"arithmético-géométriques, récurrentes linéaires d'ordre 2",OFFICIAL,2021,R24,M1-SU-06
+MP2I.05.9,MP2I,Nombres réels et suites numériques,Suites particulières,suites u(n+1) = f(u(n)),OFFICIAL,2021,R24,M1-SU-08
+MP2I.06.1,MP2I,Fonctions d'une variable réelle,Limites,"opérations, limite monotone, encadrement",OFFICIAL,2021,R24,
+MP2I.06.2,MP2I,Fonctions d'une variable réelle,Continuité en un point,"prolongement, caractérisation séquentielle",OFFICIAL,2021,R24,M1-LC-05
+MP2I.06.3,MP2I,Fonctions d'une variable réelle,Continuité sur un intervalle,"valeurs intermédiaires, bornes atteintes, bijection continue",OFFICIAL,2021,R24,M1-LC-01 M1-LC-04
+MP2I.06.4,MP2I,Fonctions d'une variable réelle,Nombre dérivé,"DL d'ordre 1, tangente",OFFICIAL,2021,R24,M1-LC-03
+MP2I.06.5,MP2I,Fonctions d'une variable réelle,Opérations,dérivée d'une réciproque,OFFICIAL,2021,R24,M1-LC-07
+MP2I.06.6,MP2I,Fonctions d'une variable réelle,Extremums,"condition nécessaire, point critique",OFFICIAL,2021,R24,
+MP2I.06.7,MP2I,Fonctions d'une variable réelle,Rolle et accroissements finis,"inégalité, lipschitziennes, limite de la dérivée",OFFICIAL,2021,R24,M1-LC-02 M1-LC-06
+MP2I.06.8,MP2I,Fonctions d'une variable réelle,Classe Ck,"formule de Leibniz, opérations",OFFICIAL,2021,R24,
+MP2I.06.9,MP2I,Fonctions d'une variable réelle,Convexité,"Jensen, pentes, sécantes",OFFICIAL,2021,R24,M1-LC-08
+MP2I.06.10,MP2I,Fonctions d'une variable réelle,Convexité et dérivées,"caractérisations, position par rapport aux tangentes",OFFICIAL,2021,R24,
+MP2I.07.1,MP2I,Arithmétique dans ℤ,Divisibilité,division euclidienne,OFFICIAL,2021,R24,
+MP2I.07.2,MP2I,Arithmétique dans ℤ,PGCD et PPCM,"algorithme d'Euclide, Bézout",OFFICIAL,2021,R24,M1-AR-01 M1-AR-04
+MP2I.07.3,MP2I,Arithmétique dans ℤ,Premiers entre eux,lemme de Gauss,OFFICIAL,2021,R24,
+MP2I.07.4,MP2I,Arithmétique dans ℤ,Nombres premiers,"infinitude, décomposition, valuations p-adiques",OFFICIAL,2021,R24,M1-AR-03 M1-AR-05
+MP2I.07.5,MP2I,Arithmétique dans ℤ,Congruences,"inverse modulo n, petit théorème de Fermat (anneaux ℤ/nℤ hors programme)",OFFICIAL,2021,R24,M1-AR-02 M1-AR-06
+MP2I.08.1,MP2I,Structures algébriques usuelles,Lois de composition,"associativité, neutre, inversibles, distributivité",OFFICIAL,2021,R24,
+MP2I.08.2,MP2I,Structures algébriques usuelles,Groupes,"sous-groupes, morphismes, noyau, image",OFFICIAL,2021,R24,M1-ST-01 M1-ST-02 M1-ST-04 M1-ST-05
+MP2I.08.3,MP2I,Structures algébriques usuelles,Anneaux et corps,"inversibles, anneau intègre, morphismes",OFFICIAL,2021,R24,M1-ST-03 M1-ST-06
+MP2I.09.1,MP2I,Calcul matriciel et systèmes linéaires,Opérations,"produit, transposition, matrices élémentaires",OFFICIAL,2021,R24,M1-AL-05
+MP2I.09.2,MP2I,Calcul matriciel et systèmes linéaires,Systèmes,"écriture matricielle, compatibilité, pivot",OFFICIAL,2021,R24,M1-AL-02 M1-AL-07
+MP2I.09.3,MP2I,Calcul matriciel et systèmes linéaires,Anneau Mn(K),"non-commutativité, puissances, inversibilité, triangulaires",OFFICIAL,2021,R24,M1-AL-06
+MP2I.10.1,MP2I,Polynômes et fractions rationnelles,Anneau K[X],"degré, composition",OFFICIAL,2021,R24,
+MP2I.10.2,MP2I,Polynômes et fractions rationnelles,Division,"divisibilité, division euclidienne, Horner",OFFICIAL,2021,R24,M1-PO-01
+MP2I.10.3,MP2I,Polynômes et fractions rationnelles,Racines,"multiplicité, Viète, interpolation de Lagrange",OFFICIAL,2021,R24,M1-PO-05 M1-PO-06
+MP2I.10.4,MP2I,Polynômes et fractions rationnelles,Dérivation formelle,"Leibniz, Taylor, caractérisation de la multiplicité",OFFICIAL,2021,R24,M1-PO-02 M1-PO-07
+MP2I.10.5,MP2I,Polynômes et fractions rationnelles,Irréductibles,décomposition dans ℂ[X] et ℝ[X],OFFICIAL,2021,R24,M1-PO-03
+MP2I.10.6,MP2I,Polynômes et fractions rationnelles,Fractions rationnelles,"pôles, décomposition en éléments simples",OFFICIAL,2021,R24,M1-PO-04
+MP2I.11.1,MP2I,Analyse asymptotique,Relations de comparaison,"domination, négligeabilité, équivalence",OFFICIAL,2021,R24,M1-AA-01 M1-AA-06
+MP2I.11.2,MP2I,Analyse asymptotique,Développements limités,"Taylor-Young, DL usuels, opérations, applications locales",OFFICIAL,2021,R24,M1-AA-02 M1-AA-03 M1-AA-05
+MP2I.11.3,MP2I,Analyse asymptotique,Suites,"comparaison des suites, suites récurrentes, Stirling admis",OFFICIAL,2021,R24,M1-AA-04
+MP2I.12.1,MP2I,Espaces vectoriels et applications linéaires,Espaces vectoriels,"sous-espaces, somme directe, supplémentaires",OFFICIAL,2021,R24,M1-AL-08
+MP2I.12.2,MP2I,Espaces vectoriels et applications linéaires,Dimension finie,"bases, base incomplète, dimension, Grassmann",OFFICIAL,2021,R24,M1-AL-09
+MP2I.12.3,MP2I,Espaces vectoriels et applications linéaires,Applications linéaires,"noyau, image, rang, isomorphismes",OFFICIAL,2021,R24,M1-AL-10
+MP2I.12.4,MP2I,Espaces vectoriels et applications linéaires,Endomorphismes,"projecteurs, symétries",OFFICIAL,2021,R24,M1-AL-11
+MP2I.12.5,MP2I,Espaces vectoriels et applications linéaires,Théorème du rang,existence et unicité d'une application linéaire,OFFICIAL,2021,R24,M1-AL-01
+MP2I.12.6,MP2I,Espaces vectoriels et applications linéaires,Formes linéaires,"hyperplans, équations",OFFICIAL,2021,R24,M1-AL-12
+MP2I.12.7,MP2I,Espaces vectoriels et applications linéaires,Sous-espaces affines,équations u(x) = a,OFFICIAL,2021,R24,
+MP2I.13.1,MP2I,Matrices,Matrices et applications linéaires,"matrice dans des bases, rang, Cramer",OFFICIAL,2021,R24,M1-AL-13
+MP2I.13.2,MP2I,Matrices,Changements de bases,"matrices de passage, équivalence, similitude, trace",OFFICIAL,2021,R24,M1-AL-03 M1-AL-04 M1-AL-13 M1-AL-14
+MP2I.14.1,MP2I,Groupe symétrique et déterminants,Groupe symétrique,"cycles, transpositions, signature",OFFICIAL,2021,R24,M1-DT-01 M1-DT-05
+MP2I.14.2,MP2I,Groupe symétrique et déterminants,Déterminants,"formes n-linéaires alternées, déterminant d'une famille",OFFICIAL,2021,R24,M1-DT-03 M1-DT-04 M1-DT-06
+MP2I.14.3,MP2I,Groupe symétrique et déterminants,Calcul,"opérations, cofacteurs, Vandermonde, comatrice",OFFICIAL,2021,R24,M1-DT-02 M1-DT-07
+MP2I.15.1,MP2I,Intégration,Continuité uniforme,"lipschitziennes, théorème de Heine",OFFICIAL,2021,R24,
+MP2I.15.2,MP2I,Intégration,Continuité par morceaux,"fonctions en escalier, continues par morceaux",OFFICIAL,2021,R24,
+MP2I.15.3,MP2I,Intégration,Intégrale sur un segment,"propriétés, inégalités, valeur moyenne",COPY,2021,R24,M1-IN-01 M1-IN-06
+MP2I.15.4,MP2I,Intégration,Sommes de Riemann,convergence des sommes de Riemann,COPY,2021,R24,M1-IN-02 M1-IN-05
+MP2I.15.5,MP2I,Intégration,Primitives,"intégrale fonction de sa borne, théorème fondamental",COPY,2021,R24,M1-IN-03 M1-IN-07
+MP2I.15.6,MP2I,Intégration,Formules de Taylor,"reste intégral, inégalité de Taylor-Lagrange",COPY,2021,R24,M1-IN-04 M1-IN-08
+MP2I.16.1,MP2I,Dénombrement,Cardinal,"ensembles finis, opérations",TOC,2021,R24,
+MP2I.16.2,MP2I,Dénombrement,Listes et combinaisons,"arrangements, permutations, parties à k éléments",TOC,2021,R24,M1-PR-01 M1-PR-05 M1-PR-06
+MP2I.17.1,MP2I,Probabilités,Univers fini,"événements, probabilité, équiprobabilité",TOC,2021,R24,M1-PR-02
+MP2I.17.2,MP2I,Probabilités,Conditionnement,"probabilités totales, Bayes",TOC,2021,R24,M1-PR-03 M1-PR-07
+MP2I.17.3,MP2I,Probabilités,Indépendance,événements indépendants,TOC,2021,R24,
+MP2I.17.4,MP2I,Probabilités,Variables aléatoires,"lois usuelles, couples, lois marginales",TOC,2021,R24,M1-PR-08
+MP2I.17.5,MP2I,Probabilités,Espérance et variance,"linéarité, transfert, Markov, Bienaymé-Tchebychev, covariance",TOC,2021,R24,M1-PR-04 M1-PR-09 M1-PR-10
+MP2I.18.1,MP2I,Espaces préhilbertiens réels,Produit scalaire,"norme associée, Cauchy-Schwarz",TOC,2021,R24,M1-EU-01 M1-EU-05
+MP2I.18.2,MP2I,Espaces préhilbertiens réels,Orthogonalité,"familles orthonormées, Gram-Schmidt",TOC,2021,R24,M1-EU-02 M1-EU-06
+MP2I.18.3,MP2I,Espaces préhilbertiens réels,Projection orthogonale,"supplémentaire orthogonal, distance à un sous-espace",TOC,2021,R24,M1-EU-03 M1-EU-04
+MP2I.19.1,MP2I,Procédés sommatoires discrets,Convergence et divergence,"sommes partielles, divergence grossière, télescopage",COPY,2021,R24,M1-SN-03 M1-SN-05 M1-SN-07
+MP2I.19.2,MP2I,Procédés sommatoires discrets,Séries à termes positifs,"comparaison, équivalence, séries de Riemann",COPY,2021,R24,M1-SN-01 M1-SN-04 M1-SN-06
+MP2I.19.3,MP2I,Procédés sommatoires discrets,Convergence absolue,absolue ⇒ convergence (critère de Cauchy hors programme),COPY,2021,R24,M1-SN-02
+MP2I.19.4,MP2I,Procédés sommatoires discrets,Familles sommables,"réels positifs, complexes, lien avec les séries",COPY,2021,R24,
+MP2I.20.1,MP2I,Fonctions de deux variables,Ouverts et continuité,continuité en vue du calcul différentiel seulement,COPY,2021,R24,
+MP2I.20.2,MP2I,Fonctions de deux variables,Dérivées partielles,"classe C1, DL d'ordre 1, gradient",COPY,2021,R24,M1-F2-01 M1-F2-03 M1-F2-05
+MP2I.20.3,MP2I,Fonctions de deux variables,Composées,"dérivée selon un vecteur, règle de la chaîne",COPY,2021,R24,M1-F2-06
+MP2I.20.4,MP2I,Fonctions de deux variables,Extremums,"point critique, extremum local ⇒ point critique",COPY,2021,R24,M1-F2-02 M1-F2-04 M1-F2-07
+MPI.01.1,MPI,Structures algébriques usuelles,Groupes,"sous-groupe engendré, groupes monogènes et cycliques, ordre d'un élément",OFFICIAL,2021,R25,M2-ST-05
+MPI.01.2,MPI,Structures algébriques usuelles,Anneaux,"produits, idéaux, divisibilité dans un anneau intègre",OFFICIAL,2021,R25,
+MPI.01.3,MPI,Structures algébriques usuelles,Idéaux de ℤ,"PGCD par les idéaux, Bézout",OFFICIAL,2021,R25,M2-ST-04
+MPI.01.4,MPI,Structures algébriques usuelles,Anneaux ℤ/nℤ,"inversibles, corps, théorème chinois, indicatrice d'Euler",OFFICIAL,2021,R25,M2-ST-01 M2-ST-02 M2-ST-03 M2-ST-06 M2-ST-07
+MPI.01.5,MPI,Structures algébriques usuelles,Anneau K[X],"idéaux, PGCD, irréductibles",OFFICIAL,2021,R25,M2-ST-08
+MPI.01.6,MPI,Structures algébriques usuelles,Algèbres,"sous-algèbres, morphismes d'algèbres",OFFICIAL,2021,R25,
+MPI.02.1,MPI,Réduction,Compléments d'algèbre linéaire,"sommes directes, bases adaptées, matrices par blocs",OFFICIAL,2021,R25,
+MPI.02.2,MPI,Réduction,Éléments propres,"sous-espaces stables, valeurs et vecteurs propres, spectre",OFFICIAL,2021,R25,M2-RED-05
+MPI.02.3,MPI,Réduction,Polynôme caractéristique,"coefficients (trace, déterminant), multiplicité",OFFICIAL,2021,R25,M2-RED-01 M2-RED-05 M2-RED-07
+MPI.02.4,MPI,Réduction,Diagonalisabilité,"critères par les sous-espaces propres, valeurs propres distinctes",OFFICIAL,2021,R25,M2-RED-02 M2-RED-06
+MPI.02.5,MPI,Réduction,Trigonalisabilité,polynôme caractéristique scindé,OFFICIAL,2021,R25,
+MPI.02.6,MPI,Réduction,Nilpotence,indice de nilpotence majoré par la dimension,OFFICIAL,2021,R25,M2-RED-04 M2-RED-11
+MPI.02.7,MPI,Réduction,Polynômes d'endomorphisme,"idéal annulateur, polynôme minimal",OFFICIAL,2021,R25,M2-RED-08
+MPI.02.8,MPI,Réduction,Lemme des noyaux,décomposition de Ker P(u),OFFICIAL,2021,R25,
+MPI.02.9,MPI,Réduction,Polynômes annulateurs,diagonalisable si annulé par un scindé à racines simples,OFFICIAL,2021,R25,M2-RED-03 M2-RED-09
+MPI.02.10,MPI,Réduction,Cayley-Hamilton,sous-espaces caractéristiques,OFFICIAL,2021,R25,M2-RED-10
+MPI.03.1,MPI,Espaces euclidiens,Adjoint,"matrice en base orthonormée, stabilité de l'orthogonal",OFFICIAL,2021,R25,M2-EU-01 M2-EU-08
+MPI.03.2,MPI,Espaces euclidiens,Matrices orthogonales,"O(n), SO(n), orientation",OFFICIAL,2021,R25,M2-EU-02 M2-EU-05
+MPI.03.3,MPI,Espaces euclidiens,Isométries vectorielles,"déterminant, O(E), SO(E)",OFFICIAL,2021,R25,
+MPI.03.4,MPI,Espaces euclidiens,Isométries en dimension 2 et 3,"rotations, réflexions, réduction",OFFICIAL,2021,R25,M2-EU-06
+MPI.03.5,MPI,Espaces euclidiens,Autoadjoints,théorème spectral,OFFICIAL,2021,R25,M2-EU-03 M2-EU-08
+MPI.03.6,MPI,Espaces euclidiens,Autoadjoints positifs,"caractérisation spectrale, définis positifs",OFFICIAL,2021,R25,M2-EU-04 M2-EU-07
+MPI.04.1,MPI,Topologie des EVN,Normes,"boules, normes usuelles, convexité",OFFICIAL,2021,R25,M2-EVN-01 M2-EVN-05
+MPI.04.2,MPI,Topologie des EVN,Suites,"convergence, suites extraites, valeurs d'adhérence",OFFICIAL,2021,R25,
+MPI.04.3,MPI,Topologie des EVN,Comparaison des normes,"normes équivalentes, non-équivalence par les suites",OFFICIAL,2021,R25,
+MPI.04.4,MPI,Topologie des EVN,Topologie,"ouverts, fermés, intérieur, adhérence, densité",OFFICIAL,2021,R25,M2-EVN-02 M2-EVN-06
+MPI.04.5,MPI,Topologie des EVN,Étude locale,"limites, continuité, lipschitziennes",OFFICIAL,2021,R25,
+MPI.04.6,MPI,Topologie des EVN,Applications linéaires continues,"critère, norme d'opérateur",OFFICIAL,2021,R25,M2-EVN-07
+MPI.04.7,MPI,Topologie des EVN,Compacts,"Bolzano-Weierstrass, fermés bornés",OFFICIAL,2021,R25,M2-EVN-08
+MPI.04.8,MPI,Topologie des EVN,Continuité sur un compact,"bornes atteintes, Heine",OFFICIAL,2021,R25,M2-EVN-03
+MPI.04.9,MPI,Topologie des EVN,Connexité par arcs,"chemins, convexes, valeurs intermédiaires",OFFICIAL,2021,R25,M2-EVN-09
+MPI.04.10,MPI,Topologie des EVN,Dimension finie,"équivalence des normes, continuité des linéaires",OFFICIAL,2021,R25,M2-EVN-04 M2-EVN-08
+MPI.05.1,MPI,Séries numériques et vectorielles,Séries vectorielles,absolue convergence en dimension finie,OFFICIAL,2021,R25,M2-SE-03
+MPI.05.2,MPI,Séries numériques et vectorielles,Compléments,comparaison série-intégrale,OFFICIAL,2021,R25,M2-SE-01 M2-SE-05
+MPI.05.3,MPI,Séries numériques et vectorielles,Compléments,règle de d'Alembert,OFFICIAL,2021,R25,M2-SE-02 M2-SE-06
+MPI.05.4,MPI,Séries numériques et vectorielles,Compléments,sommation des relations de comparaison,OFFICIAL,2021,R25,M2-SE-04 M2-SE-07
+MPI.06.1,MPI,Suites et séries de fonctions,Convergences,simple et uniforme,OFFICIAL,2021,R25,M2-SF-01 M2-SF-05 M2-SF-06
+MPI.06.2,MPI,Suites et séries de fonctions,Continuité,"limite uniforme, double limite",OFFICIAL,2021,R25,M2-SF-02 M2-SF-06 M2-SF-08
+MPI.06.3,MPI,Suites et séries de fonctions,Intégration,limite uniforme sur un segment,OFFICIAL,2021,R25,M2-SF-04
+MPI.06.4,MPI,Suites et séries de fonctions,Dérivation,convergence uniforme des dérivées,OFFICIAL,2021,R25,
+MPI.06.5,MPI,Suites et séries de fonctions,Séries de fonctions,convergence normale,OFFICIAL,2021,R25,M2-SF-03 M2-SF-07
+MPI.06.6,MPI,Suites et séries de fonctions,Approximation,théorème de Weierstrass,OFFICIAL,2021,R25,
+MPI.06.7,MPI,Séries entières,Généralités,"lemme d'Abel, rayon de convergence",OFFICIAL,2021,R25,M2-SEN-01 M2-SEN-04 M2-SEN-05
+MPI.06.8,MPI,Séries entières,Régularité,"dérivation terme à terme, unicité des coefficients",OFFICIAL,2021,R25,M2-SEN-03 M2-SEN-07
+MPI.06.9,MPI,Séries entières,Développements usuels,"exp, 1/(1−z), Arctan, binôme",OFFICIAL,2021,R25,M2-SEN-02 M2-SEN-06
+MPI.06.10,MPI,Séries entières,Produit de Cauchy,rayon du produit,OFFICIAL,2021,R25,M2-SEN-08
+MPI.07.1,MPI,Fonctions vectorielles,Dérivabilité,"DL d'ordre 1, interprétation cinématique",OFFICIAL,2021,R25,M2-FV-01 M2-FV-06
+MPI.07.2,MPI,Fonctions vectorielles,Opérations,"bilinéaires, composées",OFFICIAL,2021,R25,M2-FV-05
+MPI.07.3,MPI,Fonctions vectorielles,Intégration sur un segment,"inégalité triangulaire, sommes de Riemann",OFFICIAL,2021,R25,M2-FV-02
+MPI.07.4,MPI,Fonctions vectorielles,Intégrale fonction de sa borne,inégalité des accroissements finis,OFFICIAL,2021,R25,M2-FV-04
+MPI.07.5,MPI,Fonctions vectorielles,Formules de Taylor,"reste intégral, Taylor-Lagrange, Taylor-Young",OFFICIAL,2021,R25,M2-FV-03
+MPI.08.1,MPI,Intégration sur un intervalle quelconque,Intégrales généralisées,"convergence, Riemann, exponentielle",OFFICIAL,2021,R25,M2-IN-01 M2-IN-02 M2-IN-05
+MPI.08.2,MPI,Intégration sur un intervalle quelconque,Intégrabilité,"intégrabilité absolue, comparaison",OFFICIAL,2021,R25,M2-IN-06
+MPI.08.3,MPI,Intégration sur un intervalle quelconque,Calcul,"intégration par parties, changement de variable",OFFICIAL,2021,R25,M2-IN-04 M2-IN-07
+MPI.08.4,MPI,Intégration sur un intervalle quelconque,Relations de comparaison,"domination, équivalence intégrées",OFFICIAL,2021,R25,
+MPI.08.5,MPI,Intégration sur un intervalle quelconque,Convergence dominée,énoncé et utilisation,OFFICIAL,2021,R25,M2-IN-03
+MPI.08.6,MPI,Intégration sur un intervalle quelconque,Intégration terme à terme,"cas positif, cas sommable",OFFICIAL,2021,R25,
+MPI.08.7,MPI,Intégration sur un intervalle quelconque,Intégrales à paramètre,"continuité, dérivabilité, domination",OFFICIAL,2021,R25,M2-IN-08
+MPI.09.1,MPI,Variables aléatoires discrètes,Ensembles dénombrables,"bijection avec ℕ, dénombrabilité de ℚ",OFFICIAL,2021,R25,M2-PR-08
+MPI.09.2,MPI,Variables aléatoires discrètes,Espaces probabilisés,"σ-additivité, continuité monotone, négligeables",OFFICIAL,2021,R25,
+MPI.09.3,MPI,Variables aléatoires discrètes,Conditionnement,"probabilités totales, Bayes, indépendance",OFFICIAL,2021,R25,
+MPI.09.4,MPI,Variables aléatoires discrètes,Variables discrètes,"lois, couples, lois conditionnelles",OFFICIAL,2021,R25,
+MPI.09.5,MPI,Variables aléatoires discrètes,Indépendance,"variables indépendantes, lemme des coalitions",OFFICIAL,2021,R25,
+MPI.09.6,MPI,Variables aléatoires discrètes,Lois usuelles,"géométrique, Poisson",OFFICIAL,2021,R25,M2-PR-01 M2-PR-02 M2-PR-05 M2-PR-06
+MPI.09.7,MPI,Variables aléatoires discrètes,Espérance,"transfert, linéarité, produit indépendant",OFFICIAL,2021,R25,
+MPI.09.8,MPI,Variables aléatoires discrètes,Variance,"écart type, covariance, sommes",OFFICIAL,2021,R25,
+MPI.09.9,MPI,Variables aléatoires discrètes,Inégalités,"Markov, Bienaymé-Tchebychev, loi faible",OFFICIAL,2021,R25,M2-PR-04
+MPI.09.10,MPI,Variables aléatoires discrètes,Fonctions génératrices,"loi, espérance, variance, sommes indépendantes",OFFICIAL,2021,R25,M2-PR-03 M2-PR-06 M2-PR-07
+MPI.10.1,MPI,Équations différentielles linéaires,Généralités,"problème de Cauchy, forme intégrale",OFFICIAL,2021,R25,
+MPI.10.2,MPI,Équations différentielles linéaires,Solutions,"théorème de Cauchy linéaire, structure",OFFICIAL,2021,R25,M2-ED-01
+MPI.10.3,MPI,Équations différentielles linéaires,Exponentielle de matrice,"propriétés, dérivation",OFFICIAL,2021,R25,M2-ED-02 M2-ED-05
+MPI.10.4,MPI,Équations différentielles linéaires,Coefficients constants,cas diagonalisable ou dimension ≤ 3,OFFICIAL,2021,R25,M2-ED-03
+MPI.10.5,MPI,Équations différentielles linéaires,Variation des constantes,"wronskien, ordre 2",OFFICIAL,2021,R25,M2-ED-04 M2-ED-06
+MPI.11.1,MPI,Calcul différentiel et optimisation,Dérivées,"selon un vecteur, partielles",OFFICIAL,2021,R25,
+MPI.11.2,MPI,Calcul différentiel et optimisation,Différentielle,"jacobienne, gradient",OFFICIAL,2021,R25,M2-CD-01 M2-CD-05
+MPI.11.3,MPI,Calcul différentiel et optimisation,Opérations,"règle de la chaîne, dérivée le long d'un arc",OFFICIAL,2021,R25,M2-CD-02
+MPI.11.4,MPI,Calcul différentiel et optimisation,Classe C1,caractérisation par les dérivées partielles,OFFICIAL,2021,R25,
+MPI.11.5,MPI,Calcul différentiel et optimisation,Vecteurs tangents,noyau de la différentielle (fonctions implicites hors programme),OFFICIAL,2021,R25,
+MPI.11.6,MPI,Calcul différentiel et optimisation,Optimisation au premier ordre,"points critiques, extremums sous contrainte",OFFICIAL,2021,R25,M2-CD-04
+MPI.11.7,MPI,Calcul différentiel et optimisation,Classe Ck,théorème de Schwarz (différentielle seconde hors programme),OFFICIAL,2021,R25,
+MPI.11.8,MPI,Calcul différentiel et optimisation,Optimisation au second ordre,"hessienne, Taylor-Young d'ordre 2",OFFICIAL,2021,R25,M2-CD-03 M2-CD-06
