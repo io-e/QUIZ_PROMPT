@@ -72,10 +72,14 @@ def resolve(policy, subject, grade, track, school_year=None, assessment=None, ex
     d = subject_dir(subject, root)
     files = [os.path.join(d, "programme", "editions.yaml"), os.path.join(d, "programme", "exams.yaml"),
              os.path.join(d, "reference", "skill_programme_links.csv")]
+    rv = REFERENCE_VERSIONS.get(subject, "UNKNOWN")
+    bl = os.path.join(root, "subjects", subject, "reference", "baselines", rv + ".manifest.json")
+    baseline = {"manifest": os.path.relpath(bl, root), "sha256": _sha(bl)} if os.path.exists(bl) else None
     return {
         "manifest_schema": "quiz_eval.version_manifest/1",
         "software_version": SOFTWARE_VERSION,
-        "reference_version": REFERENCE_VERSIONS.get(subject, "UNKNOWN"),
+        "reference_version": rv,
+        "reference_baseline": baseline,
         "mode": policy, "label": label,
         "cohort": {"subject": subject, "grade": grade, "track": track, "school_year": school_year},
         "curriculum_edition": {"id": p["id"], "title": p["title"], "applies": {"from_year": a["from_year"], "through_year": a["through_year"]},
