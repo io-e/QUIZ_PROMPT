@@ -1,0 +1,3 @@
+targets 600 unique 600 | audit rows 600 unique 600
+missing [] extra [] duplicates []
+COVERAGE_OK: exactly 600 unique IDs, identical to Math_Diagnostic_Targets_v11.csv
