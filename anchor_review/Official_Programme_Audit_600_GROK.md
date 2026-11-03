@@ -1,42 +1,54 @@
-# Official programme audit – 600 targets (Grok Bot) – DRAFT, batch 1
+# Official programme audit – 600 targets (Grok Bot) – DRAFT
 
 **Status: PROPOSALS ONLY.** Nothing here is validated. Every conformity value is a proposal for the teacher. No packaged file was modified; `Item_Review_Register_v11.csv` is untouched; no target is PASS; paper and digital release stay **HOLD**. Scope: curriculum alignment only.
 
 ## Method
-1. Official PDFs downloaded on 2026-11-03 and converted with `pdftotext -layout`.
-2. For each audited row, a passage was chosen by hand and copied from the extracted text. `build_audit.py` checks automatically that each fragment (split on `[...]`) is present in the extracted text. Any row that fails the check becomes UNVERIFIED.
-3. Page = PDF page of the cited file. For BO n°14, the PDF page equals the printed BO page.
-4. Separate columns: `official_evidence` (quote) / `pedagogical_interpretation` (my reading).
-5. Track/edition contradictions (CONTRADICTS) are recorded as NOT_SUPPORTED, with "CONTRADICTS" in the discrepancy column.
-6. Rows not yet checked against a fetched official text are **UNVERIFIED**. A link alone is not treated as evidence.
-7. `coverage_check.py` proves that exactly 600 unique IDs match `Math_Diagnostic_Targets_v11.csv` (output: `coverage_report.txt`).
+- **Batch 1** (152 PROVISIONAL + 6 NOT_SUPPORTED rows, `map_batch1.py`): I picked each passage by hand, copied it verbatim from the PDF text, and the script checks it automatically against the source (`build_audit.py`).
+- **Batch 2** (442 SOURCE_LINKED rows, `match_batch2.py`): each existing citation is checked independently against the official text. The ref's French paraphrase from `Math_Official_Referential_Index_v11.csv` is split into terms. Each term is searched in the official text of the applicable level (accent/case-insensitive, word prefixes), and the evidence is the **exact source line(s)** with their PDF page(s).
+  - SUPPORTED = every term found (confidence *medium*: automated, teacher check needed).
+  - PARTIALLY_SUPPORTED = some terms missing, or only found in a programme that does not apply to the exam year.
+  - UNVERIFIED = nothing found by the matcher.
+  - TS-AN-05 and TS-AN-38 (differential equations, formulas the matcher couldn't parse) were checked by hand.
+  - Limitation: an automated term match does not prove that the item is pitched at the right depth. The `pedagogical_interpretation` column is kept separate from `official_evidence`.
+- **Brevet**: the 3e uses the **2020** cycle 4 programme in 2026-27 and 2027-28 (DNB 2027 and 2028). The 2026 programme reaches 3e only in 2028-29. Each Brevet row is therefore checked against both, and the 2020 text decides conformity for the DNB.
+- Page = PDF page of the cited file. All sources were consulted on 2026-11-03.
+- `coverage_check.py` proves that exactly 600 unique IDs match `Math_Diagnostic_Targets_v11.csv`.
 
-## Sources consulted (2026-11-03)
-- BO n°14 du 2 avril 2026 (full PDF, 438 p.): https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf, with MENE2602916A pp. 346–353 (Première, maths in the enseignement scientifique) and MENE2602917A pp. 354–365 (Première spécialité).
-- MPSI/MP2I programme, annexe 1 (2021): https://cache.media.education.gouv.fr/file/SPE1-MEN-MESRI-4-2-2021/64/8/spe779_annexe_1373648.pdf
-- **Not accessible:** education.gouv.fr/bo/... HTML pages (Cloudflare 403), education.gouv.fr/media/11546/download (Terminale spécialité, 403), and the ac-bordeaux copies (503).
+## Sources
+- BO n°14, 2 Apr 2026, full PDF (Première spécialité and Première maths in the enseignement scientifique): https://www.education.gouv.fr/sites/default/files/document/Bulletin%20officiel%20n%C2%B0%2014%20du%202%20avril%202026-515432.pdf
+- Cycle 4, 2020 programme (BO n°31, 30 Jul 2020, Éduscol version, maths on PDF pp. 127-139): https://eduscol.education.gouv.fr/sites/default/files/document/programme-d-enseignement-du-cycle-4-67722.pdf
+- Cycle 4, 2026 programme (BO n°10, 5 Mar 2026, annexe 2): https://www.education.gouv.fr/sites/default/files/document/Annexe%202%20%E2%80%93%20Programme%20de%20math%C3%A9matiques%20pour%20le%20cycle%204-480716.pdf
+- Terminale spécialité 2019 (BO spécial n°8, 25 Jul 2019): https://eduscol.education.gouv.fr/sites/default/files/document/spe246annexe1158907pdf-84159.pdf
+- Terminale mathématiques complémentaires 2019: https://eduscol.education.gouv.fr/sites/default/files/document/spe265annexe1159134pdf-84162.pdf
+- Terminale mathématiques expertes 2019: https://eduscol.education.gouv.fr/sites/default/files/document/spe264annexe1158825pdf-84165.pdf
+- MPSI/MP2I 2021: https://cache.media.education.gouv.fr/file/SPE1-MEN-MESRI-4-2-2021/64/8/spe779_annexe_1373648.pdf
+- MP/MPI 2021: https://cache.media.education.gouv.fr/file/31/21/2/ensecsup756_annexes_1417212.pdf
+
+**Not accessible:**
+- education.gouv.fr/bo/… HTML pages and education.gouv.fr/media/11546, 11585 and 11588 (Cloudflare 403). The Éduscol mirrors above were used instead.
+- The Éduscol 2020 3e summary sheet (R29, TLS error).
+- The ac-bordeaux copies (503).
+- The BO spécial n°11 of 26 Nov 2015 was not fetched separately. The 2020 Éduscol text is the consolidated version of that programme as amended.
 
 ## Summary
-Total: {'UNVERIFIED': 442, 'PARTIALLY_SUPPORTED': 14, 'SUPPORTED': 137, 'NOT_SUPPORTED': 7}
+Total: {'SUPPORTED': 209, 'PARTIALLY_SUPPORTED': 37, 'NOT_SUPPORTED': 7, 'UNVERIFIED': 347}
 
-| Level | SUPPORTED | PARTIALLY_SUPPORTED | NOT_SUPPORTED | UNVERIFIED |
-|---|---|---|---|---|
-| BAC_1RE_COMMUN | 26 | 8 | 6 | 0 |
-| BAC_1RE_SPE | 73 | 5 | 1 | 0 |
-| BAC_TLE_COMPLEMENTAIRES | 0 | 0 | 0 | 42 |
-| BAC_TLE_EXPERTES | 0 | 0 | 0 | 36 |
-| BAC_TLE_SPE | 0 | 1 | 0 | 84 |
-| BREVET | 0 | 0 | 0 | 95 |
-| MP2I | 38 | 0 | 0 | 92 |
-| MPI | 0 | 0 | 0 | 93 |
+| Level | n | SUPPORTED | PARTIALLY_SUPPORTED | NOT_SUPPORTED | UNVERIFIED |
+|---|---|---|---|---|---|
+| BAC_1RE_COMMUN | 40 | 26 | 8 | 6 | 0 |
+| BAC_1RE_SPE | 79 | 73 | 5 | 1 | 0 |
+| BAC_TLE_COMPLEMENTAIRES | 42 | 0 | 0 | 0 | 42 |
+| BAC_TLE_EXPERTES | 36 | 0 | 0 | 0 | 36 |
+| BAC_TLE_SPE | 85 | 0 | 1 | 0 | 84 |
+| BREVET | 95 | 72 | 23 | 0 | 0 |
+| MP2I | 130 | 38 | 0 | 0 | 92 |
+| MPI | 93 | 0 | 0 | 0 | 93 |
 
-## Batch status
-- Batch 1 (done): the 152 PROVISIONAL rows and the 6 NOT_SUPPORTED rows (= the 158 rows of the v11 worklist).
-- Batch 2 (to do): the **442 SOURCE_LINKED rows**, all still UNVERIFIED. By level: BREVET 95, MPI 93, MP2I 92, BAC_TLE_SPE 84, BAC_TLE_COMPLEMENTAIRES 42, BAC_TLE_EXPERTES 36. They need the cycle 4 programme (R15/R29), the Terminale spécialité/complémentaires/expertes programmes, MPI 2nd year and the rest of the MP2I programme.
+UNVERIFIED rows: 347 – TS-AG-01, TS-AG-02, TS-AG-03, TS-AG-04, TS-AG-05, TS-AG-06, TS-AG-07, TS-AG-08, TS-AG-09, TS-AG-10, TS-AG-11, TS-AG-12, TS-AG-13, TS-AG-14, TS-AG-15, TS-AG-16, TS-AG-17, TS-AG-18, TS-AN-01, TS-AN-02, TS-AN-03, TS-AN-04, TS-AN-05, TS-AN-18, TS-AN-19, TS-AN-20, TS-AN-21, TS-AN-22, TS-AN-23, TS-AN-24, TS-AN-25, TS-AN-26, TS-AN-27, TS-AN-28, TS-AN-29, TS-AN-30, TS-AN-31, TS-AN-32, TS-AN-33, TS-AN-34, TS-AN-35, TS-AN-36, TS-AN-37, TS-AN-38, TS-AN-39, TS-AN-40, TS-AN-41, TS-AN-42, TS-AN-43, TS-AN-44, TS-AN-45, TS-AN-06, TS-AN-07, TS-AN-08, TS-AN-09, TS-AN-10, TS-AN-11, TS-AN-12, TS-AN-14, TS-AN-15, TS-AN-16, TS-AN-17, TS-PR-01, TS-PR-02, TS-PR-03, TS-PR-04, TS-PR-05, TS-PR-06, TS-PR-07, TS-PR-08, TS-PR-09, TS-PR-10, TS-PR-11, TS-AP-01, TS-AP-02, TS-AP-03, TS-AP-04, TS-AP-05, TS-AP-06, TS-LO-01, TS-LO-02, TS-LO-03, TS-LO-04, TS-LO-05, TE-CX-01, TE-CX-02, TE-CX-03, TE-CX-04, TE-CX-05, TE-CX-06, TE-CX-07, TE-CX-08, TE-CX-09, TE-CX-10, TE-CX-11, TE-CX-12, TE-CX-13, TE-AR-01, TE-AR-02, TE-AR-03, TE-AR-04, TE-AR-05, TE-AR-06, TE-AR-07, TE-AR-08, TE-AR-09, TE-AR-10, TE-AR-11, TE-GM-01, TE-GM-02, TE-GM-03, TE-GM-04, TE-GM-05, TE-GM-06, TE-GM-07, TE-GM-08, TE-GM-09, TE-GM-10, TE-GM-11, TE-GM-12, TC-SE-01, TC-SE-02, TC-SE-03, TC-SE-04, TC-SE-05, TC-SE-06, TC-FN-01, TC-FN-02, TC-FN-03, TC-FN-04, TC-FN-05, TC-FN-06, TC-FN-07, TC-FN-08, TC-FN-09, TC-FN-10, TC-FN-11, TC-IN-01, TC-IN-02, TC-IN-03, TC-IN-04, TC-IN-05, TC-PR-01, TC-PR-02, TC-PR-03, TC-PR-04, TC-PR-05, TC-PR-06, TC-PR-07, TC-PR-08, TC-PR-09, TC-ST-01, TC-ST-02, TC-ST-03, TC-ST-04, TC-ST-05, TC-ST-06, TC-BA-01, TC-BA-02, TC-BA-03, TC-BA-04, TC-LO-01, M1-LO-01, M1-LO-02, M1-LO-03, M1-LO-04, M1-LO-05, M1-LO-06, M1-LO-07, M1-CA-01, M1-CA-02, M1-CA-03, M1-CA-04, M1-CA-05, M1-CA-06, M1-CA-07, M1-CX-01, M1-CX-02, M1-CX-03, M1-CX-04, M1-CX-05, M1-CX-06, M1-CX-07, M1-CX-08, M1-TA-01, M1-TA-02, M1-TA-03, M1-TA-04, M1-TA-05, M1-TA-06, M1-TA-07, M1-TA-08, M1-SU-01, M1-SU-02, M1-SU-03, M1-SU-04, M1-SU-05, M1-SU-06, M1-SU-07, M1-SU-08, M1-LC-01, M1-LC-02, M1-LC-03, M1-LC-04, M1-LC-05, M1-LC-06, M1-LC-07, M1-LC-08, M1-AA-01, M1-AA-02, M1-AA-03, M1-AA-04, M1-AA-05, M1-AA-06, M1-AR-01, M1-AR-02, M1-AR-03, M1-AR-04, M1-AR-05, M1-AR-06, M1-ST-01, M1-ST-02, M1-ST-03, M1-ST-04, M1-ST-05, M1-ST-06, M1-PO-01, M1-PO-02, M1-PO-03, M1-PO-04, M1-PO-05, M1-PO-06, M1-PO-07, M1-AL-01, M1-AL-02, M1-AL-03, M1-AL-04, M1-AL-05, M1-AL-06, M1-AL-07, M1-AL-08, M1-AL-09, M1-AL-10, M1-AL-11, M1-AL-12, M1-AL-13, M1-AL-14, M1-DT-01, M1-DT-02, M1-DT-03, M1-DT-04, M1-DT-05, M1-DT-06, M1-DT-07, M2-ST-01, M2-ST-02, M2-ST-03, M2-ST-04, M2-ST-05, M2-ST-06, M2-ST-07, M2-ST-08, M2-RED-01, M2-RED-02, M2-RED-03, M2-RED-04, M2-RED-05, M2-RED-06, M2-RED-07, M2-RED-08, M2-RED-09, M2-RED-10, M2-RED-11, M2-EU-01, M2-EU-02, M2-EU-03, M2-EU-04, M2-EU-05, M2-EU-06, M2-EU-07, M2-EU-08, M2-EVN-01, M2-EVN-02, M2-EVN-03, M2-EVN-04, M2-EVN-05, M2-EVN-06, M2-EVN-07, M2-EVN-08, M2-EVN-09, M2-SE-01, M2-SE-02, M2-SE-03, M2-SE-04, M2-SE-05, M2-SE-06, M2-SE-07, M2-SF-01, M2-SF-02, M2-SF-03, M2-SF-04, M2-SF-05, M2-SF-06, M2-SF-07, M2-SF-08, M2-SEN-01, M2-SEN-02, M2-SEN-03, M2-SEN-04, M2-SEN-05, M2-SEN-06, M2-SEN-07, M2-SEN-08, M2-FV-01, M2-FV-02, M2-FV-03, M2-FV-04, M2-FV-05, M2-FV-06, M2-IN-01, M2-IN-02, M2-IN-03, M2-IN-04, M2-IN-05, M2-IN-06, M2-IN-07, M2-IN-08, M2-PR-01, M2-PR-02, M2-PR-03, M2-PR-04, M2-PR-05, M2-PR-06, M2-PR-07, M2-PR-08, M2-ED-01, M2-ED-02, M2-ED-03, M2-ED-04, M2-ED-05, M2-ED-06, M2-CD-01, M2-CD-02, M2-CD-03, M2-CD-04, M2-CD-05, M2-CD-06
 
 ## How the teacher confirms a row
-1. Open `source_url` at `page` and compare it with `verbatim_passage`.
-2. If you agree, write the conformity in your own words in `Item_Review_Register_v11.csv` (bo_match, bo_reviewer, bo_reviewed_on, page/passage). The bot never fills those fields.
-3. Fill `reviewer` / `reviewed_on` in this CSV if you want a trace.
+1. Open `source_url` at `page` and read `verbatim_passage`.
+2. If you agree, fill bo_match, bo_reviewer and bo_reviewed_on yourself in `Item_Review_Register_v11.csv`. The bot never fills those fields.
+3. Optionally fill `reviewer` / `reviewed_on` here.
 
-See `Discrepancies_by_level_600_GROK.md` for the rows to look at first.
+The rows to check first are in `Discrepancies_by_level_600_GROK.md`.
