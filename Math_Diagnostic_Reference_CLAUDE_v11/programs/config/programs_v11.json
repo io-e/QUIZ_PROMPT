@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "name": "EA-EVAL Math Diagnostic programs",
+    "version": "11.0",
+    "guide": "GUIDE_Programs_Usage_v11_EN.md",
+    "reference_version": "v11",
+    "prompt_on_disk": "PROMPT_Diagnostic_Maths_Brevet_Bac_MPI_v9.md",
+    "prompt_v10_status": "missing"
+  },
+  "paths": {
+    "referentiel": "..",
+    "output": "output",
+    "scripts": "scripts",
+    "config": "config",
+    "referentiel_local": "referentiel"
+  },
+  "python": {
+    "launcher": "py",
+    "version_arg": "-3",
+    "venv_candidates": [
+      ".venv/Scripts/python.exe",
+      "../.venv/Scripts/python.exe"
+    ],
+    "isolated": true,
+    "required_modules": [
+      "sympy",
+      "yaml"
+    ],
+    "pip_packages": [
+      "sympy==1.14.0",
+      "PyYAML>=6.0"
+    ]
+  },
+  "prompt_defaults": {
+    "LEVEL": "BREVET",
+    "SUBJECT": "ALL",
+    "PURPOSE": "Entry diagnostic",
+    "ASSESSMENT_MODE": "DIAGNOSTIC",
+    "LEARNER_PROFILE": "",
+    "EXAM_SESSION": "2028",
+    "DURATION": 55,
+    "NB_MCQ": 12,
+    "NB_OPEN": 3,
+    "TEST_LENGTH": "FULL",
+    "CALCULATOR": "Not allowed",
+    "DELIVERY": "Paper",
+    "ADAPTATIONS": "None",
+    "OUTPUT_LANGUAGE": "French",
+    "REFERENCE": "French_Math_Diagnostic_Curriculum_Reference_CLAUDE_EN_v11.md",
+    "TARGET_CODES": "AUTO",
+    "DIAGNOSTIC_OPTIONS": "NSP, CONFIDENCE",
+    "OUTPUT_FORMAT": "MARKDOWN"
+  },
+  "prompt_scenarios": {
+    "quick_brevet_entry": {
+      "LEVEL": "BREVET",
+      "SUBJECT": "ALL",
+      "PURPOSE": "Entry diagnostic",
+      "TEST_LENGTH": "SHORT",
+      "DURATION": 20,
+      "NB_MCQ": 5,
+      "NB_OPEN": 2
+    },
+    "full_brevet_entry": {
+      "LEVEL": "BREVET",
+      "SUBJECT": "ALL",
+      "PURPOSE": "Entry diagnostic",
+      "TEST_LENGTH": "FULL",
+      "DURATION": 55,
+      "NB_MCQ": 12,
+      "NB_OPEN": 3
+    },
+    "exam_simulation_brevet": {
+      "LEVEL": "BREVET",
+      "ASSESSMENT_MODE": "EXAM_SIMULATION",
+      "EXAM_SESSION": "2028",
+      "DIAGNOSTIC_OPTIONS": "",
+      "OUTPUT_FORMAT": "MARKDOWN"
+    },
+    "premiere_spe_midyear": {
+      "LEVEL": "BAC_1RE_SPE",
+      "PURPOSE": "Mid-year check",
+      "SUBJECT": "ALL"
+    },
+    "mp2i_entry": {
+      "LEVEL": "MP2I",
+      "PURPOSE": "Entry diagnostic",
+      "LEARNER_PROFILE": "Tle → MP2I entry"
+    },
+    "mpi_with_prereq": {
+      "LEVEL": "MPI",
+      "SUBJECT": "ALL",
+      "LEARNER_PROFILE": "MP2I → MPI"
+    }
+  },
+  "attachments": {
+    "always": [
+      "French_Math_Diagnostic_Curriculum_Reference_CLAUDE_EN_v11.md",
+      "Item_Release_Eligibility_v11.csv",
+      "Math_Diagnostic_Targets_v11.csv"
+    ],
+    "prompt_file": "PROMPT_Diagnostic_Maths_Brevet_Bac_MPI_v9.md"
+  },
+  "outputs": {
+    "mirror_validation_reports": true,
+    "validation_glob": [
+      "validation_report_v11.json",
+      "validation_report_v11.txt",
+      "qa_v11.json",
+      "Item_Release_Eligibility_v11.csv",
+      "Coverage_Gaps_v11.csv",
+      "validation_dashboard_v11.html"
+    ],
+    "prompts_subdir": "prompts",
+    "dashboards_subdir": "dashboards",
+    "demos_subdir": "demos",
+    "logs_subdir": "logs"
+  },
+  "wrappers": {
+    "validate": "validate_reference_v11.py",
+    "tests": "tests_v11.py",
+    "build": "build_v11.py",
+    "dashboard": "v11_html_dashboard.py",
+    "demo_quiz": "make_demo_quiz_html.py",
+    "make_prompt": "make_prompt_request_v11.py"
+  },
+  "status_warning": "Of the 600 rows, 594 are HOLD and 6 are FAIL (1C-FN-05…10). None is PASS. Anything generated with the prompt is UNVALIDATED — HOLD (draft).\n"
+}

@@ -1,0 +1,6 @@
+# Generated runtime artefacts (recreated by wrappers)
+output/
+scripts/__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
